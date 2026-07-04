@@ -1,13 +1,16 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
-import PostCard from '../components/PostCard.astro';
+import HeroMosaic from '../components/HeroMosaic.astro';
+import PostListItem from '../components/PostListItem.astro';
+import SidebarCategories from '../components/SidebarCategories.astro';
+import CategoryColumn from '../components/CategoryColumn.astro';
 import { SITE } from '../site.config.mjs';
 import { getPublishedPosts, getActiveClusters } from '../lib/posts.mjs';
 
 const posts = await getPublishedPosts();
 const clusters = await getActiveClusters();
-const [featured, ...rest] = posts;
-const latest = rest.slice(0, 6);
+const mosaicPosts = posts.slice(0, 3);
+const listPosts = posts.slice(3, 12);
 
 const websiteSchema = {
   '@context': 'https://schema.org',
@@ -21,57 +24,38 @@ const websiteSchema = {
 <BaseLayout title={`${SITE.name} — ${SITE.tagline}`} description={SITE.description}>
   <script slot="head" type="application/ld+json" set:html={JSON.stringify(websiteSchema)} />
 
-  <section class="hero">
-    <div class="container">
-      <h1>{SITE.tagline}</h1>
-      <p>{SITE.description}</p>
-    </div>
-  </section>
+  <div class="container">
+    <h1 class="page-h1">{SITE.tagline}</h1>
+    <HeroMosaic posts={mosaicPosts} />
+  </div>
 
-  {featured && (
-    <section class="section" style="padding-top:0;">
-      <div class="container">
-        <h2 class="section-title">Destaque</h2>
-        <PostCard post={featured} featured={true} />
-      </div>
-    </section>
-  )}
-
-  {latest.length > 0 && (
-    <section class="section" style="background: var(--bg-soft);">
-      <div class="container">
-        <h2 class="section-title">Últimos artigos</h2>
-        <div class="grid">
-          {latest.map((post) => <PostCard post={post} />)}
-        </div>
-      </div>
-    </section>
-  )}
-
-  {clusters.map((c, i) => {
-    const clusterPosts = posts.filter((p) => p.data.cluster === c.slug).slice(0, 4);
-    return (
-      <section class="section" style={i % 2 === 1 ? 'background: var(--bg-soft);' : ''}>
-        <div class="container">
-          <h2 class="section-title"><a href={`/${c.slug}/`} class="section-link">{c.title}</a></h2>
-          <p class="section-desc">{c.description}</p>
-          <div class="grid">
-            {clusterPosts.map((post) => <PostCard post={post} />)}
+  <div class="container layout-2col">
+    <main>
+      {listPosts.length > 0 && (
+        <section class="panel">
+          <h2 class="panel-title">Novas postagens</h2>
+          <div class="list-items">
+            {listPosts.map((post) => <PostListItem post={post} />)}
           </div>
-          <p class="more-link"><a href={`/${c.slug}/`}>Ver todos os artigos de {c.label} →</a></p>
-        </div>
-      </section>
-    );
-  })}
+        </section>
+      )}
 
-  <section class="section">
-    <div class="container">
-      <h2 class="section-title">Sobre o {SITE.name}</h2>
-      <p style="max-width: 720px; color: var(--text-soft);">
-        Aqui a regra é uma só: <strong>só publicamos o que testamos</strong>. Tutoriais de automação com passo a passo real,
-        guias de IA sem hype e a história das invenções que criaram o mundo automatizado.
-        <a href="/sobre/">Conheça o projeto</a> ou <a href="/contato/">fale com a gente</a>.
-      </p>
-    </div>
-  </section>
+      {clusters.length > 0 && (
+        <section class="cat-grid">
+          {clusters.map((c) => (
+            <CategoryColumn cluster={c} posts={posts.filter((p) => p.data.cluster === c.slug)} />
+          ))}
+        </section>
+      )}
+    </main>
+
+    <aside class="sidebar">
+      {clusters.length > 0 && <SidebarCategories clusters={clusters} />}
+      <div class="widget widget-about">
+        <h2 class="widget-title">Sobre o {SITE.name}</h2>
+        <p>Só publicamos o que testamos: tutoriais de automação com passo a passo real, guias de IA sem hype e a história das invenções que criaram o mundo automatizado.</p>
+        <p><a href="/sobre/">Conheça o projeto →</a></p>
+      </div>
+    </aside>
+  </div>
 </BaseLayout>

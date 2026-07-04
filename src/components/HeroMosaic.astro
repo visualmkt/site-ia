@@ -1,0 +1,24 @@
+---
+import { SITE } from '../site.config.mjs';
+import { timeAgo } from '../lib/posts.mjs';
+interface Props { posts: any[]; }
+const { posts } = Astro.props;
+const [big, ...small] = posts;
+const count = Math.min(posts.length, 3);
+---
+{big && (
+  <div class={`mosaic mosaic-${count}`}>
+    <a href={`/${big.data.cluster}/${big.id}/`} class="mosaic-tile mosaic-tile-big" style={`background-image:url(${big.data.image || `/covers/${big.data.cluster}.svg`})`}>
+      <span class="mosaic-badge" style={`background:${SITE.clusters[big.data.cluster]?.color ?? '#4f46e5'}`}>{SITE.clusters[big.data.cluster]?.label ?? big.data.cluster}</span>
+      <span class="mosaic-title">{big.data.title}</span>
+      <span class="mosaic-time">{timeAgo(big.data.pubDate)}</span>
+    </a>
+    {small.slice(0, 2).map((post) => (
+      <a href={`/${post.data.cluster}/${post.id}/`} class="mosaic-tile" style={`background-image:url(${post.data.image || `/covers/${post.data.cluster}.svg`})`}>
+        <span class="mosaic-badge" style={`background:${SITE.clusters[post.data.cluster]?.color ?? '#4f46e5'}`}>{SITE.clusters[post.data.cluster]?.label ?? post.data.cluster}</span>
+        <span class="mosaic-title mosaic-title-sm">{post.data.title}</span>
+        <span class="mosaic-time">{timeAgo(post.data.pubDate)}</span>
+      </a>
+    ))}
+  </div>
+)}

@@ -10,5 +10,4 @@
   <line x1="640" y1="320" x2="640" y2="230" stroke="#fff" stroke-width="10" stroke-linecap="round"/>
   <line x1="640" y1="320" x2="705" y2="345" stroke="#fff" stroke-width="10" stroke-linecap="round"/>
   <circle cx="640" cy="320" r="14" fill="#fde68a"/>
-  <text x="80" y="560" font-family="system-ui,-apple-system,Segoe UI,Roboto,sans-serif" font-size="40" font-weight="800" fill="#fff">História &amp; Marcos</text>
 </svg>

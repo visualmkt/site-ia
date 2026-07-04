@@ -9,5 +9,4 @@
   <path d="M600 240 l40 40 -110 110 -40 -40 z" fill="#ffffff" opacity="0.95"/>
   <circle cx="740" cy="260" r="40" fill="none" stroke="#ffffff" stroke-width="12" opacity="0.95"/>
   <circle cx="740" cy="260" r="10" fill="#fbcfe8"/>
-  <text x="80" y="560" font-family="system-ui,-apple-system,Segoe UI,Roboto,sans-serif" font-size="40" font-weight="800" fill="#fff">Ferramentas de IA</text>
 </svg>

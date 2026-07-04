@@ -1,0 +1,15 @@
+---
+interface Props { clusters: any[]; }
+const { clusters } = Astro.props;
+---
+<aside class="widget">
+  <h2 class="widget-title">Categorias</h2>
+  <ul class="widget-list">
+    {clusters.map((c) => (
+      <li>
+        <a href={`/${c.slug}/`}><span class="widget-dot" style={`background:${c.color}`}></span>{c.label}</a>
+        <span class="widget-count">{c.count}</span>
+      </li>
+    ))}
+  </ul>
+</aside>

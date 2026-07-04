@@ -9,5 +9,4 @@
   <rect x="520" y="300" width="240" height="150" rx="18" fill="#ffffff" opacity="0.95"/>
   <rect x="580" y="260" width="120" height="60" rx="14" fill="none" stroke="#ffffff" stroke-width="10"/>
   <rect x="520" y="360" width="240" height="14" fill="#2563eb"/>
-  <text x="80" y="560" font-family="system-ui,-apple-system,Segoe UI,Roboto,sans-serif" font-size="38" font-weight="800" fill="#fff">Automação p/ Negócios</text>
 </svg>

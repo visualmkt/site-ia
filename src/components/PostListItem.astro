@@ -1,0 +1,17 @@
+---
+import { SITE } from '../site.config.mjs';
+import { timeAgo } from '../lib/posts.mjs';
+interface Props { post: any; }
+const { post } = Astro.props;
+const cluster = SITE.clusters[post.data.cluster];
+const url = `/${post.data.cluster}/${post.id}/`;
+const cover = post.data.image || `/covers/${post.data.cluster}.svg`;
+---
+<article class="list-item">
+  <a href={url} class="list-item-media"><img src={cover} alt="" loading="lazy" width="160" height="100" /></a>
+  <div class="list-item-body">
+    <a href={`/${post.data.cluster}/`} class="list-item-kicker" style={`color:${cluster?.color ?? '#4f46e5'}`}>{cluster?.label ?? post.data.cluster}</a>
+    <h3><a href={url}>{post.data.title}</a></h3>
+    <span class="list-item-meta">{timeAgo(post.data.pubDate)}{SITE.giscus && ' · 💬 Comentários'}</span>
+  </div>
+</article>

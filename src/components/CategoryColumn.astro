@@ -1,0 +1,32 @@
+---
+import { timeAgo } from '../lib/posts.mjs';
+interface Props { cluster: any; posts: any[]; }
+const { cluster, posts } = Astro.props;
+const [main, ...rest] = posts;
+if (!main) return null;
+const cover = main.data.image || `/covers/${cluster.slug}.svg`;
+---
+<div class="cat-column" style={`border-top-color:${cluster.color}`}>
+  <h2 class="cat-column-title"><a href={`/${cluster.slug}/`}>{cluster.label}</a></h2>
+  <a href={`/${cluster.slug}/${main.id}/`} class="cat-main">
+    <img src={cover} alt="" loading="lazy" width="400" height="220" />
+    <span class="cat-main-title">{main.data.title}</span>
+  </a>
+  <p class="cat-main-desc">{main.data.description}</p>
+  {rest.slice(0, 2).length > 0 && (
+    <ul class="cat-mini-list">
+      {rest.slice(0, 2).map((p) => (
+        <li>
+          <a href={`/${cluster.slug}/${p.id}/`} class="cat-mini">
+            <img src={p.data.image || `/covers/${cluster.slug}.svg`} alt="" loading="lazy" width="70" height="70" />
+            <span>
+              <strong>{p.data.title}</strong>
+              <small>{timeAgo(p.data.pubDate)}</small>
+            </span>
+          </a>
+        </li>
+      ))}
+    </ul>
+  )}
+  <a href={`/${cluster.slug}/`} class="cat-column-more">Ver todos de {cluster.label} →</a>
+</div>
