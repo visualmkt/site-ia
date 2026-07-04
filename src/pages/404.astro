@@ -1,0 +1,39 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import PostCard from '../components/PostCard.astro';
+import { SITE } from '../site.config.mjs';
+import { getPublishedPosts, getActiveClusters } from '../lib/posts.mjs';
+
+const posts = (await getPublishedPosts()).slice(0, 6);
+const clusters = await getActiveClusters();
+---
+<BaseLayout title={`Página não encontrada | ${SITE.name}`} description="Essa página não existe ou foi movida. Veja os artigos mais recentes e as categorias do site." noindex={true}>
+  <section class="hero">
+    <div class="container">
+      <h1>Essa página não existe (erro 404)</h1>
+      <p>O link pode estar quebrado ou o conteúdo foi movido. Mas tem bastante coisa boa por aqui — dá uma olhada:</p>
+    </div>
+  </section>
+
+  {clusters.length > 0 && (
+    <section class="section" style="padding-bottom: 0;">
+      <div class="container">
+        <nav class="filter-pills" aria-label="Categorias">
+          {clusters.map((c) => <a href={`/${c.slug}/`} class="pill">{c.label}</a>)}
+          <a href="/artigos/" class="pill pill-solid">Ver todos os artigos</a>
+        </nav>
+      </div>
+    </section>
+  )}
+
+  {posts.length > 0 && (
+    <section class="section">
+      <div class="container">
+        <h2 class="section-title">Artigos recentes</h2>
+        <div class="grid">
+          {posts.map((post) => <PostCard post={post} />)}
+        </div>
+      </div>
+    </section>
+  )}
+</BaseLayout>

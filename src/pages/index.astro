@@ -6,7 +6,8 @@ import { getPublishedPosts, getActiveClusters } from '../lib/posts.mjs';
 
 const posts = await getPublishedPosts();
 const clusters = await getActiveClusters();
-const latest = posts.slice(0, 6);
+const [featured, ...rest] = posts;
+const latest = rest.slice(0, 6);
 
 const websiteSchema = {
   '@context': 'https://schema.org',
@@ -27,8 +28,17 @@ const websiteSchema = {
     </div>
   </section>
 
+  {featured && (
+    <section class="section" style="padding-top:0;">
+      <div class="container">
+        <h2 class="section-title">Destaque</h2>
+        <PostCard post={featured} featured={true} />
+      </div>
+    </section>
+  )}
+
   {latest.length > 0 && (
-    <section class="section">
+    <section class="section" style="background: var(--bg-soft);">
       <div class="container">
         <h2 class="section-title">Últimos artigos</h2>
         <div class="grid">
@@ -41,7 +51,7 @@ const websiteSchema = {
   {clusters.map((c, i) => {
     const clusterPosts = posts.filter((p) => p.data.cluster === c.slug).slice(0, 4);
     return (
-      <section class="section" style={i % 2 === 0 ? 'background: var(--bg-soft);' : ''}>
+      <section class="section" style={i % 2 === 1 ? 'background: var(--bg-soft);' : ''}>
         <div class="container">
           <h2 class="section-title"><a href={`/${c.slug}/`} class="section-link">{c.title}</a></h2>
           <p class="section-desc">{c.description}</p>

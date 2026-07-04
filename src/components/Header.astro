@@ -11,6 +11,7 @@ const current = Astro.url.pathname;
       {clusters.map((c) => (
         <a href={`/${c.slug}/`} class={current.startsWith(`/${c.slug}/`) ? 'active' : ''}>{c.label}</a>
       ))}
+      <a href="/artigos/" class={current.startsWith('/artigos') ? 'active' : ''}>Todos os artigos</a>
       <a href="/sobre/" class={current.startsWith('/sobre') ? 'active' : ''}>Sobre</a>
     </nav>
   </div>

@@ -1,0 +1,48 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import PostCard from '../components/PostCard.astro';
+import { SITE } from '../site.config.mjs';
+import { getPublishedPosts, getActiveClusters } from '../lib/posts.mjs';
+
+const posts = await getPublishedPosts();
+const clusters = await getActiveClusters();
+
+const schema = {
+  '@context': 'https://schema.org',
+  '@type': 'CollectionPage',
+  name: `Todos os artigos | ${SITE.name}`,
+  description: `Lista completa de artigos publicados no ${SITE.name}.`,
+  url: new URL('/artigos/', SITE.url).href,
+  inLanguage: 'pt-BR',
+  isPartOf: { '@type': 'WebSite', name: SITE.name, url: SITE.url }
+};
+---
+<BaseLayout title={`Todos os artigos | ${SITE.name}`} description={`Lista completa e sempre atualizada de artigos do ${SITE.name}: automação, n8n, ChatGPT, agentes de IA e história da tecnologia.`}>
+  <script slot="head" type="application/ld+json" set:html={JSON.stringify(schema)} />
+
+  <section class="hero">
+    <div class="container">
+      <nav class="breadcrumbs" aria-label="Você está em"><a href="/">Início</a> › Todos os artigos</nav>
+      <h1>Todos os artigos</h1>
+      <p>{posts.length} {posts.length === 1 ? 'artigo publicado' : 'artigos publicados'} até agora. Filtre por assunto ou explore tudo abaixo.</p>
+    </div>
+  </section>
+
+  {clusters.length > 1 && (
+    <section class="section" style="padding-bottom: 0;">
+      <div class="container">
+        <nav class="filter-pills" aria-label="Filtrar por categoria">
+          {clusters.map((c) => <a href={`/${c.slug}/`} class="pill">{c.label}</a>)}
+        </nav>
+      </div>
+    </section>
+  )}
+
+  <section class="section">
+    <div class="container">
+      <div class="grid">
+        {posts.map((post) => <PostCard post={post} />)}
+      </div>
+    </div>
+  </section>
+</BaseLayout>

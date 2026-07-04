@@ -1,0 +1,29 @@
+---
+import { SITE } from '../site.config.mjs';
+// Comentários via Giscus (GitHub Discussions) — grátis, moderável pelo próprio repo.
+// Ativar: 1) github.com/apps/giscus instalar no repo visualmkt/site-ia
+//         2) Settings do repo -> Features -> Discussions (marcar)
+//         3) giscus.app -> gerar repoId/categoryId -> colar em SITE.giscus (site.config.mjs)
+const g = SITE.giscus;
+---
+{g && g.repoId && g.categoryId && (
+  <section class="comments">
+    <h2>Comentários</h2>
+    <script
+      src="https://giscus.app/client.js"
+      data-repo={g.repo}
+      data-repo-id={g.repoId}
+      data-category={g.category ?? 'Comentários'}
+      data-category-id={g.categoryId}
+      data-mapping="pathname"
+      data-strict="0"
+      data-reactions-enabled="1"
+      data-emit-metadata="0"
+      data-input-position="bottom"
+      data-theme="preferred_color_scheme"
+      data-lang="pt"
+      crossorigin="anonymous"
+      async
+    ></script>
+  </section>
+)}

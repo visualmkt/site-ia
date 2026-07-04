@@ -3,6 +3,8 @@ import { getCollection, render } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import AdSlot from '../../components/AdSlot.astro';
 import PostCard from '../../components/PostCard.astro';
+import AuthorBox from '../../components/AuthorBox.astro';
+import Comments from '../../components/Comments.astro';
 import { SITE } from '../../site.config.mjs';
 
 export async function getStaticPaths() {
@@ -76,8 +78,10 @@ const breadcrumbSchema = {
     <Content />
     <AdSlot />
     <p class="hub-cta">
-      Quer mais sobre o assunto? Veja <a href={`/${post.data.cluster}/`}>todos os artigos de {cluster?.label ?? post.data.cluster}</a>.
+      Quer mais sobre o assunto? Veja <a href={`/${post.data.cluster}/`}>todos os artigos de {cluster?.label ?? post.data.cluster}</a>
+      {' '}ou <a href="/artigos/">a lista completa de artigos</a>.
     </p>
+    <AuthorBox />
   </div>
 
   {related.length > 0 && (
@@ -88,6 +92,10 @@ const breadcrumbSchema = {
       </div>
     </aside>
   )}
+
+  <div class="container">
+    <Comments />
+  </div>
 
   <script is:inline>
     // Índice do artigo (TOC) gerado dos H2 — melhora navegação e tempo na página

@@ -14,48 +14,65 @@ export const SITE = {
   adsensePub: '',                          // <<< PREENCHER SÓ AO APLICAR ao AdSense (ca-pub-...). Antes da aprovação: sem anúncio no site.
   adsenseSlot: '',                         // <<< slot criado após aprovação
 
+  // Comentários (Giscus / GitHub Discussions) — engajamento real, moderável, grátis.
+  // Deixar giscus: null desativa a seção inteira (nenhum script carrega). Ativar:
+  // 1) github.com/apps/giscus -> instalar no repo visualmkt/site-ia
+  // 2) Repo -> Settings -> Features -> marcar "Discussions"
+  // 3) https://giscus.app -> preencher repo, gerar repoId/categoryId -> colar abaixo
+  giscus: null,
+  // giscus: { repo: 'visualmkt/site-ia', repoId: '', category: 'Comentários', categoryId: '' },
+
   // Clusters = categorias = silos de URL (/{cluster}/{slug}/). Mesmos slugs do backlog do n8n.
   // Só aparecem no menu/home os clusters que já têm artigo publicado (evita "em construção" — critério AdSense).
+  // "color" = acento visual da categoria (badge, borda da capa) — identidade consistente por assunto, como portais editoriais grandes.
   clusters: {
     n8n: {
       label: 'n8n',
       title: 'n8n: tutoriais e automações prontas',
-      description: 'Como instalar, criar fluxos e automatizar WhatsApp, planilhas e atendimento com n8n — em português.'
+      description: 'Como instalar, criar fluxos e automatizar WhatsApp, planilhas e atendimento com n8n — em português.',
+      color: '#4f46e5'
     },
     chatgpt: {
       label: 'ChatGPT & LLMs',
       title: 'ChatGPT e LLMs: guias e prompts prontos',
-      description: 'Guias de uso, comparativos e prompts prontos por profissão para ChatGPT, Gemini, Claude e outros modelos.'
+      description: 'Guias de uso, comparativos e prompts prontos por profissão para ChatGPT, Gemini, Claude e outros modelos.',
+      color: '#a855f7'
     },
     agentes: {
       label: 'Agentes de IA',
       title: 'Agentes de IA: conceitos e como criar',
-      description: 'RAG, MCP, multiagentes e como criar agentes de IA para atendimento e vendas — explicado simples.'
+      description: 'RAG, MCP, multiagentes e como criar agentes de IA para atendimento e vendas — explicado simples.',
+      color: '#0d9488'
     },
     historia: {
       label: 'História & Marcos',
       title: 'História da automação e da IA',
-      description: 'As invenções, máquinas, empresas e pessoas que criaram a automação e a inteligência artificial — linhas do tempo, biografias e feitos marcantes.'
+      description: 'As invenções, máquinas, empresas e pessoas que criaram a automação e a inteligência artificial — linhas do tempo, biografias e feitos marcantes.',
+      color: '#b45309'
     },
     negocios: {
       label: 'Automação p/ Negócios',
       title: 'Automação para negócios',
-      description: 'Como automatizar WhatsApp, planilhas, cobrança e atendimento na sua empresa, com ou sem programação.'
+      description: 'Como automatizar WhatsApp, planilhas, cobrança e atendimento na sua empresa, com ou sem programação.',
+      color: '#2563eb'
     },
     ferramentas: {
       label: 'Ferramentas de IA',
       title: 'Ferramentas de IA: listas e comparativos',
-      description: 'As melhores IAs para imagem, vídeo, áudio e texto — testadas, comparadas e com alternativas grátis.'
+      description: 'As melhores IAs para imagem, vídeo, áudio e texto — testadas, comparadas e com alternativas grátis.',
+      color: '#db2777'
     },
     make: {
       label: 'Make & Zapier',
       title: 'Make, Zapier e alternativas',
-      description: 'Comparativos, preços e migração entre plataformas de automação no-code.'
+      description: 'Comparativos, preços e migração entre plataformas de automação no-code.',
+      color: '#ea580c'
     },
     dev: {
       label: 'APIs & Dev',
       title: 'APIs e dev para quem está começando',
-      description: 'API do ChatGPT e do Gemini, VPS, Docker e conceitos técnicos explicados para não-programadores.'
+      description: 'API do ChatGPT e do Gemini, VPS, Docker e conceitos técnicos explicados para não-programadores.',
+      color: '#475569'
     }
   }
 };

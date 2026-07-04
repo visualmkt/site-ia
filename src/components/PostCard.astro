@@ -1,12 +1,21 @@
 ---
 import { SITE } from '../site.config.mjs';
-interface Props { post: any; }
-const { post } = Astro.props;
+interface Props { post: any; featured?: boolean; }
+const { post, featured = false } = Astro.props;
 const cluster = SITE.clusters[post.data.cluster];
 const url = `/${post.data.cluster}/${post.id}/`;
+const cover = post.data.image || `/covers/${post.data.cluster}.svg`;
+const words = (post.body ?? '').replace(/<[^>]+>/g, ' ').split(/\s+/).filter(Boolean).length;
+const minutes = Math.max(1, Math.round(words / 200));
 ---
-<article class="card">
-  <span class="kicker">{cluster ? cluster.label : post.data.cluster}</span>
-  <h3><a href={url}>{post.data.title}</a></h3>
-  <p>{post.data.description}</p>
+<article class={featured ? 'card card-featured' : 'card'}>
+  <a href={url} class="card-media" aria-hidden="true">
+    <img src={cover} alt="" loading="lazy" width="600" height="315" />
+    <span class="card-badge" style={`background:${cluster?.color ?? '#4f46e5'}`}>{cluster ? cluster.label : post.data.cluster}</span>
+  </a>
+  <div class="card-body">
+    <h3><a href={url}>{post.data.title}</a></h3>
+    <p>{post.data.description}</p>
+    <span class="card-meta">{minutes} min de leitura</span>
+  </div>
 </article>

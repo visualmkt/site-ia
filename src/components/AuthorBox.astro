@@ -1,0 +1,22 @@
+---
+import { SITE } from '../site.config.mjs';
+---
+<aside class="author-box">
+  <div class="author-avatar" aria-hidden="true">
+    <svg width="40" height="40" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <linearGradient id="ab" x1="0" y1="0" x2="32" y2="32">
+          <stop offset="0" stop-color="#6366f1"/><stop offset="1" stop-color="#a855f7"/>
+        </linearGradient>
+      </defs>
+      <rect width="32" height="32" rx="8" fill="url(#ab)"/>
+      <circle cx="10" cy="10" r="3" fill="#fff"/><circle cx="22" cy="12" r="2.4" fill="#fff" opacity="0.9"/>
+      <circle cx="12" cy="22" r="2.4" fill="#fff" opacity="0.9"/><circle cx="23" cy="23" r="3" fill="#fff"/>
+      <path d="M12.5 11.5 20 12M11 12.8 12 19.5M14.4 21.5 20.5 22.5M23.5 14.4 23 20" stroke="#fff" stroke-width="1.6" stroke-linecap="round"/>
+    </svg>
+  </div>
+  <div>
+    <strong>Escrito pela equipe {SITE.name}</strong>
+    <p>Testamos as ferramentas e fluxos antes de publicar — sem hype, com passo a passo real. Achou algo errado ou desatualizado? <a href="/contato/">Avise a gente</a>.</p>
+  </div>
+</aside>
