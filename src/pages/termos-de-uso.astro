@@ -1,0 +1,22 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { SITE } from '../site.config.mjs';
+---
+<BaseLayout title={`Termos de Uso | ${SITE.name}`} description={`Condições de uso do conteúdo publicado no ${SITE.name}.`}>
+  <div class="page-body">
+    <h1>Termos de Uso</h1>
+    <p>Ao acessar o {SITE.name}, você concorda com as condições abaixo.</p>
+
+    <h2>Conteúdo</h2>
+    <p>Os artigos têm caráter informativo e educacional. Testamos o que publicamos, mas ferramentas, preços e limites de planos mudam com frequência — sempre confirme as condições atuais na página oficial da ferramenta antes de contratar qualquer serviço.</p>
+
+    <h2>Uso do material</h2>
+    <p>Você pode compartilhar trechos dos artigos com link para a página original. É proibida a reprodução integral do conteúdo sem autorização prévia.</p>
+
+    <h2>Responsabilidade</h2>
+    <p>Automações e integrações envolvem contas e dados de terceiros: aplique os tutoriais por sua conta e risco, começando sempre por ambientes de teste. O {SITE.name} não se responsabiliza por perdas decorrentes do uso das informações publicadas.</p>
+
+    <h2>Contato</h2>
+    <p>Dúvidas sobre estes termos: <a href={`mailto:${SITE.email}`}>{SITE.email}</a>.</p>
+  </div>
+</BaseLayout>

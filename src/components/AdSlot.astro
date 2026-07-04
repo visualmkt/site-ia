@@ -1,0 +1,15 @@
+---
+import { SITE } from '../site.config.mjs';
+---
+{SITE.adsensePub && SITE.adsenseSlot && (
+  <div class="ad-slot">
+    <span class="ad-label">Publicidade</span>
+    <ins class="adsbygoogle"
+      style="display:block"
+      data-ad-client={SITE.adsensePub}
+      data-ad-slot={SITE.adsenseSlot}
+      data-ad-format="auto"
+      data-full-width-responsive="true"></ins>
+    <script is:inline>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+  </div>
+)}

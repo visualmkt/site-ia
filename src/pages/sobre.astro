@@ -1,0 +1,19 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { SITE } from '../site.config.mjs';
+---
+<BaseLayout title={`Sobre | ${SITE.name}`} description={`Conheça o ${SITE.name}: quem escreve, como testamos as ferramentas e por que você pode confiar nos tutoriais.`}>
+  <div class="page-body">
+    <h1>Sobre o {SITE.name}</h1>
+    <p>O {SITE.name} é um portal em português sobre <strong>automação, inteligência artificial, LLMs e agentes de IA</strong>, feito para profissionais, criadores e pequenas empresas que querem trabalhar menos no repetitivo e mais no que importa.</p>
+    <p>Nossa regra editorial é simples: <strong>só publicamos o que testamos</strong>. Os tutoriais de n8n, ChatGPT, Make e APIs saem de fluxos reais que construímos e usamos no dia a dia — com prints de verdade, custos reais e os erros que você vai encontrar no caminho (e como resolver).</p>
+    <h2>O que você encontra aqui</h2>
+    <ul>
+      <li>Tutoriais passo a passo de automação (n8n, Make, Zapier)</li>
+      <li>Guias e prompts prontos para ChatGPT, Gemini e Claude</li>
+      <li>Agentes de IA explicados sem enrolação: RAG, MCP, multiagentes</li>
+      <li>Comparativos e listas de ferramentas de IA, sempre com alternativas grátis</li>
+    </ul>
+    <p>Quer falar com a gente? Passe pela página de <a href="/contato/">contato</a>.</p>
+  </div>
+</BaseLayout>

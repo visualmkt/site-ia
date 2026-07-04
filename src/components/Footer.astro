@@ -1,0 +1,32 @@
+---
+import { SITE } from '../site.config.mjs';
+import { getActiveClusters } from '../lib/posts.mjs';
+const clusters = await getActiveClusters();
+const year = new Date().getFullYear();
+---
+<footer class="site-footer">
+  <div class="inner">
+    <div class="footer-col">
+      <strong>{SITE.name}</strong> — {SITE.tagline}<br />
+      © {year} {SITE.name}. Todos os direitos reservados.
+    </div>
+    {clusters.length > 0 && (
+      <nav class="footer-col" aria-label="Categorias">
+        <strong>Categorias</strong>
+        <div class="footer-links">
+          {clusters.map((c) => <a href={`/${c.slug}/`}>{c.label}</a>)}
+        </div>
+      </nav>
+    )}
+    <nav class="footer-col" aria-label="Institucional">
+      <strong>Institucional</strong>
+      <div class="footer-links">
+        <a href="/sobre/">Sobre</a>
+        <a href="/contato/">Contato</a>
+        <a href="/politica-de-privacidade/">Política de Privacidade</a>
+        <a href="/termos-de-uso/">Termos de Uso</a>
+        <a href="/rss.xml">RSS</a>
+      </div>
+    </nav>
+  </div>
+</footer>

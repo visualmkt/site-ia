@@ -1,0 +1,12 @@
+---
+import { SITE } from '../site.config.mjs';
+interface Props { post: any; }
+const { post } = Astro.props;
+const cluster = SITE.clusters[post.data.cluster];
+const url = `/${post.data.cluster}/${post.id}/`;
+---
+<article class="card">
+  <span class="kicker">{cluster ? cluster.label : post.data.cluster}</span>
+  <h3><a href={url}>{post.data.title}</a></h3>
+  <p>{post.data.description}</p>
+</article>

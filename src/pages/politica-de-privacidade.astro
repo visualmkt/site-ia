@@ -1,0 +1,29 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { SITE } from '../site.config.mjs';
+---
+<BaseLayout title={`Política de Privacidade | ${SITE.name}`} description={`Como o ${SITE.name} trata dados de navegação, cookies e anúncios.`} noindex={false}>
+  <div class="page-body">
+    <h1>Política de Privacidade</h1>
+    <p>Esta página explica como o {SITE.name} ({SITE.url}) trata as informações de quem navega no site.</p>
+
+    <h2>Dados que coletamos</h2>
+    <p>Não pedimos cadastro para ler o conteúdo. Coletamos apenas dados de navegação de forma automática e agregada, por meio de:</p>
+    <ul>
+      <li><strong>Google Analytics 4</strong> — métricas de audiência (páginas visitadas, origem do tráfego, dispositivo). Os dados são agregados e não identificam você individualmente.</li>
+      <li><strong>Google AdSense</strong> — exibição de anúncios. O Google e seus parceiros podem usar cookies para exibir anúncios com base em visitas anteriores a este e a outros sites.</li>
+    </ul>
+
+    <h2>Cookies e anúncios personalizados</h2>
+    <p>O cookie de publicidade do Google permite anúncios mais relevantes. Você pode desativar a publicidade personalizada nas <a href="https://myadcenter.google.com/" rel="nofollow noopener" target="_blank">Configurações de anúncios do Google</a>. Saiba mais sobre como o Google usa dados em <a href="https://policies.google.com/technologies/partner-sites" rel="nofollow noopener" target="_blank">policies.google.com</a>.</p>
+
+    <h2>Links externos e afiliados</h2>
+    <p>Alguns links levam a sites de terceiros; não somos responsáveis pelas práticas de privacidade deles. Quando um link for de afiliado (podemos receber comissão sem custo extra para você), isso não altera nossa avaliação sobre a ferramenta.</p>
+
+    <h2>Seus direitos (LGPD)</h2>
+    <p>Nos termos da Lei Geral de Proteção de Dados (Lei 13.709/2018), você pode solicitar informações sobre dados eventualmente associados a você escrevendo para <a href={`mailto:${SITE.email}`}>{SITE.email}</a>.</p>
+
+    <h2>Alterações</h2>
+    <p>Esta política pode ser atualizada para refletir mudanças legais ou de ferramentas. A versão vigente é sempre a publicada nesta página.</p>
+  </div>
+</BaseLayout>

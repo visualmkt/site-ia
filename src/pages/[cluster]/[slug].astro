@@ -1,0 +1,114 @@
+---
+import { getCollection, render } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import AdSlot from '../../components/AdSlot.astro';
+import PostCard from '../../components/PostCard.astro';
+import { SITE } from '../../site.config.mjs';
+
+export async function getStaticPaths() {
+  const posts = await getCollection('posts', ({ data }) => (import.meta.env.PROD ? !data.draft : true));
+  return posts.map((post) => ({
+    params: { cluster: post.data.cluster, slug: post.id },
+    props: { post }
+  }));
+}
+
+const { post } = Astro.props;
+const { Content } = await render(post);
+const cluster = SITE.clusters[post.data.cluster];
+const canonical = new URL(`/${post.data.cluster}/${post.id}/`, SITE.url).href;
+
+const fmt = (d: Date) => d.toLocaleDateString('pt-BR', { day: 'numeric', month: 'long', year: 'numeric' });
+
+const related = (await getCollection('posts', ({ data }) =>
+  data.cluster === post.data.cluster && (import.meta.env.PROD ? !data.draft : true)
+))
+  .filter((p) => p.id !== post.id)
+  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
+  .slice(0, 4);
+
+const articleSchema: Record<string, any> = {
+  '@context': 'https://schema.org',
+  '@type': 'Article',
+  headline: post.data.title,
+  description: post.data.description,
+  datePublished: post.data.pubDate.toISOString(),
+  dateModified: (post.data.updatedDate ?? post.data.pubDate).toISOString(),
+  inLanguage: 'pt-BR',
+  mainEntityOfPage: canonical,
+  author: { '@type': 'Organization', name: SITE.name, url: SITE.url },
+  publisher: { '@type': 'Organization', name: SITE.name, url: SITE.url }
+};
+if (post.data.image) articleSchema.image = new URL(post.data.image, SITE.url).href;
+
+const breadcrumbSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: SITE.name, item: SITE.url },
+    { '@type': 'ListItem', position: 2, name: cluster?.label ?? post.data.cluster, item: new URL(`/${post.data.cluster}/`, SITE.url).href },
+    { '@type': 'ListItem', position: 3, name: post.data.title, item: canonical }
+  ]
+};
+---
+<BaseLayout
+  title={`${post.data.title} | ${SITE.name}`}
+  description={post.data.description}
+  ogType="article"
+  ogImage={post.data.image}
+>
+  <script slot="head" type="application/ld+json" set:html={JSON.stringify(articleSchema)} />
+  <script slot="head" type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />
+
+  <header class="article-header">
+    <nav class="breadcrumbs" aria-label="Você está em">
+      <a href="/">Início</a> › <a href={`/${post.data.cluster}/`}>{cluster?.label ?? post.data.cluster}</a>
+    </nav>
+    <h1>{post.data.title}</h1>
+    <p class="article-meta">
+      Publicado em {fmt(post.data.pubDate)}
+      {post.data.updatedDate && <> · Atualizado em {fmt(post.data.updatedDate)}</>}
+    </p>
+    {post.data.image && <img src={post.data.image} alt={post.data.imageAlt ?? post.data.title} width="760" loading="eager" />}
+  </header>
+
+  <div class="article-body">
+    <Content />
+    <AdSlot />
+    <p class="hub-cta">
+      Quer mais sobre o assunto? Veja <a href={`/${post.data.cluster}/`}>todos os artigos de {cluster?.label ?? post.data.cluster}</a>.
+    </p>
+  </div>
+
+  {related.length > 0 && (
+    <aside class="related">
+      <h2>Leia também</h2>
+      <div class="grid">
+        {related.map((p) => <PostCard post={p} />)}
+      </div>
+    </aside>
+  )}
+
+  <script is:inline>
+    // Índice do artigo (TOC) gerado dos H2 — melhora navegação e tempo na página
+    document.addEventListener('DOMContentLoaded', function () {
+      var body = document.querySelector('.article-body');
+      if (!body) return;
+      var hs = body.querySelectorAll('h2');
+      if (hs.length < 3) return;
+      var items = '';
+      hs.forEach(function (h, i) {
+        if (!h.id) {
+          h.id = 's' + (i + 1) + '-' + h.textContent.toLowerCase().normalize('NFD')
+            .replace(/[̀-ͯ]/g, '').replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '').slice(0, 60);
+        }
+        items += '<li><a href="#' + h.id + '">' + h.textContent + '</a></li>';
+      });
+      var toc = document.createElement('nav');
+      toc.className = 'toc';
+      toc.setAttribute('aria-label', 'Índice do artigo');
+      toc.innerHTML = '<strong>Neste artigo</strong><ol>' + items + '</ol>';
+      body.insertBefore(toc, body.firstChild);
+    });
+  </script>
+</BaseLayout>

@@ -1,0 +1,65 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import PostCard from '../../components/PostCard.astro';
+import { SITE } from '../../site.config.mjs';
+import { getPublishedPosts, getActiveClusters } from '../../lib/posts.mjs';
+
+// Só gera hub de cluster que tem conteúdo (nada de página "em breve" — critério AdSense)
+export async function getStaticPaths() {
+  const { getActiveClusters } = await import('../../lib/posts.mjs');
+  const clusters = await getActiveClusters();
+  return clusters.map((c) => ({ params: { cluster: c.slug } }));
+}
+
+const { cluster } = Astro.params;
+const info = SITE.clusters[cluster];
+const all = await getPublishedPosts();
+const posts = all.filter((p) => p.data.cluster === cluster);
+const others = (await getActiveClusters()).filter((c) => c.slug !== cluster);
+
+const schema = {
+  '@context': 'https://schema.org',
+  '@type': 'CollectionPage',
+  name: info.title,
+  description: info.description,
+  url: new URL(`/${cluster}/`, SITE.url).href,
+  inLanguage: 'pt-BR',
+  isPartOf: { '@type': 'WebSite', name: SITE.name, url: SITE.url }
+};
+---
+<BaseLayout title={`${info.title} | ${SITE.name}`} description={info.description}>
+  <script slot="head" type="application/ld+json" set:html={JSON.stringify(schema)} />
+
+  <section class="hero">
+    <div class="container">
+      <nav class="breadcrumbs" aria-label="Você está em"><a href="/">Início</a> › {info.label}</nav>
+      <h1>{info.title}</h1>
+      <p>{info.description}</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="grid">
+        {posts.map((post) => <PostCard post={post} />)}
+      </div>
+    </div>
+  </section>
+
+  {others.length > 0 && (
+    <section class="section" style="background: var(--bg-soft);">
+      <div class="container">
+        <h2 class="section-title">Explore outros assuntos</h2>
+        <div class="grid">
+          {others.map((c) => (
+            <article class="card">
+              <span class="kicker">Categoria</span>
+              <h3><a href={`/${c.slug}/`}>{c.title}</a></h3>
+              <p>{c.description}</p>
+            </article>
+          ))}
+        </div>
+      </div>
+    </section>
+  )}
+</BaseLayout>

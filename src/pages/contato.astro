@@ -1,0 +1,12 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { SITE } from '../site.config.mjs';
+---
+<BaseLayout title={`Contato | ${SITE.name}`} description={`Fale com a equipe do ${SITE.name}: dúvidas, sugestões de pauta, correções e parcerias.`}>
+  <div class="page-body">
+    <h1>Contato</h1>
+    <p>Achou um erro num tutorial, quer sugerir uma pauta ou propor uma parceria? Escreva para:</p>
+    <p><strong><a href={`mailto:${SITE.email}`}>{SITE.email}</a></strong></p>
+    <p>Respondemos em até 2 dias úteis. Correções de conteúdo têm prioridade — manter os tutoriais funcionando é o nosso principal compromisso.</p>
+  </div>
+</BaseLayout>

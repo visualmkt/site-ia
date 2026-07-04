@@ -1,0 +1,17 @@
+---
+import Logo from './Logo.astro';
+import { getActiveClusters } from '../lib/posts.mjs';
+const clusters = await getActiveClusters();
+const current = Astro.url.pathname;
+---
+<header class="site-header">
+  <div class="inner">
+    <Logo />
+    <nav class="main-nav" aria-label="Categorias">
+      {clusters.map((c) => (
+        <a href={`/${c.slug}/`} class={current.startsWith(`/${c.slug}/`) ? 'active' : ''}>{c.label}</a>
+      ))}
+      <a href="/sobre/" class={current.startsWith('/sobre') ? 'active' : ''}>Sobre</a>
+    </nav>
+  </div>
+</header>
