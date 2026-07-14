@@ -10,7 +10,11 @@ export const SITE = {
   email: 'contato@automacao.art.br',
 
   // Tags (deixar '' desativa a tag — o site builda normal sem elas)
-  ga4: '',                                 // <<< ex: 'G-XXXXXXXXXX'
+  // GTM injeta o dataLayer + GA4 em TODAS as páginas (existentes e novas) via 1 único snippet no BaseLayout.
+  // Para adicionar Google Ads, remarketing, AdSense (verificação), etc: fazer direto no GTM (tagmanager.google.com),
+  // sem precisar editar nenhuma página do site — é exatamente pra isso que o GTM existe aqui.
+  gtm: 'GTM-MW92GFJ4',                     // conta GTM "automação" (accountId 6365906750, container 258243185)
+  ga4: 'G-M5MW4G428P',                     // propriedade GA4 "automacao.art.br" (properties/545461812) — configurada DENTRO do GTM (tag GA4 Configuration), não injetada direto
   adsensePub: '',                          // <<< PREENCHER SÓ AO APLICAR ao AdSense (ca-pub-...). Antes da aprovação: sem anúncio no site.
   adsenseSlot: '',                         // <<< slot criado após aprovação
 
