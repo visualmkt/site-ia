@@ -6,7 +6,7 @@ formato: "historia"
 pubDate: 2026-07-15
 image: "https://image.pollinations.ai/prompt/Ilustra%C3%A7%C3%A3o%20da%20primeira%20rede%20ARPANET%2C%20foto%20realista%20cinematogr%C3%A1fica%2C%20lente%2035mm%2C%20p%C3%B4r%20do%20sol%20dourado%2C%20amanhecer%20nebuloso%2C%20sem%20texto%2C%20sem%20letras%2C%20sem%20marca%20dagua%2C%20composi%C3%A7%C3%A3o%2016%3A9?width=1200&height=675&nologo=true&seed=924863"
 imageAlt: "ARPANET primeira rede"
-draft: true
+draft: false
 ---
 
 <!DOCTYPE html>

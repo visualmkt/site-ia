@@ -6,7 +6,7 @@ formato: "tutorial"
 pubDate: 2026-07-14
 image: "https://image.pollinations.ai/prompt/Logo%20do%20n8n%2C%20concept%20art%20de%20videogame%20%C3%A9pica%2C%20vermelho%20e%20preto%20dram%C3%A1tico%2C%20luz%20difusa%20de%20est%C3%BAdio%2C%20sem%20texto%2C%20sem%20letras%2C%20sem%20marca%20dagua%2C%20composi%C3%A7%C3%A3o%2016%3A9?width=1200&height=675&nologo=true&seed=410763"
 imageAlt: "n8n logo"
-draft: true
+draft: false
 ---
 
 <!DOCTYPE html>
