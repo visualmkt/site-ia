@@ -5,20 +5,27 @@ import AdSlot from '../../components/AdSlot.astro';
 import PostCard from '../../components/PostCard.astro';
 import AuthorBox from '../../components/AuthorBox.astro';
 import Comments from '../../components/Comments.astro';
+import SidebarCategories from '../../components/SidebarCategories.astro';
 import { SITE } from '../../site.config.mjs';
+import { getPublishedPosts, getActiveClusters } from '../../lib/posts.mjs';
 
 export async function getStaticPaths() {
   const posts = await getCollection('posts', ({ data }) => (import.meta.env.PROD ? !data.draft : true));
-  return posts.map((post) => ({
-    params: { cluster: post.data.cluster, slug: post.id },
-    props: { post }
-  }));
+  const allSorted = posts.slice().sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+  return posts.map((post) => {
+    const i = allSorted.findIndex((p) => p.id === post.id);
+    return {
+      params: { cluster: post.data.cluster, slug: post.id },
+      props: { post, prevPost: allSorted[i + 1] ?? null, nextPost: i > 0 ? allSorted[i - 1] : null }
+    };
+  });
 }
 
-const { post } = Astro.props;
+const { post, prevPost, nextPost } = Astro.props;
 const { Content } = await render(post);
 const cluster = SITE.clusters[post.data.cluster];
 const canonical = new URL(`/${post.data.cluster}/${post.id}/`, SITE.url).href;
+const clusters = await getActiveClusters();
 
 const fmt = (d: Date) => d.toLocaleDateString('pt-BR', { day: 'numeric', month: 'long', year: 'numeric' });
 
@@ -27,7 +34,7 @@ const related = (await getCollection('posts', ({ data }) =>
 ))
   .filter((p) => p.id !== post.id)
   .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
-  .slice(0, 4);
+  .slice(0, 3);
 
 const articleSchema: Record<string, any> = {
   '@context': 'https://schema.org',
@@ -71,30 +78,60 @@ const breadcrumbSchema = {
       Publicado em {fmt(post.data.pubDate)}
       {post.data.updatedDate && <> · Atualizado em {fmt(post.data.updatedDate)}</>}
     </p>
-    {post.data.image && <img src={post.data.image} alt={post.data.imageAlt ?? post.data.title} width="760" loading="eager" />}
+    {post.data.image && <img class="cover-img" src={post.data.image} alt={post.data.imageAlt ?? post.data.title} loading="eager" />}
   </header>
 
-  <div class="article-body">
-    <Content />
-    <AdSlot />
-    <p class="hub-cta">
-      Quer mais sobre o assunto? Veja <a href={`/${post.data.cluster}/`}>todos os artigos de {cluster?.label ?? post.data.cluster}</a>
-      {' '}ou <a href="/artigos/">a lista completa de artigos</a>.
-    </p>
-    <AuthorBox />
-  </div>
+  <div class="container layout-2col">
+    <main>
+      <div class="article-body">
+        <Content />
+        <AdSlot />
+        <p class="hub-cta">
+          Quer mais sobre o assunto? Veja <a href={`/${post.data.cluster}/`}>todos os artigos de {cluster?.label ?? post.data.cluster}</a>
+          {' '}ou <a href="/artigos/">a lista completa de artigos</a>.
+        </p>
+        <AuthorBox />
+      </div>
 
-  {related.length > 0 && (
-    <aside class="related">
-      <h2>Leia também</h2>
-      <div class="grid">
-        {related.map((p) => <PostCard post={p} />)}
+      {(prevPost || nextPost) && (
+        <nav class="article-nav" aria-label="Navegação entre artigos">
+          {prevPost ? (
+            <a class="article-nav-link article-nav-prev" href={`/${prevPost.data.cluster}/${prevPost.id}/`}>
+              <span class="article-nav-label">← Artigo anterior</span>
+              <span class="article-nav-title">{prevPost.data.title}</span>
+            </a>
+          ) : <span />}
+          {nextPost ? (
+            <a class="article-nav-link article-nav-next" href={`/${nextPost.data.cluster}/${nextPost.id}/`}>
+              <span class="article-nav-label">Próximo artigo →</span>
+              <span class="article-nav-title">{nextPost.data.title}</span>
+            </a>
+          ) : <span />}
+        </nav>
+      )}
+
+      {related.length > 0 && (
+        <aside class="related">
+          <h2>Leia também</h2>
+          <div class="grid">
+            {related.map((p) => <PostCard post={p} />)}
+          </div>
+        </aside>
+      )}
+
+      <div class="container">
+        <Comments />
+      </div>
+    </main>
+
+    <aside class="sidebar">
+      {clusters.length > 0 && <SidebarCategories clusters={clusters} />}
+      <div class="widget widget-about">
+        <h2 class="widget-title">Sobre o {SITE.name}</h2>
+        <p>Só publicamos o que testamos: tutoriais de automação com passo a passo real, guias de IA sem hype e a história das invenções que criaram o mundo automatizado.</p>
+        <p><a href="/sobre/">Conheça o projeto →</a></p>
       </div>
     </aside>
-  )}
-
-  <div class="container">
-    <Comments />
   </div>
 
   <script is:inline>
