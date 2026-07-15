@@ -4,7 +4,7 @@ description: "Explore a integração de sistemas legados para modernizar sua TI 
 cluster: "historia"
 formato: "historia"
 pubDate: 2026-07-14
-image: "https://image.pollinations.ai/prompt/Imagem de um captcha clássico, anime key visual vibrante, tons de verde esmeralda e amarelo, amanhecer nebuloso, sem texto, sem letras, sem marca dagua, composição 16:9?width=1200&height=675&nologo=true&seed=419401"
+image: "https://image.pollinations.ai/prompt/Imagem%20de%20um%20captcha%20cl%C3%A1ssico%2C%20anime%20key%20visual%20vibrante%2C%20tons%20de%20verde%20esmeralda%20e%20amarelo%2C%20amanhecer%20nebuloso%2C%20sem%20texto%2C%20sem%20letras%2C%20sem%20marca%20dagua%2C%20composi%C3%A7%C3%A3o%2016%3A9?width=1200&height=675&nologo=true&seed=419401"
 imageAlt: "Captcha de imagem de texto"
 draft: false
 ---
