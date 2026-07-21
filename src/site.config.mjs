@@ -15,7 +15,7 @@ export const SITE = {
   // sem precisar editar nenhuma página do site — é exatamente pra isso que o GTM existe aqui.
   gtm: 'GTM-MW92GFJ4',                     // conta GTM "automação" (accountId 6365906750, container 258243185)
   ga4: 'G-M5MW4G428P',                     // propriedade GA4 "automacao.art.br" (properties/545461812) — configurada DENTRO do GTM (tag GA4 Configuration), não injetada direto
-  adsensePub: '',                          // <<< PREENCHER SÓ AO APLICAR ao AdSense (ca-pub-...). Antes da aprovação: sem anúncio no site.
+  adsensePub: 'ca-pub-3249375420970130',   // preenchido 2026-07-17 para solicitar aprovação do AdSense (mesma conta do nerddisse)
   adsenseSlot: '',                         // <<< slot criado após aprovação
 
   // Comentários (Giscus / GitHub Discussions) — engajamento real, moderável, grátis.
