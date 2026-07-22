@@ -22,7 +22,7 @@ draft: true
 </head>
 <body>
     <h1>O que é VPS e qual a mais barata para automação?</h1>
-    <img src="/images/vps-automacao.jpg" alt="O que é VPS e qual a mais barata para automação" style="max-width:100%;height:auto;">
+    
     <h2>Introdução</h2>
     <p>Se você está se perguntando <strong>o que é VPS e qual a mais barata para automação</strong>, este guia traz tudo que você precisa saber. Um VPS (Servidor Virtual Privado) oferece recursos dedicados e flexibilidade para automatizar processos, e vamos analisar as opções mais econômicas disponíveis no mercado.</p>
     <p>Para quem busca soluções de automação, um VPS é uma escolha popular devido à sua escalabilidade e segurança. Com um VPS, você pode executar seus processos automatizados 24 horas por dia, sem preocupações com a infraestrutura.</p>

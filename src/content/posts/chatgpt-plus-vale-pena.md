@@ -333,10 +333,7 @@ draft: false
 
 <p><em>Gostou deste guia? Explore mais artigos sobre automação e IA na <a href="/categoria/automacao">categoria Automação</a> e descubra como otimizar seus processos com ferramentas como n8n e Zapier.</em></p>
 
-<figure>
-  <img src="/imagens/chatgpt-plus-vale-a-pena.jpg" alt="ChatGPT Plus vale a pena? Análise de custo-benefício com dados de 2024" width="800" height="450">
-  <figcaption><strong>ChatGPT Plus vale a pena?</strong> Comparação entre planos, benefícios e casos de uso para freelancers e empresas.</figcaption>
-</figure>
+
 
 <script type="application/ld+json">{
   "@context": "https://schema.org",

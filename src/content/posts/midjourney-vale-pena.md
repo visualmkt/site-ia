@@ -19,7 +19,7 @@ draft: false
 </head>
 <body>
 <h1>Midjourney vale a pena e alternativas grátis</h1>
-<img src="/images/midjourney-alternativas.jpg" alt="Midjourney vale a pena e alternativas grátis" />
+
 <h2>Introdução</h2>
 <p>O Midjourney vale a pena e alternativas grátis são questões cruciais para quem busca uma ferramenta de automação e IA para pequenos negócios e iniciantes, oferecendo funcionalidades como automação de design e integração com outras ferramentas de IA. No entanto, existem alternativas gratuitas que também podem atender às necessidades de automação e IA. Você pode considerar opções como o N8n, Zapier e Make.</p>
 <p>Antes de decidir se o Midjourney é a melhor escolha, é importante considerar as vantagens e desvantagens da ferramenta. Além disso, é fundamental avaliar as necessidades específicas do seu negócio e comparar as opções disponíveis.</p>

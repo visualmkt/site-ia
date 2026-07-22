@@ -23,7 +23,7 @@ draft: false
 <body>
   <article>
     <h1>Asimov e as Três Leis da Robótica: origem e influência</h1>
-    <img src="/images/asimov-tres-leis-robotica.jpg" alt="asimov e as três leis da robótica origem e influência" loading="lazy" />
+    
     <p>Isaac Asimov e as Três Leis da Robótica origem e influência são fundamentais para entender como a ficção científica moldou a segurança e a ética na automação moderna.</p>
     <h2>Introdução às Três Leis da Robótica de Asimov</h2>
     <p>Isaac Asimov criou as Três Leis da Robótica em 1942. Elas são: não machucar humanos, obedecer a ordens e proteger a si mesmo.</p>

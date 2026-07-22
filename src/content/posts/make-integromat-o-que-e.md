@@ -21,7 +21,7 @@ draft: false
 </head>
 <body>
 <h1>Make Integromat: o que é e como usar</h1>
-<img src="make-integromat.png" alt="make integromat o que é e como usar" style="max-width:100%;height:auto;" />
+
 <h2>Introdução ao Make (Integromat) – o que é e como usar</h2>
 <p>Make, também conhecido como Integromat, é a ferramenta de automação que você procura quando quer saber <strong>make integromat o que é e como usar</strong>. Ela permite conectar diferentes aplicativos e serviços para criar fluxos de trabalho personalizados, automatizando tarefas repetitivas e melhorando a eficiência operacional.</p>
 <p>A história do Make começou em 2012, quando foi fundada como uma empresa independente. Desde então, a ferramenta evoluiu para se tornar uma das principais opções para automação de processos. Hoje em dia, o Make é usado por milhares de empresas e profissionais em todo o mundo.</p>

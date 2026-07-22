@@ -89,7 +89,7 @@ draft: false
 <p>Depois, defina comandos básicos como <code>/start</code> e <code>/help</code> para guiar os usuários. Use o comando <code>/setcommands</code> no BotFather e envie a lista no formato:</p>
 <pre>start - Inicia o bot
 help - Mostra ajuda</pre>
-<p><img src="imagens/botfather-criacao-bot.png" alt="Como criar um bot de Telegram com n8n - captura de tela do BotFather mostrando a criação de um novo bot" width="600" height="400" style="border-radius: 8px; border: 1px solid #ddd;">
+<p>
 <br><strong>Como usar o BotFather:</strong> Nunca compartilhe o token do seu bot publicamente. Se vazar, o bot pode ser sequestrado ou usado para spam. Revogue o token com <code>/revoke</code> se necessário.</p>
 <p>Para mais detalhes sobre webhooks, veja o <a href="/o-que-e-webhook-e-como-usar-no-n8n">guia sobre webhook no n8n</a>.</p>
 

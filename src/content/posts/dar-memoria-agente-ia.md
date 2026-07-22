@@ -20,7 +20,7 @@ draft: false
 </head>
 <body>
 <p>Neste artigo, vamos mostrar <strong>como dar memória a um agente de IA</strong>, permitindo que ele retenha contexto e personalize respostas para melhorar a experiência do usuário.</p>
-<img src="memory-diagram.png" alt="Como dar memória a um agente de IA - diagrama de fluxo" style="max-width:100%;height:auto;">
+
 <h2>Introdução ao Conceito de Memória em Agentes de IA</h2>
 <p>A memória em agentes de IA permite que o sistema <strong>armazene e recupere informações de interações passadas</strong>, transformando respostas estáticas em diálogos contextuais. Sem memória, cada interação é tratada como uma nova conversa, ignorando histórico e nuances.</p>
 <p>Para pequenos negócios, isso significa <strong>chatbots que lembram preferências de clientes</strong>, automações que mantêm contexto entre etapas de um processo ou até mesmo assistentes que aprendem com feedbacks recorrentes. A memória não é apenas armazenamento: é a capacidade de <strong>aprender e adaptar-se</strong>.</p>

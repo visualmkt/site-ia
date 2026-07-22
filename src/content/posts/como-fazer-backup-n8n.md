@@ -20,7 +20,7 @@ draft: false
 </head>
 <body>
     <h1>Como fazer backup dos fluxos do n8n</h1>
-    <img src="/images/backup-n8n.jpg" alt="Como fazer backup dos fluxos do n8n" style="max-width:100%;height:auto;">
+    
     <h2>Introdução ao n8n e aos Fluxos de Trabalho</h2>
     <p>Para fazer backup dos fluxos do n8n, você precisa acessar a interface do n8n e seguir alguns passos simples. O n8n é uma ferramenta de automação de processos que permite criar fluxos de trabalho personalizados. Você pode aprender a instalar o n8n em nosso artigo sobre <a href="/como-instalar-n8n">como instalar o n8n</a>.</p>
     <p>O n8n é uma ferramenta poderosa que permite criar fluxos de trabalho complexos com facilidade. Com o n8n, você pode automatizar tarefas repetitivas e aumentar a produtividade.</p>

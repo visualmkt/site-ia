@@ -20,7 +20,7 @@ draft: false
 </head>
 <body>
 <p><strong>ChatGPT vs Gemini vs Claude qual o melhor?</strong> Para automação e pequenos negócios, o modelo que entrega mais respostas relevantes e custo-benefício costuma ser o ChatGPT, mas Gemini ganha em velocidade e Claude se destaca em contextos criativos. A escolha depende do seu caso de uso.</p>
-<img src="model-comparison.png" alt="ChatGPT vs Gemini vs Claude qual o melhor">
+
 
 <h2>ChatGPT vs Gemini vs Claude: qual o melhor?</h2>
 <p>Você vai ver as diferenças de capacidade, preço e integração, e descobrir qual se encaixa melhor no seu fluxo.</p>

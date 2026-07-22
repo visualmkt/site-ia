@@ -23,7 +23,7 @@ draft: false
 <body>
     <h1>O que são embeddings explicado simples</h1>
     <p><strong>O que são embeddings explicado simples</strong> são representações numéricas que transformam palavras ou frases em vetores de valores reais, permitindo que a IA capture significado e relações semânticas.</p>
-    <img src="/images/embeddings-mapa-mental.jpg" alt="o que são embeddings explicado simples" style="max-width:100%;height:auto;" />
+    
     <h2>O que são embeddings? A tradução invisível da IA para entender palavras</h2>
     <p>Imagine um mapa mental da IA: cada conceito ocupa um ponto no espaço. Embeddings colocam palavras nesse mapa como coordenadas numéricas.</p>
     <table>
