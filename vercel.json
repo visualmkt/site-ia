@@ -1,0 +1,24 @@
+{
+  "redirects": [
+    {
+      "source": "/historia/alan-turing-biografia",
+      "destination": "/historia/biografia-alan-turing",
+      "permanent": true
+    },
+    {
+      "source": "/historia/alan-turing-biografia/",
+      "destination": "/historia/biografia-alan-turing/",
+      "permanent": true
+    },
+    {
+      "source": "/historia/historia-da-automacao",
+      "destination": "/historia/historia-automacao",
+      "permanent": true
+    },
+    {
+      "source": "/historia/historia-da-automacao/",
+      "destination": "/historia/historia-automacao/",
+      "permanent": true
+    }
+  ]
+}
