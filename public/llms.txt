@@ -1,0 +1,25 @@
+# automacao.art.br
+
+> Automação e IA na prática: tutoriais de automação e n8n, guias de ChatGPT e agentes de IA, e a história das máquinas e invenções que criaram o mundo automatizado — tudo em português (pt-BR), testado de verdade.
+
+## Sobre
+
+- Site editorial em português sobre automação de processos, n8n, Make/Zapier, agentes de IA e LLMs, voltado a pequenas empresas e profissionais que querem automatizar tarefas sem depender de programação pesada.
+- Conteúdo prático (tutoriais passo a passo, comparativos de custo, prompts prontos) combinado com conteúdo evergreen sobre a história da automação e da inteligência artificial.
+
+## Áreas de cobertura
+
+- n8n: instalação, fluxos, automações prontas (WhatsApp, planilhas, atendimento)
+- ChatGPT & LLMs: guias de uso, comparativos, prompts prontos por profissão
+- Agentes de IA: RAG, MCP, multiagentes, como criar agentes de atendimento e vendas
+- Automação para negócios: WhatsApp, planilhas, cobrança, atendimento
+- Ferramentas de IA: comparativos de IAs para imagem, vídeo, áudio, texto
+- Make & Zapier: comparativos, preços, migração entre plataformas
+- APIs & Dev: API do ChatGPT/Gemini, VPS, Docker, conceitos técnicos para não-programadores
+- História & Marcos: invenções, pessoas e empresas que criaram a automação e a IA
+
+## Contato
+
+- Site: https://automacao.art.br/
+- E-mail: contato@automacao.art.br
+- Sitemap: https://automacao.art.br/sitemap-index.xml
