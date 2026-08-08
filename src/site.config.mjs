@@ -2,7 +2,7 @@
 export const SITE = {
   name: 'automacao.art.br',
   logo: { base: 'automacao', suffix: '.art.br' }, // wordmark do header
-  url: 'https://automacao.art.br', // sem barra no fim; configurar redirect www -> apex no Vercel
+  url: 'https://www.automacao.art.br', // www é o dominio que a Vercel realmente serve (200) - apex redireciona 308 pra www, oposto do planejado original. Corrigido 2026-08-08 pra bater com a Vercel em vez de brigar com ela.
   tagline: 'Automação e IA na prática',
   description:
     'Tutoriais de automação e n8n, guias de ChatGPT e agentes de IA, e a história das máquinas e invenções que criaram o mundo automatizado — tudo em português, testado de verdade.',
