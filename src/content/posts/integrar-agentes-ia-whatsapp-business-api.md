@@ -4,7 +4,6 @@ description: "Aprenda passo a passo a integrar agentes de IA ao WhatsApp Busines
 cluster: "agentes"
 formato: "guia completo"
 pubDate: 2026-08-15
-image: "null"
 imageAlt: "Agente de IA integrado com WhatsApp Business API"
 draft: false
 ---
