@@ -4,7 +4,6 @@ description: "Aprenda a otimizar SEO com ChatGPT, gerando conteúdo, meta‑tags
 cluster: "chatgpt"
 formato: "guia completo"
 pubDate: 2026-08-15
-image: "null"
 imageAlt: "ChatGPT para SEO"
 draft: false
 ---
