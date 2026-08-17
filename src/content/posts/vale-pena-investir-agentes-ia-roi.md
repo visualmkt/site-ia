@@ -4,7 +4,6 @@ description: "Descubra se agentes de IA trazem ROI positivo para PMEs, com custo
 cluster: "agentes"
 formato: "vale a pena"
 pubDate: 2026-08-15
-image: "null"
 imageAlt: "Fluxo de ROI de agente de IA para pequenas empresas"
 draft: false
 ---
