@@ -4,7 +4,6 @@ description: "Descubra como a integração n8n com Shopify pode ajudar pequenos 
 cluster: "negocios"
 formato: "vale a pena"
 pubDate: 2026-08-17
-image: "null"
 imageAlt: "Integração n8n com Shopify para pequenos lojistas"
 draft: false
 ---
