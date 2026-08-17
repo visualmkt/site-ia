@@ -4,7 +4,6 @@ description: "Descubra a biografia de Ray Kurzweil e sua visão sobre agentes de
 cluster: "agentes"
 formato: "historia"
 pubDate: 2026-08-15
-image: "null"
 imageAlt: "Ray Kurzweil, pioneer na área de automação e inteligência artificial"
 draft: false
 ---
