@@ -4,7 +4,6 @@ description: "Aprenda a criar prompts prontos para FAQ no WhatsApp com ChatGPT. 
 cluster: "negocios"
 formato: "prompts prontos"
 pubDate: 2026-08-17
-image: "null"
 imageAlt: "Fluxo n8n para respostas automáticas de FAQ no WhatsApp usando ChatGPT"
 draft: false
 ---
