@@ -4,7 +4,6 @@ description: "Descubra os erros mais frequentes ao automatizar a qualificação 
 cluster: "negocios"
 formato: "erros comuns"
 pubDate: 2026-08-17
-image: "null"
 imageAlt: "Fluxo n8n de qualificação de leads automatizada"
 draft: false
 ---
