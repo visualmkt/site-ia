@@ -4,7 +4,6 @@ description: "Aprenda a automatizar a gestão de estoque integrando seu ERP de f
 cluster: "negocios"
 formato: "melhores/lista"
 pubDate: 2026-08-17
-image: "null"
 imageAlt: "Fluxo de automação de estoque com n8n integrando ERP e planilhas"
 draft: false
 ---
