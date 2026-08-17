@@ -4,7 +4,6 @@ description: "Descubra as melhores ferramentas de automação de follow-up de ve
 cluster: "negocios"
 formato: "melhores/lista"
 pubDate: 2026-08-17
-image: "null"
 imageAlt: "Ferramentas de automação de follow-up de vendas para MEIs"
 draft: false
 ---
