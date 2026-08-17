@@ -4,7 +4,6 @@ description: "Descubra os marcos da evolução dos agentes de IA de 1950 a 2020 
 cluster: "agentes"
 formato: "historia"
 pubDate: 2026-08-15
-image: "null"
 imageAlt: "Timeline dos marcos importantes na evolução dos agentes de IA de 1950 a 2020"
 draft: false
 ---
