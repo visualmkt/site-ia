@@ -4,7 +4,6 @@ description: "Aprenda a automatizar o funil de vendas com n8n e CRM gratuito"
 cluster: "negocios"
 formato: "guia completo"
 pubDate: 2026-08-17
-image: "null"
 imageAlt: "Funil de vendas automático com n8n e CRM"
 draft: false
 ---
