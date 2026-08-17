@@ -4,7 +4,6 @@ description: "Descubra se agente de IA ou assistente virtual é a melhor escolha
 cluster: "agentes"
 formato: "comparativo"
 pubDate: 2026-08-15
-image: "null"
 imageAlt: "Agente de IA vs Assistente Virtual"
 draft: false
 ---
