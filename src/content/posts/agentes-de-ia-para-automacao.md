@@ -4,7 +4,6 @@ description: "Descubra como usar agentes de IA para automatizar tarefas repetiti
 cluster: "agentes"
 formato: "como fazer/automatizar"
 pubDate: 2026-08-15
-image: "null"
 imageAlt: "Agente de IA para automação"
 draft: false
 ---
