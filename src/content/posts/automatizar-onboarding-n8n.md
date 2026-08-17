@@ -4,7 +4,6 @@ description: "Aprenda a automatizar o onboarding de clientes com n8n, integrando
 cluster: "ferramentas"
 formato: "como fazer/automatizar"
 pubDate: 2026-08-17
-image: "null"
 imageAlt: "Fluxo de onboarding de clientes automatizado com n8n"
 draft: false
 ---
