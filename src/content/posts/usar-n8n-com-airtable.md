@@ -4,7 +4,6 @@ description: "Aprenda passo a passo a integrar n8n com Airtable e automatizar ta
 cluster: "ferramentas"
 formato: "o que é"
 pubDate: 2026-08-17
-image: "null"
 imageAlt: "Diagrama de integração n8n com Airtable usando webhook"
 draft: false
 ---
