@@ -4,7 +4,6 @@ description: "Descubra como usar IA para lead scoring em pequenas empresas, pass
 cluster: "negocios"
 formato: "o que é"
 pubDate: 2026-08-17
-image: "null"
 imageAlt: "Fluxo de lead scoring com IA usando n8n e OpenAI"
 draft: false
 ---
