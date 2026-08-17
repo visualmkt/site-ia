@@ -4,7 +4,6 @@ description: "Descubra qual é a melhor ferramenta de automação para onboardin
 cluster: "negocios"
 formato: "comparativo"
 pubDate: 2026-08-17
-image: "null"
 imageAlt: "Automação de onboarding de clientes com n8n, Make e Zapier"
 draft: false
 ---
