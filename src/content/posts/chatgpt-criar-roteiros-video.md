@@ -4,7 +4,6 @@ description: "Aprenda a criar roteiros de vídeo automáticos com ChatGPT, econo
 cluster: "chatgpt"
 formato: "guia completo"
 pubDate: 2026-08-15
-image: "null"
 imageAlt: "Roteiro de vídeo criado com ChatGPT"
 draft: false
 ---
