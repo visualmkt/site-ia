@@ -9,17 +9,6 @@ imageAlt: "apresentação de slides criada com ChatGPT"
 draft: false
 ---
 
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <title>ChatGPT para criar apresentações de slides – Guia completo</title>
-    <meta name="description" content="Aprenda como usar o ChatGPT para criar apresentações de slides de forma rápida, econômica e personalizada. Passo a passo, dicas e integrações.">
-    <link rel="canonical" href="https://automacao.art.br/chatgpt-para-criar-apresentacoes-de-slides">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script type="application/ld+json">{"@graph":[{"@type":"FAQPage","name":"Perguntas frequentes sobre ChatGPT para criar apresentações de slides","mainEntity":[{"@type":"Question","name":"O que é ChatGPT e como funciona?","acceptedAnswer":{"@type":"Answer","text":"O ChatGPT é uma ferramenta de IA que utiliza um modelo de linguagem treinado por máquina para gerar texto e criar conteúdo."}},{"@type":"Question","name":"Posso usar o ChatGPT para criar apresentações de slides gratuitamente?","acceptedAnswer":{"@type":"Answer","text":"Sim, o ChatGPT oferece uma versão gratuita que pode ser usada para criar apresentações de slides."}},{"@type":"Question","name":"Quais são as limitações do ChatGPT para criar apresentações de slides?","acceptedAnswer":{"@type":"Answer","text":"As limitações incluem limitações na capacidade de criar gráficos e imagens complexas, dependência da qualidade do texto e do conteúdo, e limitações na capacidade de integrar com outras ferramentas e plataformas."}}]},{"@type":"Article","headline":"Criando Apresentações de Slides com ChatGPT: Um Guia Prático","description":"Aprenda a criar apresentações de slides automatizadas com ChatGPT","author":"","publisher":{"@type":"Organization","name":"Automacao.art.br","url":"https://automacao.art.br"},"inLanguage":"pt-BR"},{"@type":"HowTo","name":"Criar apresentações de slides com ChatGPT","description":"Aprenda a criar apresentações de slides personalizadas e de alta qualidade com ChatGPT","tool":["ChatGPT"],"supply":["Conhecimento de IA e automação"],"step":[{"@type":"HowToStep","text":"Definir claramente o objetivo e o público-alvo"},{"@type":"HowToStep","text":"Usar linguagem clara e concisa"},{"@type":"HowToStep","text":"Adicionar imagens e gráficos relevantes"}]}]}</script>
-</head>
-<body>
 <h2>Introdução</h2>
 <p>O <strong>ChatGPT para criar apresentações de slides</strong> é uma ferramenta de IA que pode ser usada para gerar decks de forma rápida e eficiente. Em testes, o modelo consegue gerar até <strong>30 slides em menos de 5 minutos</strong>, economizando tempo e aumentando a produtividade.</p>
 <p>Com o ChatGPT, você pode criar apresentações de slides para diversas finalidades, como marketing, educação ou negócios. A ferramenta é fácil de usar e não requer conhecimentos técnicos avançados.</p>
@@ -109,5 +98,4 @@ draft: false
   <li>Automatize processos e tarefas.</li>
 </ul>
 <p>Explore a categoria de automatização e descubra como o ChatGPT pode ajudar a melhorar a sua produtividade e eficiência.</p>
-</body>
-</html>
+

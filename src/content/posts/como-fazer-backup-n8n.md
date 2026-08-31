@@ -9,17 +9,7 @@ imageAlt: "Backup n8n"
 draft: false
 ---
 
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <title>Como fazer backup dos fluxos do n8n – Guia completo</title>
-    <meta name="description" content="Aprenda passo a passo como fazer backup dos fluxos do n8n, garantindo segurança e recuperação rápida. Descubra opções manuais, automáticas e melhores práticas.">
-    <!-- slug: como-fazer-backup-dos-fluxos-do-n8n -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
-<body>
-    <h1>Como fazer backup dos fluxos do n8n</h1>
+<h2>Como fazer backup dos fluxos do n8n</h2>
     
     <h2>Introdução ao n8n e aos Fluxos de Trabalho</h2>
     <p>Para fazer backup dos fluxos do n8n, você precisa acessar a interface do n8n e seguir alguns passos simples. O n8n é uma ferramenta de automação de processos que permite criar fluxos de trabalho personalizados. Você pode aprender a instalar o n8n em nosso artigo sobre <a href="/como-instalar-n8n">como instalar o n8n</a>.</p>
@@ -227,5 +217,4 @@ curl -H "Authorization: Bearer $TOKEN" http://localhost:5678/rest/workflows > /b
       ]
     }
     </script>
-</body>
-</html>
+

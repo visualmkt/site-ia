@@ -9,17 +9,7 @@ imageAlt: "Automação com Make"
 draft: false
 ---
 
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <title>Erros comuns ao usar Make: Guia completo para evitar falhas</title>
-    <meta name="description" content="Descubra os erros comuns ao usar Make, como evitá‑los e corrigi‑los com dicas práticas para iniciantes e profissionais de automação.">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- URL slug sugerido: /erros-comuns-ao-usar-make -->
-</head>
-<body>
-    <h1>Erros comuns ao usar Make</h1>
+<h2>Erros comuns ao usar Make</h2>
     <h2>Introdução</h2>
     <p>Os erros comuns ao usar o Make incluem problemas de configuração, integração e automatização. Você pode enfrentar dificuldades ao conectar APIs, configurar webhooks ou criar fluxos de trabalho.</p>
     <p>Esses erros podem ser frustrantes, especialmente para iniciantes em automação. No entanto, com as dicas certas, você pode evitar e solucionar esses problemas com facilidade.</p>
@@ -142,5 +132,4 @@ draft: false
         ]
     }
     </script>
-</body>
-</html>
+

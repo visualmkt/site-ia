@@ -9,16 +9,7 @@ imageAlt: "prompt perfeito para chatgpt"
 draft: false
 ---
 
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-  <meta charset="UTF-8">
-  <title>Como escrever prompts perfeitos guia de prompt – Guia completo</title>
-  <meta name="description" content="Aprenda como escrever prompts perfeitos guia de prompt com dicas práticas, exemplos e erros comuns, para obter respostas precisas e automatizar tarefas com IA.">
-  <!-- slug: /como-escrever-prompts-perfeitos-guia-de-prompt -->
-</head>
-<body>
-  <h1>Como escrever prompts perfeitos guia de prompt</h1>
+<h2>Como escrever prompts perfeitos guia de prompt</h2>
   <p>Para escrever <strong>prompts perfeitos guia de prompt</strong>, você deve ser claro, fornecer contexto suficiente e definir o formato da resposta. Use palavras‑chave específicas e delimite o escopo da tarefa. Assim, o ChatGPT entrega respostas precisas e úteis.</p>
   <p>Com prompts bem estruturados, você automatiza processos, gera conteúdo e obtém insights rapidamente, sem precisar de ajustes posteriores.</p>
 
@@ -204,5 +195,4 @@ draft: false
   <p>Explore mais artigos na categoria <a href="/categoria/automacao-ia">Automação e IA</a> e continue aprimorando suas habilidades.</p>
 
   <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"O que são prompts no ChatGPT?","acceptedAnswer":{"@type":"Answer","text":"Prompts são as instruções de texto enviadas ao modelo para orientar a geração de respostas, definindo contexto e objetivo da saída."}},{"@type":"Question","name":"Como escrever prompts perfeitos para o ChatGPT?","acceptedAnswer":{"@type":"Answer","text":"Para criar prompts perfeitos, seja específico, forneça contexto suficiente e indique claramente o formato desejado da resposta, como lista ou tabela."}},{"@type":"Question","name":"Quais são os principais erros ao escrever prompts?","acceptedAnswer":{"@type":"Answer","text":"Erros comuns incluem usar linguagem vaga, combinar múltiplas tarefas em um único prompt e esquecer limites de tokens, o que pode gerar respostas truncadas."}},{"@type":"Question","name":"Como posso melhorar as respostas do ChatGPT?","acceptedAnswer":{"@type":"Answer","text":"Melhore as respostas ajustando a temperatura, refinando o objetivo, adicionando exemplos curtos e revisando o prompt após cada teste."}},{"@type":"Question","name":"Posso usar prompts para automação de tarefas?","acceptedAnswer":{"@type":"Answer","text":"Sim, prompts bem estruturados podem ser integrados a ferramentas como n8n, Zapier ou Make para executar ações automatizadas sem escrever código."}},{"@type":"Question","name":"Quais são as vantagens de usar prompts personalizados?","acceptedAnswer":{"@type":"Answer","text":"Prompts personalizados aumentam a relevância das respostas, reduzem a necessidade de pós‑processamento e permitem que o ChatGPT se alinhe exatamente às necessidades do seu negócio."}}]}, {"@type":"Article","headline":"Como Escrever Prompts Perfeitos Guia de Prompt","description":"Aprenda a criar prompts perfeitos para o ChatGPT e obter respostas precisas, impulsionando automação e IA em pequenos negócios.","author":{"@type":"Organization","name":"automacao.art.br"},"publisher":{"@type":"Organization","name":"automacao.art.br"},"inLanguage":"pt-BR"},{"@type":"HowTo","name":"Como escrever prompts perfeitos","description":"Passo a passo para criar prompts claros, concisos e eficazes para o ChatGPT.","step":[{"@type":"HowToStep","position":1,"name":"Defina o objetivo","text":"Especifique exatamente o que você quer que o modelo faça, como gerar uma copy ou analisar dados."},{"@type":"HowToStep","position":2,"name":"Forneça contexto relevante","text":"Inclua informações necessárias, como público‑alvo, idioma ou restrições de formato."},{"@type":"HowToStep","position":3,"name":"Indique o formato da resposta","text":"Declare se a saída deve ser uma lista, tabela, código ou texto livre."},{"@type":"HowToStep","position":4,"name":"Revise e ajuste","text":"Teste o prompt, ajuste a temperatura ou reformule termos ambíguos para melhorar a qualidade."}],"inLanguage":"pt-BR"}]}</script>
-</body>
-</html>
+

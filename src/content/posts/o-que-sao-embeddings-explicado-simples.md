@@ -9,19 +9,7 @@ imageAlt: "Exemplo visual de embeddings de palavras no espaço vetorial"
 draft: false
 ---
 
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <title>O que são embeddings explicado simples – Guia completo</title>
-    <meta name="description" content="Descubra o que são embeddings explicado simples, como funcionam, exemplos práticos e como usar em IA, automação e n8n. Guia rápido e direto ao ponto.">
-    <meta property="og:title" content="O que são embeddings explicado simples – Guia completo" />
-    <meta property="og:description" content="Descubra o que são embeddings explicado simples, como funcionam, exemplos práticos e como usar em IA, automação e n8n. Guia rápido e direto ao ponto." />
-    <meta property="og:url" content="https://automacao.art.br/o-que-sao-embeddings-explicado-simples" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-</head>
-<body>
-    <h1>O que são embeddings explicado simples</h1>
+<h2>O que são embeddings explicado simples</h2>
     <p><strong>O que são embeddings explicado simples</strong> são representações numéricas que transformam palavras ou frases em vetores de valores reais, permitindo que a IA capture significado e relações semânticas.</p>
     
     <h2>O que são embeddings? A tradução invisível da IA para entender palavras</h2>
@@ -211,5 +199,4 @@ print(embedding.shape)  # Saída: (384,) — vetor de 384 dimensões
       ]
     }
     </script>
-</body>
-</html>
+

@@ -9,15 +9,6 @@ imageAlt: "N8n self-hosted"
 draft: false
 ---
 
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-  <meta charset="UTF-8">
-  <title>n8n self-hosted vs cloud preços e diferenças: comparação completa</title>
-  <meta name="description" content="Descubra as diferenças entre n8n self-hosted e n8n cloud, compare preços, vantagens, desvantagens e saiba como escolher a melhor opção para sua automação.">
-  <!-- slug: n8n-self-hosted-vs-cloud-precos-e-diferencas -->
-</head>
-<body>
 <h2>n8n self-hosted vs cloud preços e diferenças: Visão geral</h2>
 <p>O n8n self-hosted vs cloud preços e diferenças é uma escolha que depende do seu orçamento e necessidades. O n8n self-hosted é gratuito, enquanto o n8n cloud começa em R$ 25/mês. As principais diferenças incluem segurança, flexibilidade e escalabilidade.</p>
 <p>Você pode escolher entre o n8n self-hosted e o n8n cloud, dependendo das suas necessidades de automação e integração de workflow.</p>
@@ -116,5 +107,4 @@ draft: false
 <p>Pronto para avançar? Explore nossa categoria <a href="https://automacao.art.br/automacao-workflow">Automação de Workflow</a> e descubra tutoriais, comparativos e cases de sucesso.</p>
 
 <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Article","headline":"N8n Self-Hosted vs Cloud: Qual é a Melhor Opção para o Seu Negócio?","description":"Compare preços, vantagens e desvantagens do n8n self‑hosted e n8n cloud e descubra a melhor escolha para sua automação.","author":{"@type":"Person","name":"Automação.art.br"},"publisher":{"@type":"Organization","name":"Automação.art.br","logo":{"@type":"ImageObject","url":"https://automacao.art.br/logo.png"}},"inLanguage":"pt-BR"},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Qual é o custo do n8n self-hosted?","acceptedAnswer":{"@type":"Answer","text":"O n8n self-hosted é gratuito, mas há custos de infraestrutura que variam entre R$ 50 e R$ 500 mensais, dependendo do provedor e da capacidade escolhida."}},{"@type":"Question","name":"Quais são as vantagens do n8n self-hosted em relação ao n8n cloud?","acceptedAnswer":{"@type":"Answer","text":"Self‑hosted oferece controle total de segurança e dados, permite personalizações avançadas e elimina a assinatura mensal, sendo ideal para equipes técnicas com orçamento limitado."}},{"@type":"Question","name":"Como instalar o n8n self-hosted?","acceptedAnswer":{"@type":"Answer","text":"A instalação pode ser feita via Docker usando um docker‑compose.yml que inclui n8n e PostgreSQL, ou manualmente em Linux com Node.js, npm e pm2 para gerenciamento de processos."}},{"@type":"Question","name":"Quais são as desvantagens do n8n cloud?","acceptedAnswer":{"@type":"Answer","text":"O cloud tem custo mensal (a partir de R$ 25), depende de conexão à internet e impõe limites de customização, delegando a segurança dos dados ao provedor."}},{"@type":"Question","name":"Posso migrar do n8n cloud para o self-hosted?","acceptedAnswer":{"@type":"Answer","text":"Sim, exporte seus workflows como JSON no cloud e importe‑‑os na instância self‑hosted, ajustando credenciais e variáveis de ambiente conforme necessário."}},{"@type":"Question","name":"Quais são as principais diferenças entre o n8n self-hosted e o n8n cloud?","acceptedAnswer":{"@type":"Answer","text":"Self‑hosted oferece controle total, custo zero de licença e requer manutenção técnica; cloud fornece escalabilidade automática, suporte e atualizações gerenciadas, porém tem custo recorrente e menos flexibilidade."}},{"@type":"Question","name":"Como escolher entre o n8n self-hosted e o n8n cloud?","acceptedAnswer":{"@type":"Answer","text":"Avalie seu orçamento, a expertise da equipe, requisitos de segurança e necessidade de escalabilidade: se tem desenvolvedores e quer controle, opte por self‑hosted; se prefere rapidez e suporte, escolha cloud."}}]}]}}</script>
-</body>
-</html>
+

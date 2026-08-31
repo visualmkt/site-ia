@@ -8,18 +8,7 @@ imageAlt: "Automatizar onboarding de clientes com n8n"
 draft: false
 ---
 
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <title>Como automatizar o processo de onboarding de clientes com n8n</title>
-    <meta name="description" content="Descubra como automatizar o processo de onboarding de clientes com n8n, integrando WhatsApp, e‑mail e CRM para melhorar a experiência e aumentar a retenção.">
-    <!-- slug: como-automatizar-processo-onboarding-clientes-n8n -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="canonical" href="https://automacao.art.br/como-automatizar-processo-onboarding-clientes-n8n">
-</head>
-<body>
-    <h1>Como automatizar o processo de onboarding de clientes com n8n</h1>
+<h2>Como automatizar o processo de onboarding de clientes com n8n</h2>
     <h2>Introdução</h2>
     <p>Para automatizar o processo de onboarding de clientes com n8n, você precisa criar fluxos de trabalho que integrem diferentes serviços e APIs. Isso pode ser feito configurando nodes no n8n para coletar informações, enviar e‑mails e notificações, e atualizar bases de dados.</p>
     <p>Essa abordagem permite personalizar o onboarding para cada cliente, melhorando a experiência e aumentando a retenção. Com o n8n, você pode criar fluxos de trabalho complexos sem precisar de conhecimentos avançados de programação.</p>
@@ -124,5 +113,4 @@ draft: false
       ]
     }
     </script>
-</body>
-</html>
+

@@ -9,18 +9,7 @@ imageAlt: "Evolução dos assistentes de voz"
 draft: false
 ---
 
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Do Audrey à Siri: A História dos Assistentes de Voz</title>
-    <meta name="description" content="Do Audrey à Siri: descubra a história dos assistentes de voz, desde o primeiro protótipo até os modernos Siri, Alexa e Google Assistant, com datas, tecnologias e curiosidades.">
-    <!-- Slug sugerido: /do-audrey-a-siri-a-historia-dos-assistentes-de-voz -->
-</head>
-<body>
-    <h1>Do Audrey à Siri: A História dos Assistentes de Voz</h1>
+<h2>Do Audrey à Siri: A História dos Assistentes de Voz</h2>
     <img src="https://automacao.art.br/imagens/audrey-siri.jpg" alt="Do Audrey à Siri: a história dos assistentes de voz" style="max-width:100%;height:auto;">
     <h2>Introdução aos Assistentes de Voz</h2>
     <p>A história dos assistentes de voz, do Audrey à Siri, vai de Audrey, o primeiro assistente de voz, até Siri, passando por décadas de desenvolvimento. Você pode controlar dispositivos com comandos de voz.</p>
@@ -188,5 +177,4 @@ draft: false
       ]
     }
     </script>
-</body>
-</html>
+

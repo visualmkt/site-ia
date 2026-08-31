@@ -8,18 +8,7 @@ imageAlt: "Automação de onboarding de clientes com n8n, Make e Zapier"
 draft: false
 ---
 
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-  <meta charset="UTF-8">
-  <title>Comparativo: n8n vs Make vs Zapier para automação de onboarding de clientes | Automação Art</title>
-  <meta name="description" content="Descubra o comparativo entre n8n, Make e Zapier para automação de onboarding de clientes, com preços, funcionalidades, vantagens e desvantagens.">
-  <meta name="keywords" content="comparativo n8n make zapier automação onboarding clientes">
-  <meta name="slug" content="comparativo-n8n-make-zapier-automacao-onboarding-clientes">
-  <link rel="canonical" href="https://automacao.art.br/comparativo-n8n-make-zapier-onboarding-clientes">
-</head>
-<body>
-  <h1>Comparativo: n8n vs Make vs Zapier para automação de onboarding de clientes</h1>
+<h2>Comparativo: n8n vs Make vs Zapier para automação de onboarding de clientes</h2>
   <h2>Introdução à Automação de Onboarding de Clientes</h2>
   <p>Para automatizar o onboarding de clientes, comparar n8n, Make e Zapier é essencial. Cada ferramenta tem preço, funcionalidades e limitações diferentes que impactam seu negócio.</p>
   <p>O onboarding de clientes é o processo de integração de novos clientes à sua empresa, fornecendo a eles as informações e os recursos necessários para ter sucesso. A automação desse processo garante eficiência e reduz custos.</p>
@@ -140,5 +129,4 @@ draft: false
     ]
   }
   </script>
-</body>
-</html>
+

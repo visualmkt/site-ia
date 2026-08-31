@@ -9,17 +9,7 @@ imageAlt: "Código de barras história"
 draft: false
 ---
 
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <title>História do código de barras e da automação do comércio</title>
-    <meta name="description" content="Descubra a história do código de barras e da automação do comércio, desde sua invenção em 1949 até as tecnologias atuais que revolucionam o varejo.">
-    <link rel="canonical" href="https://automacao.art.br/historia-do-codigo-de-barras-e-da-automacao-do-comercio">
-    <!-- slug: historia-do-codigo-de-barras-e-da-automacao-do-comercio -->
-</head>
-<body>
-<h1>História do código de barras e da automação do comércio</h1>
+<h2>História do código de barras e da automação do comércio</h2>
 <img src="https://automacao.art.br/images/codigo-barras.jpg" alt="história do código de barras e da automação do comércio" style="display:none;">
 <h2>Introdução à História do Código de Barras e Automação do Comércio</h2>
 <p>A história do código de barras e da automação do comércio está intimamente ligada, com o código de barras sendo um dos principais impulsionadores da automação no comércio. O código de barras foi inventado por Norman Woodland e Bernard Silver em 1949. A automação do comércio, por sua vez, tem uma história que remonta à Revolução Industrial.</p>
@@ -160,5 +150,4 @@ draft: false
     }
   ]
 }</script>
-</body>
-</html>
+

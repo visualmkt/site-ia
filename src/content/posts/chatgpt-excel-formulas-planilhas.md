@@ -9,16 +9,7 @@ imageAlt: "ChatGPT gerando fórmula para Excel em planilha"
 draft: false
 ---
 
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-<meta charset="UTF-8">
-<title>ChatGPT para Excel: fórmulas e planilhas passo a passo</title>
-<meta name="description" content="Aprenda a usar o ChatGPT para Excel, gerando fórmulas e automatizando planilhas com prompts, integração n8n e dicas de custos e segurança.">
-<link rel="canonical" href="https://automacao.art.br/chatgpt-para-excel-formulas-e-planilhas">
-</head>
-<body>
-<h1>ChatGPT para Excel: fórmulas e planilhas</h1>
+<h2>ChatGPT para Excel: fórmulas e planilhas</h2>
 <img src="https://automacao.art.br/images/chatgpt-excel.png" alt="chatgpt para excel fórmulas e planilhas" style="max-width:100%;height:auto;">
 <p>Com o <strong>chatgpt para excel fórmulas e planilhas</strong> você cria funções complexas em segundos e automatiza tarefas repetitivas. Basta escrever um prompt e o modelo devolve a sintaxe exata para colar no Excel.</p>
 <p>Este guia mostra como configurar a API, montar prompts eficientes e integrar tudo ao Excel usando n8n. Você ganha produtividade e reduz erros sem precisar ser programador.</p>
@@ -256,5 +247,4 @@ draft: false
   ]
 }
 </script>
-</body>
-</html>
+

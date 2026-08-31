@@ -9,19 +9,9 @@ imageAlt: "Logotipo do ChatGPT"
 draft: false
 ---
 
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Limites do ChatGPT gratuito: o que muda no pago? Guia completo</title>
-  <meta name="description" content="Descubra os limites do ChatGPT gratuito, o que muda no plano pago, preços, tokens e como escolher a melhor opção para seu negócio.">
-  <link rel="canonical" href="https://automacao.art.br/limites-do-chatgpt-gratuito-o-que-muda-no-pago" />
-</head>
-<body>
-  <!-- slug: limites-do-chatgpt-gratuito-o-que-muda-no-pago -->
+<!-- slug: limites-do-chatgpt-gratuito-o-que-muda-no-pago -->
   <article>
-    <h1>Limites do ChatGPT gratuito: o que muda no pago?</h1>
+    <h2>Limites do ChatGPT gratuito: o que muda no pago?</h2>
     <img src="https://automacao.art.br/images/limites-chatgpt-gratuito-pago.jpg" alt="Limites do ChatGPT gratuito o que muda no pago" loading="lazy" />
     <p><strong>Limites do ChatGPT gratuito o que muda no pago</strong> é a dúvida que muitos usuários têm ao iniciar a jornada com a IA da OpenAI. Neste artigo, explicamos detalhadamente os limites do plano gratuito, as diferenças do plano pago e como escolher a melhor opção para seu caso de uso.</p>
     <h2>Introdução ao ChatGPT e seus planos</h2>
@@ -142,5 +132,4 @@ draft: false
     }
     </script>
   </article>
-</body>
-</html>
+

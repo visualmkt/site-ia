@@ -9,16 +9,7 @@ imageAlt: "Token em IA"
 draft: false
 ---
 
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-<meta charset="UTF-8">
-<title>O que é token em IA e como economizar - Guia Completo</title>
-<meta name="description" content="Descubra o que é token em IA, como funciona nos modelos de linguagem e aprenda estratégias práticas para economizar tokens e reduzir custos em projetos de automação.">
-<link rel="canonical" href="https://automacao.art.br/o-que-e-token-em-ia-e-como-economizar">
-</head>
-<body>
-<h1>O que é token em IA e como economizar</h1>
+<h2>O que é token em IA e como economizar</h2>
 <img src="https://automacao.art.br/images/token-ia.jpg" alt="O que é token em IA e como economizar">
 <h2>Introdução</h2>
 <p>Um token em IA é uma unidade básica de texto processada por modelos de linguagem, como o ChatGPT. <strong>Entender o que é token em IA e como economizar</strong> é crucial para reduzir custos em projetos de automação. Você pode economizar tokens otimizando a entrada de dados e utilizando ferramentas de automação eficientes.</p>
@@ -122,5 +113,4 @@ draft: false
 <script type="application/ld+json">
 { "@graph": [ { "@type": "FAQPage", "name": "Perguntas frequentes sobre o que é token em ia e como economizar", "mainEntity": [ { "@type": "Question", "name": "O que é um token em IA?", "acceptedAnswer": { "@type": "Answer", "text": "Um token em IA é uma unidade básica de texto processada por modelos de linguagem." } }, { "@type": "Question", "name": "Como os tokens são usados em modelos de linguagem?", "acceptedAnswer": { "@type": "Answer", "text": "Os tokens são processados por modelos de linguagem para gerar respostas e realizar tarefas." } } ] }, { "@type": "Article", "headline": "Token em IA: Entendendo o Conceito e Economizando", "description": "Entenda o conceito de token em IA e aprenda a economizar ao usá-los em seus projetos de automação e inteligência artificial", "author": "Equipe Automacao.art.br", "publisher": { "@type": "Organization", "name": "Automacao.art.br", "logo": { "@type": "ImageObject", "url": "https://automacao.art.br/logo.png" } }, "inLanguage": "pt-BR" }, { "@type": "HowTo", "name": "Economizar tokens em ChatGPT", "description": "Dicas e estratégias para reduzir o uso de tokens em projetos de automação com ChatGPT", "tool": [ "ChatGPT" ], "supply": [ "Conhecimento em automação e IA" ], "step": [ { "@type": "HowToStep", "text": "Otimizar a entrada de dados" }, { "@type": "HowToStep", "text": "Utilizar ferramentas de automação" } ] } ] }
 </script>
-</body>
-</html>
+

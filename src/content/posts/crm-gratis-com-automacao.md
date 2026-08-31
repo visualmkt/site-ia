@@ -9,16 +9,6 @@ imageAlt: "CRM grátis com automação para pequenos negócios"
 draft: false
 ---
 
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <title>CRM gratuito com automação: qual escolher? Guia completo</title>
-    <meta name="description" content="Descubra qual CRM gratuito com automação escolher para seu pequeno negócio. Compare HubSpot, Zoho, Bitrix24, Agile CRM e Freshsales, veja funcionalidades, limites gratuitos e integrações.">
-    <link rel="canonical" href="https://example.com/crm-gratuito-com-automacao-qual-escolher">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
-<body>
 <p>Para pequenos negócios no Brasil, o HubSpot CRM Free, o Zoho CRM Free e o Bitrix24 Free são as escolhas mais equilibradas quando o critério é “crm gratuito com automação”. Eles entregam automação de marketing, vendas e atendimento sem custo, integração via API e suporte a webhook.</p>
 <p>Essas plataformas permitem que você crie fluxos de nutrição de leads, registre oportunidades automaticamente e responda a clientes com chatbots ou e‑mails programados. O resultado é mais organização e mais tempo para focar no crescimento.</p>
 
@@ -246,5 +236,4 @@ draft: false
   ]
 }
 </script>
-</body>
-</html>
+

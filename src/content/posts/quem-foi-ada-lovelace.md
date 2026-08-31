@@ -9,16 +9,7 @@ imageAlt: "Ada Lovelace, a primeira programadora"
 draft: false
 ---
 
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-  <meta charset="UTF-8">
-  <title>Quem foi Ada Lovelace a primeira programadora? Descubra a história</title>
-  <meta name="description" content="Saiba quem foi Ada Lovelace, a primeira programadora da história, sua contribuição ao desenvolvimento da máquina analítica e seu legado na computação.">
-  <link rel="canonical" href="https://automacao.art.br/quem-foi-ada-lovelace-a-primeira-programadora/">
-</head>
-<body>
-  <h1>Quem foi Ada Lovelace, a primeira programadora?</h1>
+<h2>Quem foi Ada Lovelace, a primeira programadora?</h2>
   <img src="https://automacao.art.br/images/ada-lovelace.jpg" alt="Quem foi Ada Lovelace a primeira programadora" style="max-width:100%;height:auto;">
   <h2>Introdução</h2>
   <p>Quem foi Ada Lovelace, a primeira programadora? Ada Lovelace foi uma matemática e escritora britânica que é considerada a primeira programadora da história. Ela é conhecida por seu trabalho com a máquina analítica de Charles Babbage.</p>
@@ -119,5 +110,4 @@ draft: false
     ]
   }
   </script>
-</body>
-</html>
+

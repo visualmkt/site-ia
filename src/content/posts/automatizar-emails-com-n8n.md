@@ -9,16 +9,7 @@ imageAlt: "n8n logo"
 draft: false
 ---
 
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Como Automatizar Emails com n8n: Guia Completo para Eficiência</title>
-    <meta name="description" content="Aprenda a automatizar emails com n8n, desde a configuração até a criação de fluxos de trabalho inteligentes. Otimize sua comunicação, economize tempo e melhore o engajamento. Guia completo.">
-</head>
-<body>
-    <h1>Como Automatizar Emails com n8n: Guia Completo para Eficiência</h1>
+<h2>Como Automatizar Emails com n8n: Guia Completo para Eficiência</h2>
     <p>A automação de emails é uma estratégia poderosa para otimizar a comunicação e economizar tempo valioso. Com o <strong>n8n</strong>, uma ferramenta de automação de fluxo de trabalho de código aberto, você pode ir além dos envios básicos e criar sequências inteligentes e personalizadas. Este guia completo mostrará <strong>como automatizar emails com n8n</strong>, desde a configuração inicial até a criação de fluxos de trabalho complexos que impulsionam a produtividade e o engajamento.</p>
 
     <img src="https://example.com/n8n-email-automation.png" alt="Diagrama de fluxo de trabalho de como automatizar emails com n8n, mostrando gatilhos, nós de processamento e envio de email.">
@@ -129,5 +120,4 @@ return items.map(item => {
         <li>Siga as melhores práticas para garantir a deliverability e evitar que seus emails sejam marcados como spam.</li>
     </ul>
     <p>Pronto para levar suas automações a um novo nível? Explore mais artigos em nossa categoria de <a href="/categoria/automacao">Automação</a> e descubra como otimizar ainda mais seus processos.</p>
-</body>
-</html>
+

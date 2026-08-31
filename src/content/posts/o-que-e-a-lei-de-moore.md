@@ -9,16 +9,7 @@ imageAlt: "Lei de Moore gráfico"
 draft: false
 ---
 
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <title>O que é a Lei de Moore? Entenda o Conceito e sua Importância</title>
-    <meta name="description" content="Descubra o que é a Lei de Moore, como ela impacta a tecnologia, IA e automação, e quais são seus desafios e futuro. Saiba tudo aqui.">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
-<body>
-    <h1>O que é a Lei de Moore?</h1>
+<h2>O que é a Lei de Moore?</h2>
     <h2>Introdução à Lei de Moore</h2>
     <p>A Lei de Moore é um conceito que define o ritmo acelerado do progresso tecnológico, especificamente na área de semicondutores. Você pode entender isso como a capacidade de dobrar a quantidade de transistores em um circuito integrado a cada dois anos, o que resulta em melhorias significativas de desempenho e redução de custos. Em resumo, <strong>o que é a lei de moore</strong> é a observação de que a densidade de componentes em um circuito integrado aumenta exponencialmente com o tempo.</p>
     <p>Essa lei foi proposta por Gordon Moore, co‑fundador da Intel, em 1965. Ela reflete a observação de que a densidade de componentes em um circuito integrado aumenta exponencialmente com o tempo, levando a avanços tecnológicos constantes.</p>
@@ -105,5 +96,4 @@ draft: false
 
     <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Article","headline":"O que é a Lei de Moore? Entenda o Conceito e sua Importância","description":"Descubra o que é a Lei de Moore, como ela impacta a tecnologia, IA e automação, e quais são seus desafios e futuro.","author":{"@type":"Person","name":"Automação"},"publisher":{"@type":"Organization","name":"automacao.art.br","url":"https://automacao.art.br"},"inLanguage":"pt-BR"},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"O que é a Lei de Moore?","acceptedAnswer":{"@type":"Answer","text":"É um princípio que prevê a duplicação do número de transistores em chips a cada dois anos, impulsionando desempenho e redução de custos."}},{"@type":"Question","name":"Quem criou a Lei de Moore?","acceptedAnswer":{"@type":"Answer","text":"Foi proposta por Gordon Moore, co‑fundador da Intel, em 1965."}},{"@type":"Question","name":"Qual é a importância da Lei de Moore na tecnologia?","acceptedAnswer":{"@type":"Answer","text":"Permite o avanço rápido de hardware, tornando dispositivos mais poderosos e acessíveis, e abre caminho para novas aplicações."}},{"@type":"Question","name":"Como a Lei de Moore influenciou a evolução da inteligência artificial?","acceptedAnswer":{"@type":"Answer","text":"O aumento exponencial de capacidade de processamento possibilitou treinar modelos de IA maiores e mais complexos."}},{"@type":"Question","name":"O que é a relação entre a Lei de Moore e a automação?","acceptedAnswer":{"@type":"Answer","text":"Mais transistores significam controle mais rápido e barato, facilitando a automação de processos industriais e digitais."}},{"@type":"Question","name":"Quais são os principais desafios enfrentados pela Lei de Moore?","acceptedAnswer":{"@type":"Answer","text":"Limites físicos dos nanômetros, consumo energético e custos de fabricação dificultam a continuação do ritmo de duplicação."}},{"@type":"Question","name":"Como a Lei de Moore impacta o desenvolvimento de hardware e software?","acceptedAnswer":{"@type":"Answer","text":"Desenvolvedores ajustam arquiteturas e linguagens para aproveitar o dobro de transistores a cada geração de chips."}}]}]}
 </script>
-</body>
-</html>
+

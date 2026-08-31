@@ -115,7 +115,7 @@ draft: false
 <pre><code>import os
 from openai import OpenAI
 
-# Inicializa o cliente com a API Key da variável de ambiente
+\# Inicializa o cliente com a API Key da variável de ambiente
 client = OpenAI(api_key=os.environ.get("OPENAI_API_KEY"))
 
 def gerar_resposta_ia(prompt_usuario):
@@ -133,7 +133,7 @@ def gerar_resposta_ia(prompt_usuario):
     except Exception as e:
         return f"Erro ao gerar resposta: {e}"
 
-# Exemplo de uso
+\# Exemplo de uso
 pergunta = "Qual a capital do Brasil?"
 resposta_automatica = gerar_resposta_ia(pergunta)
 print(f"IA: {resposta_automatica}")

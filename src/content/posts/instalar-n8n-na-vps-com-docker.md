@@ -9,19 +9,7 @@ imageAlt: "n8n com Docker"
 draft: false
 ---
 
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Como instalar n8n na VPS com Docker – Guia passo a passo</title>
-  <meta name="description" content="Aprenda a instalar n8n na VPS usando Docker (versão 24.0.5) e a versão 1.30.0 do n8n. Guia completo com comandos, dicas de segurança e integração com ChatGPT.">
-  <link rel="canonical" href="https://automacao.art.br/como-instalar-n8n-na-vps-com-docker" />
-  <script type="application/ld+json">{ "@context": "https://schema.org", "@graph": [ { "@type": "FAQPage", "mainEntity": [ { "@type": "Question", "name": "O que é o n8n?", "acceptedAnswer": { "@type": "Answer", "text": "O n8n é uma plataforma de automação de fluxos de trabalho open‑source que permite conectar aplicativos e APIs sem escrever código." } }, { "@type": "Question", "name": "Qual é a diferença entre o n8n e o Zapier?", "acceptedAnswer": { "@type": "Answer", "text": "O n8n é self‑hosted, oferecendo controle total sobre dados e customizações, enquanto o Zapier é SaaS, limitado a integrações pré‑definidas e com custos por uso." } } ] }, { "@type": "HowTo", "name": "Instalar n8n na VPS com Docker", "step": [ { "@type": "HowToStep", "text": "Prepare a VPS: atualize o sistema, crie usuário dedicado e abra a porta 5678 no firewall." }, { "@type": "HowToStep", "text": "Instale o Docker (versão 24.0.5) seguindo a documentação oficial para seu SO." }, { "@type": "HowToStep", "text": "Faça pull da imagem oficial do n8n (versão 1.30.0): docker pull n8n/n8n" }, { "@type": "HowToStep", "text": "Crie e execute o container: docker run -d --name n8n -p 5678:5678 n8n/n8n --restart unless-stopped" }, { "@type": "HowToStep", "text": "Configure variáveis de ambiente (ex.: N8N_HOST, N8N_PORT) conforme a documentação." }, { "@type": "HowToStep", "text": "Acesse a interface em http://<IP_VPS>:5678 e crie seu primeiro fluxo de automação." }, { "@type": "HowToStep", "text": "Integre o ChatGPT usando o nó HTTP Request ou o nó OpenAI para automatizar respostas de IA." } ] } ] }</script>
-</head>
-<body>
-<h1>Como instalar n8n na VPS com Docker</h1>
+<h2>Como instalar n8n na VPS com Docker</h2>
 <img src="https://automacao.art.br/imagens/n8n-docker.png" alt="Como instalar n8n na VPS com Docker" style="max-width:100%;height:auto;" />
 <h2>Introdução</h2>
 <p>Para instalar o n8n na VPS com Docker, você precisará criar um container Docker (versão 24.0.5) e configurar o n8n (versão 1.30.0) para executar dentro dele. Isso pode ser feito em alguns passos simples, começando com a instalação do Docker na sua VPS. Você precisará de um conhecimento básico de como usar o terminal e entender conceitos de containerização.</p>
@@ -135,5 +123,4 @@ draft: false
   <li>Integre o ChatGPT e outras APIs.</li>
 </ul>
 <p>Quer aprofundar ainda mais? Explore a categoria <a href="/categoria/automacao">Automação</a> e descubra tutoriais avançados.</p>
-</body>
-</html>
+

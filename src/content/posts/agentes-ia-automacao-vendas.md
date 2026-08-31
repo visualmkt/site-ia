@@ -9,17 +9,6 @@ imageAlt: "Agente de IA para automação de vendas"
 draft: false
 ---
 
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Vale a pena usar agentes de IA para automação de vendas? Descubra os benefícios</title>
-  <meta name="description" content="Descubra se vale a pena usar agentes de IA para automação de vendas, conheça vantagens, desafios, ferramentas e como criar seu agente sem programar.">
-  <link rel="canonical" href="https://automacao.art.br/vale-a-pena-usar-agentes-de-ia-para-automacao-de-vendas">
-</head>
-<body>
 <h2>Introdução</h2>
 <p>Vale a pena usar agentes de IA para automação de vendas porque eles podem aumentar a eficiência e reduzir custos. Você pode automatizar tarefas repetitivas e se concentrar em estratégias de vendas.</p>
 <p>Agentes de IA são como robôs que trabalham para você, 24 horas por dia. Eles podem lidar com clientes, processar pedidos e até mesmo fazer previsões de vendas.</p>
@@ -144,5 +133,4 @@ Explore nossa categoria de automação de vendas para saber mais sobre como agen
   ]
 }
 </script>
-</body>
-</html>
+

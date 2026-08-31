@@ -9,16 +9,7 @@ imageAlt: "Planilha de estoque ChatGPT"
 draft: false
 ---
 
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <title>ChatGPT para criar planilhas de controle de estoque: Guia completo</title>
-    <meta name="description" content="Descubra como usar o ChatGPT para criar planilhas de controle de estoque automáticas, economizando tempo e reduzindo erros. Veja passo a passo, exemplos e integração com n8n, Zapier e Make.">
-    <link rel="canonical" href="https://www.automatica.art.br/chatgpt-para-criar-planilhas-de-controle-de-estoque">
-</head>
-<body>
-    <h1>ChatGPT para criar planilhas de controle de estoque</h1>
+<h2>ChatGPT para criar planilhas de controle de estoque</h2>
     <h2>ChatGPT para criar planilhas de controle de estoque: Por que usar?</h2>
     <p>Você pode usar o ChatGPT para criar planilhas de controle de estoque automáticas. O ChatGPT é uma ferramenta de IA que pode ajudar a gerenciar estoque de forma eficiente. Com ele, você pode criar planilhas personalizadas para atender às necessidades do seu negócio.</p>
     <p>A automação de estoque é fundamental para pequenos negócios e iniciantes em automação. O ChatGPT pode ser uma solução prática para gerenciar estoque e melhorar a eficiência do seu negócio.</p>
@@ -152,5 +143,4 @@ draft: false
         ]
     }
     </script>
-</body>
-</html>
+

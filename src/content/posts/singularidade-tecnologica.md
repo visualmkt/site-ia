@@ -10,7 +10,7 @@ draft: false
 ---
 
 <article>
-  <h1>Singularidade Tecnológica: O Que É e Quem Defende Essa Teoria</h1>
+  <h2>Singularidade Tecnológica: O Que É e Quem Defende Essa Teoria</h2>
   
   <p><strong>Singularidade tecnológica</strong> é o ponto hipotético no futuro em que a inteligência artificial (IA) supera a inteligência humana, gerando mudanças exponenciais e incontroláveis na sociedade. Essa teoria, popularizada por cientistas e futuristas, prevê uma ruptura radical na evolução tecnológica, onde máquinas auto-melhoráveis ultrapassam a capacidade cognitiva humana.</p>
   

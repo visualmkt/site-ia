@@ -9,17 +9,7 @@ imageAlt: "Detector de texto de IA em ação"
 draft: false
 ---
 
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Detector de texto de IA funciona mesmo: Guia completo</title>
-  <meta name="description" content="Descubra se o detector de texto de IA funciona mesmo, como ele opera, vantagens, desvantagens e como escolher a melhor solução para seu negócio.">
-  <link rel="canonical" href="https://automacao.art.br/detector-de-texto-de-ia-funciona-mesmo">
-</head>
-<body>
-  <h1>Detector de texto de IA funciona mesmo</h1>
+<h2>Detector de texto de IA funciona mesmo</h2>
   <img src="https://automacao.art.br/images/detector-ia-funciona-mesmo.jpg" alt="Detector de texto de IA funciona mesmo">
   <h2>Introdução</h2>
   <p>Sim, um detector de texto de IA funciona mesmo. Ele utiliza algoritmos avançados para analisar texto e identificar padrões, sentimentos e informações relevantes.</p>
@@ -235,5 +225,4 @@ draft: false
     ]
   }
   </script>
-</body>
-</html>
+

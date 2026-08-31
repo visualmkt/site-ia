@@ -9,18 +9,7 @@ imageAlt: "Chatbot de IA conversacional"
 draft: false
 ---
 
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>História dos Chatbots de Eliza ao ChatGPT: Evolução e Futuro</title>
-    <meta name="description" content="Descubra a história dos chatbots de Eliza ao ChatGPT, da IA baseada em regras à geração de texto avançada, e veja as tendências futuras.">
-    <link rel="canonical" href="https://automacao.art/historia-dos-chatbots-de-eliza-ao-chatgpt" />
-</head>
-<body>
-    <h1>História dos Chatbots de Eliza ao ChatGPT</h1>
+<h2>História dos Chatbots de Eliza ao ChatGPT</h2>
     <img src="https://automacao.art/images/chatbot-evolucao.jpg" alt="História dos chatbots de Eliza ao ChatGPT" style="max-width:100%;height:auto;" />
     <h2>Introdução aos Chatbots</h2>
     <p>A história dos chatbots de Eliza ao ChatGPT revela a transição de regras rígidas para IA generativa. Você verá como cada salto mudou a automação e a interação humana.</p>
@@ -200,5 +189,4 @@ draft: false
       ]
     }
     </script>
-</body>
-</html>
+

@@ -9,15 +9,6 @@ imageAlt: "n8n logo"
 draft: false
 ---
 
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-<meta charset="UTF-8">
-<title>História do n8n: evolução da automação de workflow</title>
-<meta name="description" content="Descubra a história do n8n, desde sua criação em 2019 até as principais atualizações, comparações e aplicações na automação e IA.">
-<!-- slug: historia-do-n8n -->
-</head>
-<body>
 <h2>Introdução à história do n8n</h2>
 <p>O n8n é uma ferramenta de automação de workflow que permite integrar diferentes aplicativos e serviços sem precisar de conhecimentos avançados de programação. Ele foi criado em 2019 e desde então tem sido usado por desenvolvedores e empresas para automatizar processos e melhorar a eficiência. A história do n8n é marcada por uma rápida evolução e adoção.</p>
 <p>Você pode usar o n8n para criar workflows personalizados que sejam executados automaticamente, sem intervenção humana. Isso ajuda a reduzir erros e aumentar a produtividade.</p>
@@ -93,5 +84,4 @@ draft: false
 <p>Explore mais artigos sobre automação e descubra como o n8n pode impulsionar seus projetos na seção <a href="/categoria/automacao" target="_blank">Automação</a>.</p>
 
 <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Article","headline":"A História do n8n: Como Ele Mudou a Automação e a IA","description":"Descubra a história do n8n e como ele revolucionou a automação e a inteligência artificial.","author":{"@type":"Person","name":"automacao.art.br"},"publisher":{"@type":"Organization","name":"automacao.art.br"},"inLanguage":"pt-BR"},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"O que é n8n?","acceptedAnswer":{"@type":"Answer","text":"n8n é uma plataforma de automação de workflow de código aberto que permite conectar aplicativos e serviços por meio de nós visuais, sem necessidade de programação avançada."}},{"@type":"Question","name":"Como o n8n é utilizado na automação?","acceptedAnswer":{"@type":"Answer","text":"Ele cria fluxos que disparam ações automáticas a partir de gatilhos como webhooks, cron ou eventos de API, integrando sistemas como CRM, e‑commerce e ferramentas de comunicação."}},{"@type":"Question","name":"Quais são as principais características do n8n?","acceptedAnswer":{"@type":"Answer","text":"Suporte a mais de 300 integrações nativas, execução auto‑hospedada, versionamento de fluxos, nós customizáveis em JavaScript e possibilidade de usar webhooks e APIs."}},{"@type":"Question","name":"Como o n8n se compara a outras ferramentas de automação?","acceptedAnswer":{"@type":"Answer","text":"Ao contrário de Zapier e Make, n8n oferece código aberto, auto‑hospedagem e custos baseados apenas na infraestrutura, proporcionando maior controle e ausência de limites de execuções."}},{"@type":"Question","name":"Quais são os benefícios de usar n8n?","acceptedAnswer":{"@type":"Answer","text":"Redução de custos operacionais, maior autonomia das equipes, escalabilidade sob demanda e flexibilidade para criar fluxos complexos com lógica avançada."}},{"@type":"Question","name":"Como posso começar a usar n8n?","acceptedAnswer":{"@type":"Answer","text":"Instale via Docker ou use a versão cloud, siga a documentação oficial para criar seu primeiro workflow e explore a comunidade no GitHub para exemplos práticos."}},{"@type":"Question","name":"Quais são as principais aplicações do n8n na indústria?","acceptedAnswer":{"@type":"Answer","text":"Integração de pedidos e ERP, qualificação de leads com IA, monitoramento de infraestrutura, automação de marketing e sincronização de dados entre sistemas legados."}}]}]}}</script>
-</body>
-</html>
+

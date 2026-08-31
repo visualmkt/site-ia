@@ -9,16 +9,7 @@ imageAlt: "Automatizar tarefas de marketing para ganhar tempo"
 draft: false
 ---
 
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-<meta charset="UTF-8">
-<title>Automatizar tarefas de marketing: Guia completo</title>
-<meta name="description" content="Aprenda a automatizar tarefas de marketing com ferramentas como n8n, Zapier e Make. Descubra passos, dicas e preços para otimizar suas campanhas e aumentar a eficiência." />
-<link rel="canonical" href="https://automacao.art.br/automatizar-tarefas-de-marketing" />
-</head>
-<body>
-<h1>Automatizar tarefas de marketing</h1>
+<h2>Automatizar tarefas de marketing</h2>
 <h2>Introdução</h2>
 <p>Automatizar tarefas de marketing significa usar ferramentas para realizar tarefas repetitivas de forma automática, liberando tempo para focar em estratégias e criatividade. Isso inclui tarefas como postagens em redes sociais, envio de emails e mensagens de WhatsApp. Com a automação, você pode aumentar a eficiência e reduzir o tempo gasto em tarefas manuais.</p>
 <p>Com a automação de marketing, você pode personalizar mensagens e ofertas para clientes específicos, aumentando a chance de conversão. Além disso, a automação permite que você monitore e ajuste suas campanhas em tempo real, garantindo que você esteja sempre no caminho certo.</p>
@@ -122,5 +113,4 @@ draft: false
 <p>Explore nossa categoria de automação de marketing para aprender mais sobre como você pode usar a automação para melhorar as suas campanhas.</p>
 
 <script type="application/ld+json">{"@graph":[{"@type":"FAQPage","name":"Perguntas frequentes sobre automatizar tarefas de marketing","description":"Perguntas frequentes sobre como automatizar tarefas de marketing"},{"@type":"Article","headline":"Automatizar Tarefas de Marketing: O Guia Completo","description":"Aprenda a automatizar tarefas de marketing para aumentar a eficiência e a produtividade","author":"Automacao.art.br","publisher":{"@type":"Organization","name":"Automacao.art.br","logo":""},"inLanguage":"pt-BR"},{"@type":"HowTo","name":"Automatizar Tarefas de Marketing","description":"Aprenda a automatizar tarefas de marketing para aumentar a eficiência e a produtividade","tool":"n8n, Zapier, Make"}]}</script>
-</body>
-</html>
+

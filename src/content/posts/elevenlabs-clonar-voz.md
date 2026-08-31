@@ -9,16 +9,7 @@ imageAlt: "ElevenLabs painel de criação de voz clonada"
 draft: false
 ---
 
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-<meta charset="UTF-8">
-<title>ElevenLabs: o que é e como clonar voz – Guia completo</title>
-<meta name="description" content="Descubra o que é ElevenLabs, como clonar voz com IA, preços, planos e passo a passo para usar a API e integrar com n8n. Guia completo para iniciantes.">
-<link rel="canonical" href="https://automacao.art.br/elevenlabs-o-que-e-e-como-clonar-voz/">
-</head>
-<body>
-<h1>ElevenLabs: o que é e como clonar voz?</h1>
+<h2>ElevenLabs: o que é e como clonar voz?</h2>
 <p>ElevenLabs é uma plataforma de IA especializada em Text-to-Speech (TTS) e clonagem de voz com qualidade próxima à humana. Usa modelos de deep learning como Prosody Control e Speech-to-Speech para gerar vozes naturais a partir de texto ou áudio. A tecnologia permite clonar vozes com apenas 1 minuto de áudio de referência.</p>
 <img src="https://automacao.art.br/images/elevenlabs-clonar-voz.png" alt="ElevenLabs o que é e como clonar voz – interface da plataforma">
 <h2>ElevenLabs: o que é e como clonar voz – Visão geral</h2>
@@ -368,5 +359,4 @@ draft: false
   ]
 }
 </script>
-</body>
-</html>
+

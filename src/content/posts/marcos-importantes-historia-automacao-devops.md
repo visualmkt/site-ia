@@ -9,18 +9,7 @@ imageAlt: "Automação de DevOps"
 draft: false
 ---
 
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <title>Marcos importantes na história da automação de DevOps | automação.art.br</title>
-    <meta name="description" content="Descubra os marcos importantes na história da automação de DevOps, como n8n, Zapier, Docker, Kubernetes e Jenkins, que revolucionaram o software.">
-    <meta name="slug" content="marcos-importantes-historia-automacao-devops">
-    <link rel="canonical" href="https://automação.art.br/marcos-importantes-historia-automacao-devops">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
-<body>
-    <h1>Marcos importantes na história da automação de DevOps</h1>
+<h2>Marcos importantes na história da automação de DevOps</h2>
     <p>Introdução à Automação de DevOps</p>
     <p>Marcos importantes na história da automação de DevOps são fundamentais para melhorar a eficiência e a produtividade em equipes de desenvolvimento de software. Os principais marcos incluem a criação de ferramentas como n8n, Zapier e o desenvolvimento de tecnologias como Docker, Kubernetes e Jenkins.</p>
     <p>Para aprofundar, veja nosso artigo <a href="/historico-automacao-devops">História da automação de DevOps</a>.</p>
@@ -165,5 +154,4 @@ draft: false
         ]
     }
     </script>
-</body>
-</html>
+

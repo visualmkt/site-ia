@@ -9,72 +9,8 @@ imageAlt: "Automatize suas tarefas com o Make"
 draft: false
 ---
 
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Guia completo de Make – Aprenda a automatizar tarefas e integrações</title>
-    <meta name="description" content="Descubra o guia completo de Make: passo a passo, comparações com Zapier, preços, dicas avançadas e como integrar com n8n, Power Automate e muito mais. Automatize sua rotina agora!">
-    <link rel="canonical" href="https://automacao.art.br/guia-completo-de-make" />
-    <meta property="og:url" content="https://automacao.art.br/guia-completo-de-make" />
-    <meta property="og:type" content="article" />
-    <meta property="og:title" content="Guia completo de Make – Aprenda a automatizar tarefas e integrações" />
-    <meta property="og:description" content="Descubra o guia completo de Make: passo a passo, comparações com Zapier, preços, dicas avançadas e como integrar com n8n, Power Automate e muito mais. Automatize sua rotina agora!" />
-    <meta name="author" content="Equipe Automação.art.br" />
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "Article",
-      "headline": "Guia completo de Make",
-      "description": "Aprenda a automatizar tarefas e integrações com o Make, incluindo comparações, preços e dicas avançadas.",
-      "author": {"@type": "Organization", "name": "Automação.art.br"},
-      "publisher": {"@type": "Organization", "name": "Automação.art.br", "logo": {"@type": "ImageObject", "url": "https://automacao.art.br/logo.png"}},
-      "datePublished": "2024-07-25",
-      "dateModified": "2024-07-25",
-      "mainEntityOfPage": {"@type": "WebPage", "@id": "https://automacao.art.br/guia-completo-de-make"},
-      "image": "https://automacao.art.br/placeholder.jpg",
-      "keywords": "guia completo de make, automação, Make, Zapier, n8n"
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "O que é o Make e como funciona?",
-          "acceptedAnswer": {"@type": "Answer", "text": "O Make é uma plataforma de automação que permite conectar diferentes aplicativos e serviços para criar fluxos de trabalho personalizados, automatizando tarefas e sincronizando dados."}
-        },
-        {
-          "@type": "Question",
-          "name": "Qual é a diferença entre Make e Zapier?",
-          "acceptedAnswer": {"@type": "Answer", "text": "Make costuma ser mais acessível e oferece mais integrações nativas, enquanto Zapier tem interface mais simples e suporte ao cliente mais amplo."}
-        },
-        {
-          "@type": "Question",
-          "name": "Como posso automatizar tarefas com o Make?",
-          "acceptedAnswer": {"@type": "Answer", "text": "Crie fluxos de trabalho (scenarios) conectando apps, use módulos de e‑mail, redes sociais, APIs e agende execuções recorrentes."}
-        },
-        {
-          "@type": "Question",
-          "name": "O Make é gratuito?",
-          "acceptedAnswer": {"@type": "Answer", "text": "Sim, há um plano gratuito com até 1.000 operações mensais. Planos pagos começam em US$9/mês, oferecendo mais operações e recursos avançados."}
-        },
-        {
-          "@type": "Question",
-          "name": "Posso integrar o Make com outras ferramentas?",
-          "acceptedAnswer": {"@type": "Answer", "text": "Sim, o Make integra‑se a mais de 1.000 serviços, incluindo n8n, Power Automate, Google Workspace, Slack, entre outros."}
-        }
-      ]
-    }
-    </script>
-</head>
-<body>
-    <header>
-        <h1>Guia completo de Make</h1>
+<header>
+        <h2>Guia completo de Make</h2>
     </header>
     <section>
         <h2>Introdução</h2>
@@ -160,5 +96,4 @@ draft: false
             <li>Crie fluxos de trabalho personalizados</li>
         </ul>
     </section>
-</body>
-</html>
+

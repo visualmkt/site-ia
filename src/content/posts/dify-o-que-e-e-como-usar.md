@@ -9,19 +9,8 @@ imageAlt: "Dify em automação"
 draft: false
 ---
 
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Dify: o que é e como usar – Guia completo de automação e IA</title>
-  <meta name="description" content="Descubra o que é Dify e como usar para integrar APIs, automatizar processos e potencializar agentes de IA. Guia passo‑a‑passo, exemplos práticos e preços.">
-  <link rel="canonical" href="https://automacao.art.br/dify-o-que-e-e-como-usar" />
-</head>
-<body>
-  <header>
-    <h1>Dify: o que é e como usar – Guia completo de automação e IA</h1>
+<header>
+    <h2>Dify: o que é e como usar – Guia completo de automação e IA</h2>
     <img src="https://automacao.art.br/images/dify-logo.png" alt="Dify o que é e como usar - logo da ferramenta" />
   </header>
   <article>
@@ -207,5 +196,4 @@ draft: false
     ]
   }
   </script>
-</body>
-</html>
+

@@ -9,18 +9,7 @@ imageAlt: "ChatGPT criando planilhas de controle de leads"
 draft: false
 ---
 
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ChatGPT para criar planilhas de controle de leads: guia completo</title>
-  <meta name="description" content="Descubra como usar o ChatGPT para criar planilhas de controle de leads, automatizando tarefas, gerando respostas personalizadas e integrando com n8n, Zapier e Make.">
-  <!-- slug: chatgpt-para-criar-planilhas-de-controle-de-leads -->
-</head>
-<body>
-  <h1>ChatGPT para criar planilhas de controle de leads</h1>
+<h2>ChatGPT para criar planilhas de controle de leads</h2>
   <h2>Introdução ao Controle de Leads com ChatGPT</h2>
   <p>O ChatGPT pode ser usado para criar planilhas de controle de leads de forma eficiente, automatizando tarefas e gerando respostas personalizadas. Isso ajuda pequenas empresas a otimizar o controle de leads e melhorar a eficiência. Você pode aprender mais sobre o ChatGPT em nosso <a href="https://automacao.art.br/chatgpt/chatgpt-guia-completo/">guia completo</a>.</p>
   <p>O controle de leads é fundamental para pequenas empresas, pois ajuda a gerenciar e acompanhar os potenciais clientes. Com o ChatGPT, é possível automatizar muitas tarefas relacionadas ao controle de leads, liberando tempo para focar em outras áreas do negócio.</p>
@@ -90,5 +79,4 @@ draft: false
   <p>Explore nossa categoria de automação para aprender mais sobre como otimizar o controle de leads e melhorar a eficiência da sua empresa.</p>
 
   <script type="application/ld+json">{"@graph":[{"@type":"FAQPage","name":"Perguntas frequentes sobre ChatGPT para criar planilhas de controle de leads","description":"Perguntas frequentes sobre como usar o ChatGPT para criar planilhas de controle de leads"},{"@type":"Article","headline":"Otimizando o Controle de Leads com ChatGPT","description":"Aprenda a criar planilhas de controle de leads eficientes com o ChatGPT","author":"Automacao.art.br","publisher":{"@type":"Organization","name":"Automacao.art.br","url":"https://automacao.art.br"},"inLanguage":"pt-BR"},{"@type":"HowTo","name":"Criar planilhas de controle de leads com ChatGPT","description":"Um passo a passo para criar planilhas de controle de leads com o ChatGPT"}]}</script>
-</body>
-</html>
+

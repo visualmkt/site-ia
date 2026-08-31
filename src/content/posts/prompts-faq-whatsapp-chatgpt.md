@@ -8,16 +8,6 @@ imageAlt: "Fluxo n8n para respostas automáticas de FAQ no WhatsApp usando ChatG
 draft: false
 ---
 
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-<meta charset="UTF-8">
-<title>Prompts prontos para criar respostas automáticas de FAQ no WhatsApp com ChatGPT</title>
-<meta name="description" content="Descubra como usar prompts prontos para gerar respostas automáticas de FAQ no WhatsApp com ChatGPT, integrando n8n e a API oficial, e reduza o tempo de atendimento em até 70%.">
-<meta name="slug" content="prompts-prontos-criar-respostas-automaticas-faq-whatsapp-chatgpt">
-<link rel="canonical" href="https://automacao.art.br/prompts-prontos-criar-respostas-automaticas-faq-whatsapp-chatgpt">
-</head>
-<body>
 <h2>Introdução</h2>
 <p>Prompts prontos para criar respostas automáticas de FAQ no WhatsApp com ChatGPT são modelos de texto que orientam o modelo a gerar respostas curtas e padronizadas para as dúvidas mais comuns dos clientes.</p>
 <p>Com esses prompts você elimina a necessidade de escrever cada resposta manualmente e reduz o tempo de atendimento em até 70 %.</p>
@@ -267,5 +257,4 @@ draft: false
   ]
 }
 </script>
-</body>
-</html>
+

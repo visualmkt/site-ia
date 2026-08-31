@@ -9,16 +9,7 @@ imageAlt: "Claude IA logo"
 draft: false
 ---
 
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <title>Claude IA: o que é e como usar no Brasil – Guia Completo</title>
-    <meta name="description" content="Descubra o que é Claude IA, como funciona e passo a passo para usar no Brasil. Veja planos, preços, integrações e exemplos práticos para pequenos negócios.">
-    <link rel="canonical" href="https://automacao.art.br/claude-ia-o-que-e-e-como-usar-no-brasil">
-</head>
-<body>
-    <h1>Claude IA: o que é e como usar no Brasil</h1>
+<h2>Claude IA: o que é e como usar no Brasil</h2>
     <p>Claude IA é uma ferramenta de inteligência artificial desenvolvida pela Anthropic que permite automatizar tarefas, gerar conteúdo e responder mensagens. No Brasil, você pode usar Claude IA para melhorar a eficiência de pequenos negócios, reduzindo custos e tempo de operação.</p>
     <p>Para começar, crie uma conta em <a href="https://www.anthropic.com" target="_blank" rel="noopener noreferrer">Anthropic</a> e configure as integrações necessárias. Consulte a <a href="https://www.anthropic.com/pricing" target="_blank" rel="noopener noreferrer">página oficial de preços</a> para escolher o plano que melhor se adapta ao seu orçamento.</p>
 
@@ -121,5 +112,4 @@ draft: false
     <p>Marketing, finanças, atendimento ao cliente, entre outros.</p>
 
     <script type="application/ld+json">{"@graph":[{"@type":"FAQPage","name":"Perguntas frequentes sobre Claude IA","description":"Perguntas frequentes sobre a Claude IA"},{"@type":"Article","headline":"Claude IA: o que é e como usar no Brasil – Guia Completo","description":"Guia completo sobre a Claude IA para iniciantes e pequenos negócios","author":"Equipe de Automacao","publisher":{"@type":"Organization","name":"Automacao","url":"https://automacao.art.br"},"inLanguage":"pt-BR"},{"@type":"HowTo","name":"Como usar Claude IA no Brasil","description":"Passo a passo para usar a Claude IA no Brasil","tool":"Claude IA"}]}</script>
-</body>
-</html>
+

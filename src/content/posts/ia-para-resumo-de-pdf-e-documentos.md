@@ -9,19 +9,8 @@ imageAlt: "IA para resumo de PDF e documentos"
 draft: false
 ---
 
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>IA que faz resumo de PDF e documentos: ferramentas, vantagens e como escolher</title>
-  <meta name="description" content="Descubra como a IA que faz resumo de PDF e documentos pode automatizar a leitura, reduzir custos e aumentar a produtividade. Veja as melhores ferramentas, preços e como integrá‑las ao n8n ou Zapier.">
-  <link rel="canonical" href="https://automacao.art.br/ia-que-faz-resumo-de-pdf-e-documentos">
-</head>
-<body>
-  <header>
-    <h1>IA que faz resumo de PDF e documentos</h1>
+<header>
+    <h2>IA que faz resumo de PDF e documentos</h2>
     <img src="https://automacao.art.br/images/ia-resumo-pdf.jpg" alt="IA que faz resumo de PDF e documentos">
   </header>
 
@@ -259,5 +248,4 @@ draft: false
     ]
   }
   </script>
-</body>
-</html>
+

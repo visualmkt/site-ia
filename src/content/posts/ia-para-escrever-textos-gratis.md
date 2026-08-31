@@ -9,17 +9,7 @@ imageAlt: "IA para escrever textos gratuitas"
 draft: false
 ---
 
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-<meta charset="UTF-8">
-<title>IA para escrever textos grátis: as melhores ferramentas e como usar</title>
-<meta name="description" content="Descubra as melhores ferramentas gratuitas de IA para escrever textos, como funcionam, limites de tokens e como escolher a solução ideal para seu negócio.">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="canonical" href="https://automacao.art.br/ia-para-escrever-textos-gratis" />
-</head>
-<body>
-<h1>IA para escrever textos grátis</h1>
+<h2>IA para escrever textos grátis</h2>
 <img src="https://automacao.art.br/images/ia-escrever-textos-gratis.jpg" alt="IA para escrever textos grátis - geração de conteúdo" />
 <p>IA para escrever textos grátis gera conteúdo sem custo usando modelos de linguagem de código aberto ou planos gratuitos. Você obtém artigos, posts e e‑mails em poucos segundos, sem precisar de licenças caras. Essa alternativa aumenta a produtividade de pequenos negócios que ainda não investiram em IA paga.</p>
 <p>Com as opções gratuitas, você testa diferentes estilos, gera ideias e automatiza tarefas rotineiras. Basta escolher a ferramenta, inserir o prompt e revisar o resultado. O processo funciona inteiro online, sem instalar nada.</p>
@@ -213,5 +203,4 @@ draft: false
   ]
 }
 </script>
-</body>
-</html>
+

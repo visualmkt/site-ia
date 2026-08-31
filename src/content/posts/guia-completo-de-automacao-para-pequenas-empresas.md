@@ -9,18 +9,7 @@ imageAlt: "Guia completo de automação para pequenas empresas"
 draft: false
 ---
 
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Guia completo de automação para pequenas empresas | Automacao.art.br</title>
-    <meta name="description" content="Descubra como automatizar processos, escolher ferramentas e integrar sistemas em um guia completo de automação para pequenas empresas. Reduza custos em até 30% e aumente a eficiência.">
-    <!-- slug: guia-completo-automacao-pequenas-empresas -->
-</head>
-<body>
-    <h1>Guia completo de automação para pequenas empresas</h1>
+<h2>Guia completo de automação para pequenas empresas</h2>
     <h2>Introdução à Automação para Pequenas Empresas</h2>
     <p>Um <strong>guia completo de automação para pequenas empresas</strong> inclui definir processos, escolher ferramentas e integrar sistemas. Isso ajuda a reduzir custos em até 30% (estudo McKinsey, 2023) e melhorar a eficiência.</p>
     <p>A automação é essencial para pequenas empresas, pois permite que elas se concentrem em tarefas mais importantes. Com a automação, você pode automatizar tarefas repetitivas e liberar tempo para focar em estratégias de negócios.</p>
@@ -169,5 +158,4 @@ draft: false
         ]
     }
     </script>
-</body>
-</html>
+

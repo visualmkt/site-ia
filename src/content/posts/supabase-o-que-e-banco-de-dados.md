@@ -9,15 +9,6 @@ imageAlt: "Supabase logo"
 draft: false
 ---
 
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-  <meta charset="UTF-8">
-  <title>Supabase: o que é banco de dados para quem não programa – Guia completo</title>
-  <meta name="description" content="Supabase é o banco de dados em nuvem que permite criar e gerenciar dados sem programar. Plano gratuito: 500 MB de armazenamento, 2 GB de transferência mensal e até 3 projetos. Descubra como usar e integrar com n8n, ChatGPT e mais.">
-  <!-- slug: supabase-o-que-e-banco-de-dados-para-quem-nao-programa -->
-</head>
-<body>
 <h2>Introdução</h2>
 <p>Supabase: <strong>o que é banco de dados para quem não programa</strong>? É uma plataforma em nuvem que permite gerenciar dados sem necessidade de conhecimento em programação. É uma solução que combina as funcionalidades de um banco de dados relacional com as vantagens de um serviço em nuvem.</p>
 <p>Ele é especialmente útil para iniciantes e pequenos negócios que precisam gerenciar dados, mas não têm experiência em programação. Com o Supabase, você pode criar e gerenciar bancos de dados de forma fácil e segura.</p>
@@ -251,5 +242,4 @@ draft: false
   ]
 }
 </script>
-</body>
-</html>
+

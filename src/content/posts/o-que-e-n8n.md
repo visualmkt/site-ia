@@ -9,17 +9,7 @@ imageAlt: "n8n logo"
 draft: false
 ---
 
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-<meta charset="UTF-8">
-<title>O que é n8n e como funciona: Guia completo</title>
-<meta name="description" content="Descubra o que é n8n e como funciona, a plataforma open source de automação que conecta sistemas sem código, com self‑hosting gratuito e performance superior a ferramentas como Zapier ou Make.">
-<link rel="canonical" href="https://automacao.art.br/o-que-e-n8n-e-como-funciona/">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
-<body>
-<h1>O que é n8n e como funciona</h1>
+<h2>O que é n8n e como funciona</h2>
 <h2>Introdução ao n8n</h2>
 <p><strong>O n8n é uma ferramenta de automação de código aberto</strong> que conecta APIs, serviços e sistemas sem depender de desenvolvedores para cada integração. Ele funciona como uma ponte entre ferramentas como planilhas, CRMs, e‑mail marketing e bancos de dados, executando tarefas repetitivas automaticamente. O grande diferencial é ser <strong>self‑hosted por padrão</strong>, ou seja, você controla seus dados e evita custos recorrentes com soluções em nuvem.</p>
 
@@ -271,5 +261,4 @@ draft: false
   ]
 }
 </script>
-</body>
-</html>
+

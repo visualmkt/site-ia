@@ -9,16 +9,6 @@ imageAlt: "Preços do Make"
 draft: false
 ---
 
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <title>Quanto custa usar Make? Preços e planos detalhados</title>
-    <meta name="description" content="Descubra quanto custa usar Make, compare planos gratuitos e pagos, e veja como ele se compara ao Zapier. Preços, recursos e dicas para reduzir custos.">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- slug: quanto-custa-usar-make -->
-</head>
-<body>
 <h2>Introdução</h2>
 <p>Quanto custa usar Make? O custo varia de acordo com o plano escolhido, começando em R$ 0,00 para o plano gratuito, R$ 9,99 para o plano "Starter" e R$ 29,99 para o plano "Pro".</p>
 <p>Você pode usar o Make para automação de processos de forma eficiente e personalizada.</p>
@@ -153,5 +143,4 @@ draft: false
   ]
 }
 </script>
-</body>
-</html>
+

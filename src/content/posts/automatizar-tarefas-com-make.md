@@ -9,15 +9,6 @@ imageAlt: "Logotipo do Make"
 draft: false
 ---
 
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <title>Como automatizar tarefas com Make: Guia completo passo a passo</title>
-    <meta name="description" content="Aprenda como automatizar tarefas com Make passo a passo. Veja vantagens, integrações, dicas e exemplos reais para criar cenários eficientes e escaláveis.">
-    <link rel="canonical" href="https://example.com/como-automatizar-tarefas-com-make">
-</head>
-<body>
 <h2>Introdução</h2>
 <p>Como automatizar tarefas com Make? Para automatizar tarefas com Make, você precisa criar "cenários" que conectam aplicativos e serviços, definindo triggers e ações. Isso permite que você automatize fluxos de trabalho e processe dados de forma eficiente. Com o Make, você pode integrar mais de 1.000 aplicativos e serviços diferentes.</p>
 <p>Se você é novo no Make, não se preocupe. É fácil de aprender e usar, mesmo para quem não tem experiência em programação. Você pode começar criando cenários simples e ir aumentando a complexidade à medida que se familiariza com a plataforma.</p>
@@ -90,5 +81,4 @@ draft: false
 <p>Clique aqui para explorar mais sobre como o Make pode ajudar a automatizar suas tarefas e melhorar a produtividade do seu negócio.</p>
 
 <script type="application/ld+json">{"@graph":[{"@type":"FAQPage","name":"Perguntas frequentes sobre como automatizar tarefas com Make","description":"Perguntas frequentes sobre como automatizar tarefas com Make"},{"@type":"Article","headline":"Como Automatizar Tarefas com Make","description":"Aprenda a automatizar tarefas com Make de forma prática e eficaz","author":"Automacao.art.br","publisher":{"@type":"Organization","name":"Automacao.art.br"},"inLanguage":"pt-BR"},{"@type":"HowTo","name":"Como automatizar tarefas com Make","description":"Um tutorial passo a passo sobre como automatizar tarefas com Make"}]}</script>
-</body>
-</html>
+

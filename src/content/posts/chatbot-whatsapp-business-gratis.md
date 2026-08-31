@@ -9,19 +9,7 @@ imageAlt: "Chatbot para WhatsApp Business grátis"
 draft: false
 ---
 
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <title>Chatbot para WhatsApp Business grátis – Guia completo</title>
-    <meta name="description" content="Aprenda a criar um chatbot para WhatsApp Business grátis usando n8n, Make ou Zapier. Passo a passo, dicas, exemplos e dados verificáveis para automatizar seu atendimento.">
-    <link rel="canonical" href="https://automacao.art.br/chatbot-para-whatsapp-business-gratis" />
-    <script type="application/ld+json">
-    { "@graph": [ { "@type": "FAQPage", "name": "Perguntas frequentes sobre chatbot para whatsapp business grátis", "mainEntity": [ { "@type": "Question", "name": "O que é um chatbot para WhatsApp Business?", "acceptedAnswer": { "@type": "Answer", "text": "Um chatbot para WhatsApp Business é um programa de computador que simula conversas com clientes, respondendo a perguntas e fornecendo informações de forma automática." } }, { "@type": "Question", "name": "Como criar um chatbot para WhatsApp Business?", "acceptedAnswer": { "@type": "Answer", "text": "Para criar um chatbot para WhatsApp Business, você precisará seguir os seguintes passos: criar uma conta no n8n ou no Make, configurar a integração com a API do WhatsApp Business, definir as respostas e os fluxos de trabalho do chatbot, e testar e depurar o chatbot." } } ] }, { "@type": "Article", "headline": "Chatbot para WhatsApp Business Grátis", "description": "Crie um chatbot para WhatsApp Business de forma gratuita e melhore a interação com seus clientes", "author": { "@type": "Person", "name": "Equipe de Automação" }, "publisher": { "@type": "Organization", "name": "Automação", "url": "https://automacao.art.br" }, "inLanguage": "pt-BR" }, { "@type": "HowTo", "name": "Como criar um chatbot para WhatsApp Business", "description": "Crie um chatbot para WhatsApp Business de forma gratuita e melhore a interação com seus clientes", "tool": [ { "@type": "SoftwareApplication", "name": "n8n" }, { "@type": "SoftwareApplication", "name": "Make" } ], "supply": [ { "@type": "SoftwareApplication", "name": "WhatsApp Business API" } ], "step": [ { "@type": "HowToStep", "text": "Criar uma conta no n8n ou no Make" }, { "@type": "HowToStep", "text": "Configurar a integração com a API do WhatsApp Business" }, { "@type": "HowToStep", "text": "Definir as respostas e os fluxos de trabalho do chatbot" }, { "@type": "HowToStep", "text": "Testar e depurar o chatbot" } ] } ] }
-    </script>
-</head>
-<body>
-    <h2>Introdução</h2>
+<h2>Introdução</h2>
     <p>Você pode criar um <strong>chatbot para WhatsApp Business grátis</strong> usando ferramentas como n8n e Make. Essas plataformas permitem a integração com a API do WhatsApp Business sem custos adicionais.</p>
     <p>O plano gratuito do n8n permite até <strong>2.000 execuções mensais</strong>, sem custo, o que torna a criação de um chatbot ainda mais acessível. A criação de um chatbot para WhatsApp Business pode ser feita de forma simples e rápida, sem necessidade de conhecimentos avançados de programação. Além disso, a automatização do atendimento de cliente pode ajudar a melhorar a experiência do usuário e reduzir os custos de suporte.</p>
     <p>Uma curiosidade é que a API do WhatsApp Business oferece uma forma segura e escalável de criar chatbots para pequenas empresas e iniciantes, permitindo a integração com outras ferramentas de automação.</p>
@@ -111,5 +99,4 @@ draft: false
         <li>Teste e depure o chatbot regularmente</li>
     </ul>
     <p>Explorar a categoria de automação e descubra como criar um chatbot para WhatsApp Business que atenda às suas necessidades.</p>
-</body>
-</html>
+

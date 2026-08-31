@@ -9,17 +9,7 @@ imageAlt: "Automação com Make"
 draft: false
 ---
 
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <title>Prompts Prontos para Make – Automação Fácil e Exemplos Prontos</title>
-    <meta name="description" content="Descubra prompts prontos para Make, com exemplos práticos, preços a partir de US$9,99/mês e mais de 50 templates gratuitos para automatizar seu negócio." />
-    <link rel="canonical" href="https://example.com/prompts-prontos-para-make" />
-    <script type="application/ld+json">{"@graph":[{"@type":"FAQPage","name":"Perguntas frequentes sobre prompts prontos para make","description":"Respostas para perguntas frequentes sobre o Make"},{"@type":"Article","headline":"Prompts Prontos para Make: Automação Fácil para Iniciantes","description":"O Make é uma ferramenta poderosa para automação de fluxos de trabalho que pode ajudar a simplificar e otimizar os processos de negócios.","author":"Equipe de automação","publisher":{"@type":"Organization","name":"automação.art.br","url":"https://automação.art.br"},"inLanguage":"pt-BR"},{"@type":"HowTo","name":"Como usar o Make para automação de fluxos de trabalho","description":"Passo a passo para criar fluxos de trabalho personalizados com o Make"}]}</script>
-</head>
-<body>
-    <h1>Prompts Prontos para Make</h1>
+<h2>Prompts Prontos para Make</h2>
     <h2>Introdução</h2>
     <p>Se você procura <strong>prompts prontos para Make</strong>, pode automatizar tarefas com facilidade e rapidez. Com o Make, você cria fluxos de trabalho personalizados e integra diferentes ferramentas e aplicativos, permitindo automatizar tarefas repetitivas e focar em atividades mais importantes.</p>
     <p>Com o Make, você pode criar prompts prontos para automação de tarefas, como envio de e‑mails, criação de contatos e atualização de registros. Também é possível integrar o Make com outras plataformas como Integromat e Zapier.</p>
@@ -102,5 +92,4 @@ draft: false
         <li>Recursos avançados como fluxos condicionais e integrações múltiplas</li>
     </ul>
     <p>Explore nossa categoria de automação e descubra como o Make pode impulsionar o seu negócio.</p>
-</body>
-</html>
+

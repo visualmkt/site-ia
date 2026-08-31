@@ -9,17 +9,7 @@ imageAlt: "Agente de IA"
 draft: false
 ---
 
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-<meta charset="UTF-8">
-<title>Biografia de Pesquisadores que Contribuíram para o Desenvolvimento de Agentes de IA</title>
-<meta name="description" content="Descubra as biografias dos principais pesquisadores que impulsionaram o desenvolvimento de agentes de IA, suas contribuições, casos de uso e o futuro da tecnologia.">
-<meta name="slug" content="biografia-de-pesquisadores-que-contribuíram-para-o-desenvolvimento-de-agentes-de-ia">
-<link rel="canonical" href="https://automacao.art.br/biografia-de-pesquisadores-que-contribuíram-para-o-desenvolvimento-de-agentes-de-ia">
-</head>
-<body>
-<h1>Biografia de Pesquisadores que Contribuíram para o Desenvolvimento de Agentes de IA</h1>
+<h2>Biografia de Pesquisadores que Contribuíram para o Desenvolvimento de Agentes de IA</h2>
 
 <h2>Introdução aos Agentes de IA</h2>
 <p>Na <strong>biografia de pesquisadores que contribuíram para o desenvolvimento de agentes de IA</strong>, entendemos que agentes de IA são programas que percebem o ambiente, tomam decisões e agem autonomamente. Eles automatizam tarefas repetitivas e ampliam a capacidade humana.</p>
@@ -111,5 +101,4 @@ draft: false
 <p>Explore mais artigos da nossa categoria de automação e descubra como aplicar esses conceitos ao seu projeto.</p>
 
 <script type="application/ld+json">{ "@context": "https://schema.org", "@graph": [ { "@type": "FAQPage", "@id": "https://automacao.art.br/biografia-de-pesquisadores-que-contribuíram-para-o-desenvolvimento-de-agentes-de-ia#faq", "mainEntity": [ { "@type": "Question", "name": "Quem foi o primeiro pesquisador a desenvolver um agente de IA?", "acceptedAnswer": { "@type": "Answer", "text": "O primeiro agente de IA reconhecido foi ELIZA, criado por Joseph Weizenbaum em 1966, que simulava um psicoterapeuta usando padrões de texto." } }, { "@type": "Question", "name": "Quais são as principais contribuições dos pesquisadores para o desenvolvimento de agentes de IA?", "acceptedAnswer": { "@type": "Answer", "text": "Marvin Minsky introduziu a teoria dos \"frames\", Stuart Russell formalizou funções de utilidade, Peter Norvig aplicou aprendizado por reforço em assistentes de voz e Rafael Ferreira desenvolveu templates self‑hosted integrados a webhooks e RAG." } }, { "@type": "Question", "name": "Como os agentes de IA estão mudando a forma como trabalhamos?", "acceptedAnswer": { "@type": "Answer", "text": "Eles automatizam tarefas repetitivas, reduzem custos operacionais e permitem respostas 24/7, liberando profissionais para atividades estratégicas de maior valor." } }, { "@type": "Question", "name": "Quais são as aplicações mais comuns dos agentes de IA?", "acceptedAnswer": { "@type": "Answer", "text": "Atendimento ao cliente via chat/WhatsApp, recomendações de produtos, agendamento de serviços, suporte técnico automatizado e monitoramento preditivo em indústrias." } }, { "@type": "Question", "name": "Como posso criar um agente de IA?", "acceptedAnswer": { "@type": "Answer", "text": "Utilizando plataformas de automação como n8n, Make ou Zapier, você conecta APIs, define fluxos de decisão e treina modelos de linguagem ou regras de negócio que executam as ações desejadas." } }, { "@type": "Question", "name": "Quais são as principais diferenças entre chatbots e agentes de IA?", "acceptedAnswer": { "@type": "Answer", "text": "Chatbots geralmente seguem scripts fixos, enquanto agentes de IA possuem capacidade de percepção, tomada de decisão baseada em utilidade e aprendizado contínuo, permitindo ações mais complexas." } }, { "@type": "Question", "name": "Como os agentes de IA podem ser usados em pequenos negócios?", "acceptedAnswer": { "@type": "Answer", "text": "Podem automatizar atendimento via WhatsApp, processar pedidos, enviar lembretes de pagamento e integrar sistemas de estoque, reduzindo a necessidade de equipe adicional e aumentando a eficiência." } } ] }, { "@type": "Article", "@id": "https://automacao.art.br/biografia-de-pesquisadores-que-contribuíram-para-o-desenvolvimento-de-agentes-de-ia#article", "headline": "Biografia de Pesquisadores que Contribuíram para o Desenvolvimento de Agentes de IA", "description": "Conheça a biografia de pesquisadores que impulsionaram agentes de IA e veja como suas ideias transformam negócios hoje.", "author": { "@type": "Person", "name": "Automação" }, "publisher": { "@type": "Organization", "name": "automacao.art.br", "url": "https://automacao.art.br" }, "inLanguage": "pt-BR" } ] }</script>
-</body>
-</html>
+

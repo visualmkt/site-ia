@@ -9,49 +9,9 @@ imageAlt: "Inverno da IA: uma representação gráfica"
 draft: false
 ---
 
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inverno da IA: as duas vezes em que a IA quase morreu - História e lições</title>
-    <meta name="description" content="Inverno da IA: as duas vezes em que a IA quase morreu. Descubra os momentos críticos, causas e lições dos invernos da IA (anos 70‑80 e 90‑2000) e como a IA ressurgiu nos últimos anos.">
-    <link rel="canonical" href="https://automacao.art.br/inverno-da-ia-as-duas-vezes-em-que-a-ia-quase-morreu" />
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@graph": [
-        {
-          "@type": "FAQPage",
-          "mainEntity": [
-            {"@type": "Question","name": "O que é o inverno da IA?","acceptedAnswer": {"@type": "Answer","text": "O inverno da IA refere-se a dois períodos de estagnação na pesquisa de inteligência artificial, nos anos 70‑80 e 90‑2000, marcados por expectativas inflacionadas, falta de resultados e redução de financiamentos."}},
-            {"@type": "Question","name": "Quais foram os principais desafios enfrentados pela IA?","acceptedAnswer": {"@type": "Answer","text": "Os principais desafios incluíram limitações de hardware, falhas de algoritmos, escassez de dados, competição com outras tecnologias e a incapacidade de cumprir promessas iniciais, como a compreensão de linguagem natural."}},
-            {"@type": "Question","name": "Como a IA quase foi abandonada?","acceptedAnswer": {"@type": "Answer","text": "A IA quase foi abandonada devido à combinação de hype excessivo sem resultados, cortes orçamentários e migração de investimentos para áreas com retornos mais rápidos, como a mineração de dados."}},
-            {"@type": "Question","name": "Quais são as principais aplicações da IA atualmente?","acceptedAnswer": {"@type": "Answer","text": "Hoje, a IA é aplicada em reconhecimento de voz, geração de texto, veículos autônomos, manutenção preditiva industrial, robôs colaborativos e sistemas de automação como n8n e Zapier."}},
-            {"@type": "Question","name": "Quem são os principais players no desenvolvimento da IA?","acceptedAnswer": {"@type": "Answer","text": "Os principais players incluem OpenAI, Google, IBM, NVIDIA, laboratórios como o Stanford AI Lab e ferramentas de automação como n8n, Zapier e Make."}},
-            {"@type": "Question","name": "Qual é o futuro da IA?","acceptedAnswer": {"@type": "Answer","text": "O futuro da IA aponta para maior integração industrial (edge AI), modelos explicáveis, automação de processos complexos e expansão em saúde, logística e robótica, com foco em eficiência."}},
-            {"@type": "Question","name": "Como a automação está relacionada à IA?","acceptedAnswer": {"@type": "Answer","text": "A automação e a IA estão conectadas: a IA fornece inteligência para sistemas autônomos (robôs, manutenção preditiva), enquanto a automação aplica modelos de IA em escala, otimizando operações e reduzindo custos."}}
-          ]
-        },
-        {
-          "@type": "Article",
-          "headline": "Inverno da IA: as duas vezes em que a IA quase morreu",
-          "description": "Descubra os momentos críticos da história da IA, as duas vezes em que quase morreu e como ela ressurgiu nos últimos anos.",
-          "author": {"@type": "Person", "name": "Equipe Automacao.art.br"},
-          "publisher": {"@type": "Organization", "name": "Automacao.art.br", "logo": {"@type": "ImageObject", "url": "https://automacao.art.br/logo.png"}},
-          "datePublished": "2023-11-15",
-          "inLanguage": "pt-BR",
-          "articleBody": "..."
-        }
-      ]
-    }
-    </script>
-</head>
-<body>
 <article>
     <header>
-        <h1>Inverno da IA: as duas vezes em que a IA quase morreu</h1>
+        <h2>Inverno da IA: as duas vezes em que a IA quase morreu</h2>
         <p><img src="https://automacao.art.br/imagens/inverno-ia.jpg" alt="inverno da ia as duas vezes em que a ia quase morreu" style="max-width:100%;height:auto;" /></p>
         <p>O inverno da IA aconteceu duas vezes: nos anos 70‑80 e nos anos 90‑2000, períodos em que a pesquisa quase morreu por falta de resultados e financiamento.</p>
     </header>
@@ -150,5 +110,4 @@ draft: false
     </ul>
     <p>Quer entender como a automação está moldando o futuro da IA? Explore nossa categoria <a href="https://automacao.art.br/historia/historia-da-automacao/" target="_blank" rel="noopener noreferrer">História da Automação</a> e descubra como sistemas inteligentes estão redefinindo indústrias hoje.</p>
 </article>
-</body>
-</html>
+

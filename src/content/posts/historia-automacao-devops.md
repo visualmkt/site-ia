@@ -9,16 +9,7 @@ imageAlt: "Linha do tempo da história da automação de DevOps"
 draft: false
 ---
 
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-<meta charset="UTF-8">
-<title>História da automação de DevOps: da Revolução Industrial à IA</title>
-<meta name="description" content="Descubra a história da automação de DevOps, da máquina a vapor aos pipelines de IA, com marcos, ferramentas e lições práticas para seu negócio.">
-<link rel="canonical" href="https://example.com/historia-da-automacao-de-devops">
-</head>
-<body>
-<h1>História da automação de DevOps</h1>
+<h2>História da automação de DevOps</h2>
 <h2>Introdução</h2>
 <p>A história da automação de DevOps percorre mais de dois séculos, da máquina a vapor ao código que gera pipelines. Você verá como cada salto tecnológico redefiniu a entrega de software.</p>
 <p>Entender esse percurso ajuda a escolher a ferramenta certa hoje e a evitar erros já cometidos no passado. Cada fase traz lições práticas para seu negócio.</p>
@@ -207,5 +198,4 @@ draft: false
   ]
 }
 </script>
-</body>
-</html>
+

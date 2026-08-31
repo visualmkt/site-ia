@@ -9,16 +9,7 @@ imageAlt: "Pipeline de desenvolvimento com n8n"
 draft: false
 ---
 
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-<title>O que é CI/CD e como automatizar com n8n: Guia completo</title>
-<meta charset="UTF-8">
-<meta name="description" content="Descubra o que é CI/CD e aprenda passo a passo como automatizar pipelines de integração e entrega contínua usando n8n, com exemplos práticos e dicas.">
-<link rel="canonical" href="https://automacao.art.br/o-que-e-cicd-e-como-automatizar-com-n8n"/>
-</head>
-<body>
-<h1>O que é CI/CD e como automatizar com n8n</h1>
+<h2>O que é CI/CD e como automatizar com n8n</h2>
 <h2>Introdução</h2>
 <p>CI/CD (Integração Contínua e Entrega Contínua) é a prática de integrar e entregar software de forma automática e frequente, reduzindo o tempo de entrega em até 40% (State of DevOps Report 2023). Com o n8n, você pode automatizar esses processos de desenvolvimento e entrega de software de forma fácil e personalizada. Isso inclui a automação de tarefas repetitivas, a integração com outras ferramentas de desenvolvimento e a criação de pipelines de desenvolvimento personalizados.</p>
 <p>Com o n8n, você pode criar workflows personalizados que se integram com outras ferramentas de desenvolvimento, como o GitHub, Git, Docker e Kubernetes. Isso permite que você automatize processos de desenvolvimento e entrega de software de forma mais eficiente e personalizada.</p>
@@ -107,5 +98,4 @@ draft: false
 <p>Explore a categoria de automação de processos e aprenda mais sobre como o n8n pode ajudar a melhorar a eficiência e a qualidade do seu fluxo de trabalho.</p>
 
 <script type="application/ld+json">{"@graph":[{"@type":"FAQPage","name":"Perguntas frequentes sobre O que é CI/CD e como automatizar com n8n","mainEntity":[{"@type":"Question","name":"O que é CI/CD?","acceptedAnswer":{"@type":"Answer","text":"CI/CD é a integração contínua e entrega contínua de software, permitindo que os desenvolvedores trabalhem de forma mais eficiente e entreguem software de alta qualidade de forma rápida."}},{"@type":"Question","name":"Por que devo usar CI/CD?","acceptedAnswer":{"@type":"Answer","text":"O CI/CD ajuda a reduzir o tempo de entrega de software, melhorar a qualidade do software e aumentar a eficiência dos desenvolvedores."}},{"@type":"Question","name":"Como implementar CI/CD em meu projeto?","acceptedAnswer":{"@type":"Answer","text":"Para implementar CI/CD, você precisa criar um workflow que inclua a integração com outras ferramentas de desenvolvimento, como o GitHub, Git, Docker e Kubernetes."}},{"@type":"Question","name":"Quais são as melhores ferramentas de CI/CD?","acceptedAnswer":{"@type":"Answer","text":"Algumas das melhores ferramentas de CI/CD incluem o n8n, Jenkins, CircleCI e Travis CI."}},{"@type":"Question","name":"Como automatizar processos de desenvolvimento com n8n?","acceptedAnswer":{"@type":"Answer","text":"Com o n8n, você pode criar workflows personalizados que se integram com outras ferramentas de desenvolvimento, como o GitHub, Git, Docker e Kubernetes."}},{"@type":"Question","name":"Qual é a diferença entre CI e CD?","acceptedAnswer":{"@type":"Answer","text":"A integração contínua (CI) é a prática de integrar o código fonte de um projeto de forma frequente, enquanto a entrega contínua (CD) é a prática de entregar o software de forma frequente e automatizada."}},{"@type":"Question","name":"Como integrar n8n com outras ferramentas de desenvolvimento?","acceptedAnswer":{"@type":"Answer","text":"O n8n pode ser integrado com outras ferramentas de desenvolvimento, como o GitHub, Git, Docker e Kubernetes, para automatizar processos de desenvolvimento e entrega de software."}}],"@type":"Article","headline":"O que é CI/CD e como automatizar com n8n","description":"Descubra o que é CI/CD e aprenda passo a passo como automatizar pipelines de integração e entrega contínua usando n8n, com exemplos práticos e dicas.","author":"Equipe de automação","publisher":{"@type":"Organization","name":"Automacao","url":"https://automacao.art.br"},"inLanguage":"pt-BR"},{"@type":"HowTo","name":"Implementar CI/CD com n8n","description":"Aprenda a implementar CI/CD com n8n","tool":"n8n","supply":"GitHub, Git, Docker e Kubernetes","step":[{"@type":"HowToStep","text":"Criar um novo workflow no n8n"},{"@type":"HowToStep","text":"Adicionar um trigger para o workflow, como um webhook do GitHub"},{"@type":"HowToStep","text":"Adicionar uma ação para o workflow, como a execução de um script de teste"},{"@type":"HowToStep","text":"Configurar o pipeline para entregar o software após a execução do script de teste"}]}]}</script>
-</body>
-</html>
+

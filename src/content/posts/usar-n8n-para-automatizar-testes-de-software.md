@@ -9,19 +9,8 @@ imageAlt: "n8n para automação de testes de software"
 draft: false
 ---
 
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <title>Como usar n8n para automatizar testes de software – Guia completo</title>
-    <meta name="description" content="Aprenda passo a passo como usar n8n para automatizar testes de software, integrando APIs, criando fluxos personalizados e otimizando a eficiência dos testes.">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- slug: como-usar-n8n-para-automatizar-testes-de-software -->
-    <link rel="canonical" href="https://example.com/como-usar-n8n-para-automatizar-testes-de-software">
-</head>
-<body>
 <article>
-<h1>Como usar n8n para automatizar testes de software</h1>
+<h2>Como usar n8n para automatizar testes de software</h2>
 
 <h2>Introdução ao n8n e sua importância na automação de testes</h2>
 <p><strong>Como usar n8n para automatizar testes de software</strong> é a pergunta que muitos desenvolvedores fazem ao buscar otimizar seus pipelines de qualidade. Você pode usar o n8n para automatizar testes de software criando fluxos de trabalho personalizados que integrem diferentes ferramentas e APIs. Isso ajuda a reduzir o tempo de teste e melhorar a eficiência. O n8n, na versão <strong>0.236.0</strong>, pode ser self‑hosted ou usado em nuvem (n8n Cloud a partir de US$20/mês).</p>
@@ -181,5 +170,4 @@ draft: false
 }
 </script>
 </article>
-</body>
-</html>
+

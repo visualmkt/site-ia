@@ -9,17 +9,6 @@ imageAlt: "Linha do tempo do desenvolvimento de agentes de IA"
 draft: false
 ---
 
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Linha do Tempo do Desenvolvimento de Agentes de IA – Guia Completo</title>
-    <meta name="description" content="Descubra a linha do tempo do desenvolvimento de agentes de IA, desde as primeiras pesquisas em 1950 até as integrações atuais com APIs, RAG e tecnologias como n8n, ChatGPT e Gemini. Saiba como esses agentes evoluíram, tendências, desafios e aplicações práticas.">
-    <link rel="canonical" href="https://automacao.art.br/linha-do-tempo-desenvolvimento-agentes-de-ia">
-</head>
-<body>
 <h2>Introdução aos Agentes de IA</h2>
 <p>A linha do tempo do desenvolvimento de agentes de IA envolve a evolução da inteligência artificial e sua aplicação em sistemas capazes de realizar tarefas autônomas. Você pode aprender mais sobre agentes de IA em <a href="https://automacao.art.br/agentes/agentes-de-ia-o-que-sao-e-como-criar/">como criar agentes de IA</a> e <a href="https://automacao.art.br/agentes/o-que-e-agente-de-ia/">o que é um agente de IA</a>.</p>
 <p>Os agentes de IA são importantes porque podem automatizar processos e melhorar a eficiência em vários setores.</p>
@@ -105,5 +94,4 @@ draft: false
   ]
 }
 </script>
-</body>
-</html>
+

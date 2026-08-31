@@ -9,20 +9,8 @@ imageAlt: "Chave de API segura"
 draft: false
 ---
 
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Como proteger suas API keys – Guia completo para desenvolvedores</title>
-  <meta name="description" content="Aprenda passo a passo como proteger suas API keys, armazenando-as com segurança, usando autenticação, rotacionando e monitorando o uso para evitar vazamentos.">
-  <link rel="canonical" href="https://automacao.art.br/como-proteger-suas-api-keys">
-  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"O que é uma chave de API?","acceptedAnswer":{"@type":"Answer","text":"Uma chave de API é uma string única que identifica quem está fazendo a chamada a uma API, funcionando como uma credencial de acesso."}},{"@type":"Question","name":"Por que é importante proteger as chaves de API?","acceptedAnswer":{"@type":"Answer","text":"As chaves dão acesso direto a recursos e dados; se forem comprometidas, terceiros podem usar seus serviços, gerar custos inesperados e expor informações sensíveis."}},{"@type":"Question","name":"Como posso proteger minhas chaves de API?","acceptedAnswer":{"@type":"Answer","text":"Armazene-as em variáveis de ambiente ou em serviços de gerenciamento de segredos, nunca as deixe em repositórios públicos, e use mecanismos de rotação regular."}},{"@type":"Question","name":"Quais são as melhores práticas para segurança de API?","acceptedAnswer":{"@type":"Answer","text":"Utilize TLS, limite o escopo das chaves, implemente rate limiting, faça rotação automática e registre auditorias de acesso."}},{"@type":"Question","name":"Como posso evitar acessos não autorizados às minhas APIs?","acceptedAnswer":{"@type":"Answer","text":"Combine autenticação forte (JWT, OAuth) com autorização baseada em papéis, e restrinja chamadas a IPs confiáveis ou a domínios específicos."}},{"@type":"Question","name":"Qual é a importância da criptografia para segurança de API?","acceptedAnswer":{"@type":"Answer","text":"A criptografia protege os dados em trânsito (TLS) e em repouso (AES), impedindo que interceptadores leiam ou alterem as informações transmitidas."}},{"@type":"Question","name":"Como posso gerenciar minhas chaves de API de forma segura?","acceptedAnswer":{"@type":"Answer","text":"Use um registro centralizado, habilite alertas de uso anômalo, implemente scripts de rotação e revogue imediatamente chaves comprometidas."}}]},{"@type":"Article","headline":"Proteja suas Chaves de API: Um Guia para Desenvolvedores","description":"Aprenda a proteger suas chaves de API e garantir a segurança dos dados com práticas recomendadas e ferramentas adequadas.","author":{"@type":"Person","name":"Equipe Automação"},"publisher":{"@type":"Organization","name":"automacao.art.br","logo":{"@type":"ImageObject","url":"https://automacao.art.br/logo.png"}},"inLanguage":"pt-BR","url":"https://automacao.art.br/como-proteger-suas-api-keys"},{"@type":"HowTo","name":"Como proteger suas API Keys passo a passo","step":[{"@type":"HowToStep","name":"Armazene as chaves em variáveis de ambiente","text":"Utilize arquivos .env ou serviços de gerenciamento de segredos para manter as chaves fora do código‑fonte."},{"@type":"HowToStep","name":"Implemente autenticação e autorização","text":"Configure tokens JWT ou OAuth para garantir que apenas usuários autorizados acessem a API."},{"@type":"HowToStep","name":"Limite o escopo e rotacione as chaves","text":"Defina permissões mínimas e troque as chaves periodicamente para reduzir riscos."},{"@type":"HowToStep","name":"Monitore o uso das chaves","text":"Configure alertas e logs para detectar padrões incomuns de acesso."}]}]}
-</script>
-</head>
-<body>
-  <header>
-    <h1>Como proteger suas API keys – Guia completo para desenvolvedores</h1>
+<header>
+    <h2>Como proteger suas API keys – Guia completo para desenvolvedores</h2>
     <img src="https://automacao.art.br/images/api-keys-protection.jpg" alt="como proteger suas api keys">
   </header>
 
@@ -130,5 +118,4 @@ draft: false
     <li>Use ferramentas como Vault, AWS Secrets Manager ou n8n para automatizar a proteção.</li>
   </ul>
   <p>Explore mais artigos na nossa categoria de <a href="/seguranca-de-apis">Segurança de APIs</a> e mantenha seus projetos sempre protegidos.</p>
-</body>
-</html>
+

@@ -9,18 +9,7 @@ imageAlt: "Planilha de controle de projetos ChatGPT"
 draft: false
 ---
 
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <title>ChatGPT para criar planilhas de controle de projetos: guia completo passo a passo</title>
-    <meta name="description" content="Descubra como usar o ChatGPT para criar planilhas de controle de projetos de forma rápida e personalizada, com exemplos práticos, dicas de prompts e integração com n8n.">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- slug: /chatgpt-criar-planilhas-controle-projetos -->
-    <link rel="canonical" href="https://automacao.art.br/chatgpt-criar-planilhas-controle-projetos" />
-</head>
-<body>
-<h1>ChatGPT para criar planilhas de controle de projetos</h1>
+<h2>ChatGPT para criar planilhas de controle de projetos</h2>
 
 <h2>Introdução ao ChatGPT para criar planilhas de controle de projetos</h2>
 <p>ChatGPT para criar planilhas de controle de projetos permite gerar, em poucos minutos, planilhas completas e adaptadas às necessidades específicas do seu projeto. Com apenas alguns prompts, você pode obter planilhas detalhadas que incluem até 12 colunas – como data, responsável, status, orçamento, risco e métricas de desempenho.</p>
@@ -134,5 +123,4 @@ draft: false
   ]
 }
 </script>
-</body>
-</html>
+

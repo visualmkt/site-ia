@@ -440,19 +440,19 @@ sudo ufw enable</code></pre>
 DATE=$(date +%Y%m%d)
 BACKUP_DIR="/backup"
 
-# Backup n8n
+\# Backup n8n
 docker run --rm \
   -v n8n_data:/source \
   -v $BACKUP_DIR:/backup \
   alpine ash -c "cd /source && tar czf /backup/n8n-$DATE.tar.gz ."
 
-# Backup PostgreSQL
+\# Backup PostgreSQL
 docker exec -t postgres pg_dump -U n8n -d n8n | gzip > $BACKUP_DIR/postgres-$DATE.sql.gz
 
-# Envia para nuvem (ex: Wasabi S3)
+\# Envia para nuvem (ex: Wasabi S3)
 aws s3 sync $BACKUP_DIR s3://seu-bucket/n8n/ --exclude "*" --include "*.gz" --storage-class STANDARD_IA
 
-# Limpa backups com mais de 30 dias
+\# Limpa backups com mais de 30 dias
 find $BACKUP_DIR -name "*.gz" -mtime +30 -delete
 find $BACKUP_DIR -name "*.tar.gz" -mtime +30 -delete</code></pre>
 

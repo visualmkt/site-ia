@@ -8,15 +8,6 @@ imageAlt: "Integração n8n com Shopify para pequenos lojistas"
 draft: false
 ---
 
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-  <meta charset="UTF-8">
-  <title>Vale a pena integrar n8n com plataformas de e‑commerce como Shopify para pequenos lojistas? | Automação</title>
-  <meta name="description" content="Descubra se integrar n8n com Shopify vale a pena para pequenos lojistas, conheça benefícios, custos, desafios e um guia passo a passo para automatizar seu e‑commerce.">
-  <link rel="canonical" href="https://automacao.art.br/vale-a-pena-integrar-n8n-shopify-pequenos-lojistas">
-</head>
-<body>
 <h2>Introdução</h2>
 <h3>Vale a pena integrar n8n com plataformas de e‑commerce como Shopify para pequenos lojistas?</h3>
 <p>Vale a pena integrar n8n com plataformas de e‑commerce como Shopify para pequenos lojistas porque isso pode aumentar a eficiência, reduzir custos e melhorar a experiência do cliente. A integração permite automatizar processos manuais, como o envio de notificações e a atualização de estoque. Além disso, a integração pode ajudar a otimizar processos e aumentar as vendas.</p>
@@ -184,5 +175,4 @@ draft: false
   ]
 }
 </script>
-</body>
-</html>
+

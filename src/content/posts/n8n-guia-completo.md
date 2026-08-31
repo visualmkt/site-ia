@@ -9,18 +9,6 @@ imageAlt: "n8n logo"
 draft: false
 ---
 
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>n8n guia completo em português – Guia definitivo</title>
-  <meta name="description" content="Aprenda tudo sobre n8n com este guia completo em português: instalação, configuração de webhooks, node HTTP Request, erros comuns e comparação com Zapier e Make. Descubra como automatizar processos de forma prática e segura.">
-  <link rel="canonical" href="https://automacao.art.br/n8n/guia-completo-em-portugues/">
-  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Article","headline":"Guia Completo do N8n: Automatize Seus Processos com Facilidade","description":"Aprenda a usar o n8n para automatizar processos, incluindo instalação, webhooks, HTTP Request e comparações com Zapier e Make.","author":{"@type":"Person","name":"Equipe Automação"},"publisher":{"@type":"Organization","name":"automacao.art.br","url":"https://automacao.art.br"},"inLanguage":"pt-BR","url":"https://automacao.art.br/n8n/guia-completo-em-portugues"},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"O que é o n8n?","acceptedAnswer":{"@type":"Answer","text":"O n8n é uma plataforma de automação de código aberto que permite criar fluxos de trabalho entre APIs, bancos de dados e serviços sem necessidade de escrever código."}},{"@type":"Question","name":"Como instalar o n8n?","acceptedAnswer":{"@type":"Answer","text":"Instale o n8n gratuitamente via npm (npm install n8n -g) ou usando Docker em uma VPS (docker run -d --name n8n -p 5678:5678 n8nio/n8n)."}},{"@type":"Question","name":"Qual é a diferença entre n8n e Zapier?","acceptedAnswer":{"@type":"Answer","text":"O n8n é auto‑hosted e de código aberto, oferecendo controle total dos dados, enquanto o Zapier é um serviço SaaS fechado, com interface mais simples, mas menos privacidade."}},{"@type":"Question","name":"Como usar o n8n para automatizar processos?","acceptedAnswer":{"@type":"Answer","text":"Crie workflows arrastando nodes como Webhook, HTTP Request e Function, configure as conexões entre eles e ative o fluxo para que ele seja disparado automaticamente."}},{"@type":"Question","name":"Quais são os erros comuns no n8n e como resolvê-los?","acceptedAnswer":{"@type":"Answer","text":"Erros frequentes incluem timeout de execução, credenciais inválidas e storage cheio; a solução costuma ser ajustar o timeout, renovar tokens ou limpar o volume Docker."}},{"@type":"Question","name":"Como configurar o webhook no n8n?","acceptedAnswer":{"@type":"Answer","text":"Adicione um node “Webhook”, defina o método e caminho, salve o workflow e copie a URL gerada; então configure a fonte externa para enviar requisições a essa URL."}},{"@type":"Question","name":"Qual é a melhor forma de aprender o n8n?","acceptedAnswer":{"@type":"Answer","text":"Comece pelos tutoriais oficiais, pratique criando pequenos workflows, explore a documentação de nodes e participe da comunidade GitHub para trocar experiências."}}]},{"@type":"HowTo","name":"Como instalar e configurar o n8n passo a passo","description":"Instalação, configuração de webhook e uso do node HTTP Request no n8n.","step":[{"@type":"HowToStep","name":"Instalar n8n via npm","text":"Execute npm install n8n -g e depois n8n start. A interface abrirá em http://localhost:5678."},{"@type":"HowToStep","name":"Instalar n8n via Docker","text":"Execute docker run -d --name n8n -p 5678:5678 n8nio/n8n e persista os dados em /root/.n8n."},{"@type":"HowToStep","name":"Criar webhook","text":"Adicione o node Webhook, escolha método POST, defina o caminho /api/receber, salve e copie a URL gerada."},{"@type":"HowToStep","name":"Configurar node HTTP Request","text":"Adicione o node HTTP Request, insira a URL da API, selecione o método, configure cabeçalhos e payload, e teste a resposta."},{"@type":"HowToStep","name":"Testar fluxo","text":"Use curl ou um cliente HTTP para enviar dados ao webhook e verifique se o workflow inicia e a resposta do HTTP Request é recebida."}]}]}
-</script>
-</head>
-<body>
 <article>
   <p>Este <strong>n8n guia completo em português</strong> ensina você a instalar, configurar e usar o n8n para automatizar processos de forma prática.</p>
   <p>Destinado a desenvolvedores, pequenos negócios e iniciantes, o conteúdo cobre desde a instalação gratuita até a criação de webhooks avançados.</p>
@@ -220,5 +208,4 @@ draft: false
   </ul>
   <p>Explore mais artigos na nossa categoria <a href="https://automacao.art.br/n8n/">n8n</a> e continue aprimorando suas habilidades de automação.</p>
 </article>
-</body>
-</html>
+

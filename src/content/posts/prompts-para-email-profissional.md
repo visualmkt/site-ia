@@ -9,18 +9,8 @@ imageAlt: "Escrevendo um email profissional"
 draft: false
 ---
 
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <title>Prompts Prontos para Escrever Email Profissional – Guia Completo</title>
-    <meta name="description" content="Descubra como usar prompts prontos para escrever email profissional de forma rápida e eficaz. Veja exemplos, ferramentas como n8n, Zapier e ChatGPT, e aumente sua produtividade.">
-    <link rel="canonical" href="https://example.com/prompts-prontos-para-escrever-email-profissional">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
-<body>
 <article>
-<h1>Prompts Prontos para Escrever Email Profissional</h1>
+<h2>Prompts Prontos para Escrever Email Profissional</h2>
 <h2>Introdução</h2>
 <p>Os <strong>prompts prontos para escrever email profissional</strong> são modelos pré‑definidos que ajudam a estruturar e redigir emails de forma eficaz, economizando tempo e melhorando a comunicação. Eles são fundamentais para qualquer profissional ou pequeno negócio que busque automatizar e aperfeiçoar sua comunicação por email.</p>
 <p>Com a ajuda de prompts prontos, você pode criar emails profissionais de alta qualidade, personalizados e eficazes para diferentes objetivos e públicos. Isso inclui desde emails de marketing e vendas até emails de suporte e relatórios.</p>
@@ -185,5 +175,4 @@ draft: false
 }
 </script>
 </article>
-</body>
-</html>
+

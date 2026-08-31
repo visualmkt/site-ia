@@ -9,17 +9,7 @@ imageAlt: "Automatizar postagens em redes sociais com n8n"
 draft: false
 ---
 
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <title>Como automatizar postagens em redes sociais: guia completo</title>
-    <meta name="description" content="Aprenda passo a passo como automatizar postagens em redes sociais usando n8n, Zapier e Make. Descubra dicas, melhores práticas e compare ferramentas para otimizar sua presença online.">
-    <link rel="canonical" href="https://automacao.art.br/como-automatizar-postagens-em-redes-sociais">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
-<body>
-    <h1>Como automatizar postagens em redes sociais</h1>
+<h2>Como automatizar postagens em redes sociais</h2>
     <h2>Introdução à Automação de Postagens em Redes Sociais</h2>
     <p>Você pode <strong>como automatizar postagens em redes sociais</strong> usando ferramentas como n8n, Zapier e Make. Essas ferramentas permitem que você crie fluxos de trabalho automatizados para publicar conteúdo em redes sociais como Instagram, Facebook e Twitter.</p>
     <p>A automação de marketing digital é fundamental para pequenos negócios, pois ajuda a economizar tempo e aumentar a produtividade. Com a automação, você pode se concentrar em outras áreas do negócio, como a criação de conteúdo e a interação com os clientes.</p>
@@ -166,5 +156,4 @@ draft: false
       ]
     }
     </script>
-</body>
-</html>
+

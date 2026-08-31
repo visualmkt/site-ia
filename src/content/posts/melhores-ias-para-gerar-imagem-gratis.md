@@ -9,15 +9,6 @@ imageAlt: "IA gerando imagem"
 draft: false
 ---
 
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-  <meta charset="UTF-8">
-  <title>Melhores IAs para Gerar Imagem Grátis: Guia Completo</title>
-  <meta name="description" content="Descubra as melhores IAs para gerar imagem grátis, como DALL‑E, Stable Diffusion e Midjourney, e aprenda a escolher a ferramenta ideal para criar imagens de alta qualidade sem custo.">
-  <meta name="slug" content="melhores-ias-para-gerar-imagem-gratis">
-</head>
-<body>
 <h2>Introdução</h2>
 <p>As melhores IAs para gerar imagem grátis incluem opções como o DALL-E, Stable Diffusion e o Midjourney. Essas ferramentas usam inteligência artificial para criar imagens personalizadas a partir de texto.</p>
 <p>Você pode usar essas IAs para criar conteúdo visual para sua marca ou negócio. É importante escolher a IA certa para suas necessidades.</p>
@@ -193,5 +184,4 @@ draft: false
   ]
 }
 </script>
-</body>
-</html>
+

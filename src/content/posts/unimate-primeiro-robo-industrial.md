@@ -9,16 +9,6 @@ imageAlt: "Unimate primeiro robô industrial da história na fábrica da GM"
 draft: false
 ---
 
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-  <meta charset="UTF-8">
-  <title>Unimate o primeiro robô industrial da história - Automação Art</title>
-  <meta name="description" content="Descubra como o Unimate, o primeiro robô industrial da história, revolucionou a produção automotiva em 1961, sua tecnologia, impacto e legado até a IA contemporânea.">
-  <meta name="slug" content="unimate-o-primeiro-robo-industrial-da-historia">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
-<body>
 <p>O Unimate, desenvolvido em 1961, foi o primeiro robô industrial a operar em linha de produção de forma autônoma. Ele substituiu o trabalho manual na solda de carrocerias da General Motors, marcando o início da automação robótica.</p>
 <p>Hoje, o Unimate ainda é referência para quem estuda a evolução da robótica e da inteligência artificial aplicada à indústria. Entender sua história ajuda a perceber como chegamos aos sistemas colaborativos e aos agentes de IA atuais.</p>
 
@@ -103,5 +93,4 @@ draft: false
 <p>Quer aprofundar ainda mais? Explore nossa categoria de <a href="https://automacao.art.br/historia/">história da automação</a> e descubra como a tecnologia evoluiu desde o Unimate até os sistemas inteligentes de hoje.</p>
 
 <script type="application/ld+json">{ "@context": "https://schema.org", "@graph": [ { "@type": "Article", "headline": "Unimate: o primeiro robô industrial da história", "description": "Descubra como o Unimate, o primeiro robô industrial, revolucionou a produção automotiva e influenciou a evolução da IA e da automação.", "author": { "@type": "Person", "name": "Automação Art" }, "publisher": { "@type": "Organization", "name": "Automação Art", "url": "https://automacao.art.br" }, "inLanguage": "pt-BR" }, { "@type": "FAQPage", "mainEntity": [ { "@type": "Question", "name": "O que foi o Unimate?", "acceptedAnswer": { "@type": "Answer", "text": "O Unimate foi o primeiro robô industrial, um braço hidráulico programável que realizou soldagem de carrocerias na General Motors a partir de 1961." } }, { "@type": "Question", "name": "Quando o Unimate foi criado?", "acceptedAnswer": { "@type": "Answer", "text": "O protótipo foi desenvolvido em 1961 e entrou em operação piloto na fábrica da GM em Nova Jersey no mesmo ano." } }, { "@type": "Question", "name": "Quem inventou o Unimate?", "acceptedAnswer": { "@type": "Answer", "text": "A invenção foi fruto da parceria entre George Devol, que patenteou o manipulador, e Joseph Engelberger, que comercializou a tecnologia." } }, { "@type": "Question", "name": "Qual era a função original do Unimate na fábrica?", "acceptedAnswer": { "@type": "Answer", "text": "Sua função era automatizar a solda de painéis de carroceria, substituindo o trabalho manual repetitivo e perigoso dos operários." } }, { "@type": "Question", "name": "Como o Unimate influenciou a robótica moderna?", "acceptedAnswer": { "@type": "Answer", "text": "Ele estabeleceu o modelo de robô programável fixo, inspirando gerações de braços articulados, cobots e sistemas de controle como PLCs e CNCs." } }, { "@type": "Question", "name": "O Unimate utilizava inteligência artificial?", "acceptedAnswer": { "@type": "Answer", "text": "Não. O controle era baseado em relés e válvulas pneumáticas, sem software de IA ou aprendizado de máquina." } }, { "@type": "Question", "name": "Onde posso ver o Unimate em funcionamento hoje?", "acceptedAnswer": { "@type": "Answer", "text": "Um Unimate original está em exibição no Henry Ford Museum, em Detroit, e há vídeos demonstrativos no YouTube." } }, { "@type": "Question", "name": "Qual a diferença entre o Unimate e os robôs atuais?", "acceptedAnswer": { "@type": "Answer", "text": "Hoje os robôs são mais leves, controlados por software, com sensores avançados e capacidade de IA, enquanto o Unimate era grande, hidráulico e totalmente determinístico." } } ] } ] }</script>
-</body>
-</html>
+

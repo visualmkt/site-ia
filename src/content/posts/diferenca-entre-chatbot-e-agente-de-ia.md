@@ -9,50 +9,11 @@ imageAlt: "Chatbot e agente de IA comparados"
 draft: false
 ---
 
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Diferença entre chatbot e agente de IA: Guia completo</title>
-    <meta name="description" content="Descubra as principais diferenças entre chatbot e agente de IA, como funcionam, aplicações e como escolher a melhor solução para automatizar seu negócio.">
-    <meta name="robots" content="index,follow">
-    <link rel="canonical" href="https://automacao.art.br/diferenca-entre-chatbot-e-agente-de-ia">
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@graph": [
-        {
-          "@type": "FAQPage",
-          "mainEntity": [
-            {"@type": "Question","name": "O que é um chatbot e como funciona?","acceptedAnswer": {"@type": "Answer","text": "Um chatbot é um programa que simula uma conversa humana via texto ou voz, processando a entrada do usuário e respondendo com base em regras ou em modelos de linguagem como GPT‑3.5."}},
-            {"@type": "Question","name": "Qual é o propósito de um agente de IA?","acceptedAnswer": {"@type": "Answer","text": "Um agente de IA tem como objetivo executar ações automatizadas, como chamar APIs, atualizar bancos de dados ou iniciar fluxos de trabalho, indo além da simples resposta textual."}},
-            {"@type": "Question","name": "Como escolher entre um chatbot e um agente de IA?","acceptedAnswer": {"@type": "Answer","text": "Escolha um chatbot quando precisar apenas de respostas automáticas simples; opte por um agente de IA quando for necessário realizar tarefas complexas ou integrar múltiplas ferramentas."}},
-            {"@type": "Question","name": "Quais são as vantagens de usar agentes de IA em vez de chatbots?","acceptedAnswer": {"@type": "Answer","text": "Agentes de IA podem tomar decisões, orquestrar processos e interagir com sistemas externos, proporcionando automação mais robusta e reduzindo a necessidade de intervenção humana."}},
-            {"@type": "Question","name": "Posso criar um agente de IA para automação sem conhecimento técnico?","acceptedAnswer": {"@type": "Answer","text": "Sim, plataformas como n8n, Make ou Zapier oferecem interfaces visuais que permitem montar agentes de IA sem escrever código, embora algum entendimento básico de lógica ajude."}},
-            {"@type": "Question","name": "Quais são as aplicações mais comuns de chatbots e agentes de IA?","acceptedAnswer": {"@type": "Answer","text": "Chatbots são usados principalmente em atendimento ao cliente e captura de leads; agentes de IA são aplicados em geração de propostas, atualização de CRM, automação de vendas e processos internos."}},
-            {"@type": "Question","name": "Como integrar um agente de IA com outras ferramentas de automação?","acceptedAnswer": {"@type": "Answer","text": "A integração pode ser feita via webhooks, APIs REST ou conectores nativos de plataformas como Zapier, n8n e Make, permitindo que o agente acione ou receba dados de outros sistemas."}}
-          ]
-        },
-        {
-          "@type": "Article",
-          "headline": "Entendendo a Diferença entre Chatbot e Agente de IA",
-          "description": "Descubra as diferenças entre chatbot e agente de IA e saiba como escolher a solução ideal para automatizar seu pequeno negócio.",
-          "author": {"@type": "Person", "name": "Equipe Automação"},
-          "publisher": {"@type": "Organization", "name": "automacao.art.br", "url": "https://automacao.art.br"},
-          "inLanguage": "pt-BR"
-        }
-      ]
-    }
-    </script>
-</head>
-<body>
-    <header>
+<header>
         <img src="https://automacao.art.br/assets/img/diferenca-chatbot-agente-ia.jpg" alt="diferença entre chatbot e agente de IA" style="max-width:100%;height:auto;">
     </header>
     <main>
-        <h1>Diferença entre chatbot e agente de IA: Guia completo</h1>
+        <h2>Diferença entre chatbot e agente de IA: Guia completo</h2>
         <h2>Introdução à Automação com Chatbot e Agente de IA</h2>
         <p>A diferença entre chatbot e agente de IA está na capacidade de ação: o chatbot apenas responde a mensagens, enquanto o agente de IA executa tarefas, toma decisões e interage com APIs.</p>
         <p>Na automação, ambos são pontos de contato que reduzem esforço manual. Você escolhe o que melhor encaixa no fluxo do seu negócio.</p>
@@ -119,5 +80,4 @@ draft: false
         </ul>
         <p>Explore nossa categoria de automação e descubra como implementar a solução ideal para sua empresa.</p>
     </main>
-</body>
-</html>
+

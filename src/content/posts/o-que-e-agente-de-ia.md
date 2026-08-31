@@ -9,16 +9,7 @@ imageAlt: "Agente de IA explicado simples"
 draft: false
 ---
 
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-<meta charset="UTF-8">
-<title>O que é um agente de IA explicado simples – Guia Completo</title>
-<meta name="description" content="Descubra de forma simples o que é um agente de IA, como funciona, aplicações práticas, memória e integração com ferramentas como n8n e Zapier.">
-<link rel="canonical" href="https://automacao.art.br/o-que-e-agente-de-ia-explicado-simples">
-</head>
-<body>
-<h1>O que é um Agente de IA Explicado Simples</h1>
+<h2>O que é um Agente de IA Explicado Simples</h2>
 <img src="https://automacao.art.br/images/agente-ia.jpg" alt="o que é um agente de ia explicado simples" style="max-width:100%;height:auto;">
 <h2>Introdução ao Conceito de Agente de IA</h2>
 <p>Um agente de IA é um programa que interpreta dados, decide o que fazer e executa a ação sem intervenção humana. <strong>O que é um agente de IA explicado simples?</strong> Essa pergunta será respondida ao longo deste artigo.</p>
@@ -161,5 +152,4 @@ draft: false
   ]
 }
 </script>
-</body>
-</html>
+

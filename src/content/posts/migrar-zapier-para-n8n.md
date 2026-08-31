@@ -9,17 +9,7 @@ imageAlt: "n8n workflow"
 draft: false
 ---
 
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-<meta charset="UTF-8">
-<title>Como migrar do Zapier para o n8n passo a passo – Guia completo</title>
-<meta name="description" content="Aprenda passo a passo como migrar do Zapier para o n8n, descubra benefícios, custos, requisitos e veja exemplos práticos de integração em um guia detalhado e gratuito.">
-<link rel="canonical" href="https://automacao.art.br/migrar-do-zapier-para-o-n8n-passo-a-passo">
-<link rel="stylesheet" href="/styles.css">
-</head>
-<body>
-<h1>Migrar do Zapier para o n8n passo a passo</h1>
+<h2>Migrar do Zapier para o n8n passo a passo</h2>
 <img src="https://automacao.art.br/images/migrar-zapier-n8n.png" alt="Migrar do Zapier para o n8n passo a passo">
 <h2>Introdução ao n8n e ao Zapier</h2>
 <p>Você pode migrar do Zapier para o n8n passo a passo, começando por entender as diferenças entre os dois serviços. O n8n é uma plataforma de automação de fluxos de trabalho que permite a integração de aplicativos por meio de APIs e Webhooks.</p>
@@ -127,5 +117,4 @@ draft: false
 <p>Explore a categoria de automação em <a href="https://automacao.art.br/automacao/" target="_blank" rel="noopener noreferrer">automacao.art.br</a> e descubra outros tutoriais que vão acelerar ainda mais seus processos.</p>
 
 <script type="application/ld+json">{ "@context": "https://schema.org", "@graph": [ { "@type": "Article", "headline": "Migrar do Zapier para o n8n Passo a Passo", "description": "Aprenda passo a passo a migrar do Zapier para o n8n, descubra benefícios, custos e como configurar integrações.", "author": { "@type": "Organization", "name": "automacao.art.br", "url": "https://automacao.art.br" }, "publisher": { "@type": "Organization", "name": "automacao.art.br", "logo": { "@type": "ImageObject", "url": "https://automacao.art.br/logo.png" } }, "inLanguage": "pt-BR", "url": "https://automacao.art.br/migrar-do-zapier-para-o-n8n-passo-a-passo" }, { "@type": "FAQPage", "mainEntity": [ { "@type": "Question", "name": "Qual é o melhor Zapier alternative?", "acceptedAnswer": { "@type": "Answer", "text": "O n8n costuma ser apontado como a melhor alternativa ao Zapier, pois é open‑source, permite hospedagem própria e oferece um plano gratuito com mais execuções." } }, { "@type": "Question", "name": "Como migrar do Zapier para o n8n?", "acceptedAnswer": { "@type": "Answer", "text": "Crie sua conta no n8n, exporte seus Zaps, importe‑os como workflows, ajuste credenciais e teste cada fluxo antes de ativar." } }, { "@type": "Question", "name": "O que é o n8n e como funciona?", "acceptedAnswer": { "@type": "Answer", "text": "n8n é uma plataforma de automação baseada em Node.js que conecta aplicativos via APIs, Webhooks e nós visuais, permitindo criar pipelines sem código." } }, { "@type": "Question", "name": "Quais são os principais benefícios do n8n em relação ao Zapier?", "acceptedAnswer": { "@type": "Answer", "text": "Maior flexibilidade, plano gratuito mais generoso, performance superior e a possibilidade de auto‑hospedagem e customização completa." } }, { "@type": "Question", "name": "Como configurar o n8n para automação de fluxos de trabalho?", "acceptedAnswer": { "@type": "Answer", "text": "Instale o n8n (ex.: via Docker), acesse a interface web, crie um workflow, escolha um gatilho como Webhook, adicione nós de ação e configure credenciais antes de salvar e ativar." } }, { "@type": "Question", "name": "O que é a diferença entre o n8n e o Make?", "acceptedAnswer": { "@type": "Answer", "text": "Make oferece templates SaaS com limites de frequência, enquanto n8n permite auto‑hospedagem, código livre e maior personalização de nós." } }, { "@type": "Question", "name": "Como integrar o n8n com outros aplicativos?", "acceptedAnswer": { "@type": "Answer", "text": "Selecione o nó do serviço desejado, insira credenciais (OAuth2, API Key, etc.) e mapeie os campos entre os nós; qualquer API HTTP pode ser conectada." } }, { "@type": "Question", "name": "Qual é o custo do n8n em comparação com o Zapier?", "acceptedAnswer": { "@type": "Answer", "text": "n8n tem plano gratuito de até 2.000 execuções mensais, enquanto Zapier oferece 100 tarefas gratuitas; nos planos pagos, n8n costuma ser mais econômico, especialmente em hospedagem própria." } } ] }, { "@type": "HowTo", "name": "Migrar do Zapier para o n8n passo a passo", "description": "Guia prático para transferir seus Zaps para workflows no n8n.", "step": [ { "@type": "HowToStep", "name": "Criar conta no n8n", "url": "#" }, { "@type": "HowToStep", "name": "Instalar n8n (Docker ou Cloud)", "url": "#" }, { "@type": "HowToStep", "name": "Exportar Zaps do Zapier", "url": "#" }, { "@type": "HowToStep", "name": "Importar fluxos como workflows no n8n", "url": "#" }, { "@type": "HowToStep", "name": "Configurar credenciais e nós de ação", "url": "#" }, { "@type": "HowToStep", "name": "Testar e depurar os workflows", "url": "#" }, { "@type": "HowToStep", "name": "Ativar os workflows e monitorar execuções", "url": "#" } ] } ] }</script>
-</body>
-</html>
+

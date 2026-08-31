@@ -9,20 +9,9 @@ imageAlt: "Diagrama de agente de IA para vendas com n8n"
 draft: false
 ---
 
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Agente de IA para vendas: como funciona e como implementar</title>
-  <meta name="description" content="Descubra como funciona um agente de IA para vendas, passo a passo de implementação, custos, ferramentas e melhores práticas para aumentar suas conversões.">
-  <link rel="canonical" href="https://automacao.art.br/agente-de-ia-para-vendas-como-funciona">
-</head>
-<body>
-  <article>
+<article>
     <header>
-      <h1>Agente de IA para vendas: como funciona e como implementar</h1>
+      <h2>Agente de IA para vendas: como funciona e como implementar</h2>
       <img src="https://automacao.art.br/images/agente-ia-vendas.jpg" alt="agente de ia para vendas como funciona" loading="lazy">
     </header>
 
@@ -386,5 +375,4 @@ Responda apenas em português.</pre>
     }
     </script>
   </article>
-</body>
-</html>
+

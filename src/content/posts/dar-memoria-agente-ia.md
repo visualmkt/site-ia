@@ -9,16 +9,6 @@ imageAlt: "Agente de IA com memória"
 draft: false
 ---
 
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-<meta charset="UTF-8">
-<title>Como dar memória a um agente de IA: Guia passo a passo</title>
-<meta name="description" content="Aprenda como dar memória a um agente de IA usando n8n, PostgreSQL e APIs como OpenAI. Guia completo com passo a passo, exemplos e melhores práticas.">
-<meta name="slug" content="como-dar-memoria-a-um-agente-de-ia">
-<link rel="canonical" href="https://seusite.com/como-dar-memoria-a-um-agente-de-ia">
-</head>
-<body>
 <p>Neste artigo, vamos mostrar <strong>como dar memória a um agente de IA</strong>, permitindo que ele retenha contexto e personalize respostas para melhorar a experiência do usuário.</p>
 
 <h2>Introdução ao Conceito de Memória em Agentes de IA</h2>
@@ -272,5 +262,4 @@ WHERE session_id = '{{ $json.sessionId }}';</pre>
   ]
 }
 </script>
-</body>
-</html>
+

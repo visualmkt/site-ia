@@ -8,16 +8,7 @@ imageAlt: "Roteiro de vídeo criado com ChatGPT"
 draft: false
 ---
 
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-  <meta charset="UTF-8">
-  <title>ChatGPT para criar roteiros de vídeo: guia completo</title>
-  <meta name="description" content="Descubra como usar o ChatGPT para criar roteiros de vídeo em minutos, automatizando a escrita, economizando tempo e integrando com ferramentas como n8n e Zapier.">
-  <link rel="canonical" href="https://automacao.art.br/chatgpt/roteiros-de-video">
-</head>
-<body>
-  <h1>ChatGPT para criar roteiros de vídeo</h1>
+<h2>ChatGPT para criar roteiros de vídeo</h2>
   <p>Com o ChatGPT você cria roteiros de vídeo em minutos, basta definir o tema e o modelo gera um script pronto para gravação. O processo é totalmente automatizado, economizando horas de escrita.</p>
   <p>Neste artigo, explicamos passo a passo como usar o ChatGPT para criar roteiros de vídeo de forma eficiente, desde a definição do prompt até a integração com ferramentas de automação.</p>
 
@@ -99,5 +90,4 @@ draft: false
 
   <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Article","headline":"Crie roteiros de vídeo automaticamente com o ChatGPT","description":"Aprenda a criar roteiros de vídeo automáticos com ChatGPT, economize tempo e aumente a produtividade do seu negócio.","author":{"@type":"Person","name":"Automação.art"},"publisher":{"@type":"Organization","name":"automacao.art.br","url":"https://automacao.art.br"},"inLanguage":"pt-BR"},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Qual é o melhor modelo de linguagem para criar roteiros de vídeo?","acceptedAnswer":{"@type":"Answer","text":"O modelo gpt‑4‑turbo da OpenAI oferece o melhor equilíbrio entre qualidade e velocidade para roteiros de vídeo, graças ao maior contexto e compreensão avançada."}},{"@type":"Question","name":"Como posso personalizar o roteiro de vídeo criado pelo ChatGPT?","acceptedAnswer":{"@type":"Answer","text":"Use prompts detalhados indicando tom, duração, estrutura e público‑alvo; depois ajuste o texto gerado, inserindo exemplos ou alterando frases para refletir sua voz."}},{"@type":"Question","name":"Posso usar o ChatGPT para criar roteiros de vídeo para plataformas de vídeo específicas?","acceptedAnswer":{"@type":"Answer","text":"Sim. Basta incluir no prompt a plataforma (YouTube, TikTok, Reels etc.) e as recomendações de formato, como tempo máximo, uso de emojis ou quebras de linha."}},{"@type":"Question","name":"Quais são as vantagens de usar o ChatGPT para criar roteiros de vídeo?","acceptedAnswer":{"@type":"Answer","text":"Ele economiza tempo, gera textos consistentes, permite personalização em escala e pode ser integrado a fluxos de automação para produção contínua."}},{"@type":"Question","name":"Como posso integrar o ChatGPT com outras ferramentas de automação?","acceptedAnswer":{"@type":"Answer","text":"Utilize a API da OpenAI em plataformas como n8n, Zapier ou Make, enviando o prompt via webhook e direcionando a resposta para Google Docs, Notion ou outras ferramentas."}},{"@type":"Question","name":"Posso usar o ChatGPT para criar roteiros de vídeo em diferentes idiomas?","acceptedAnswer":{"@type":"Answer","text":"Sim. O modelo suporta múltiplos idiomas; basta especificar o idioma desejado no prompt e ele gerará o roteiro correspondente."}}]},{"@type":"HowTo","name":"Como criar roteiros de vídeo com ChatGPT","description":"Passo a passo para gerar roteiros de vídeo usando o ChatGPT e integrá‑los a ferramentas de automação.","step":[{"@type":"HowToStep","name":"Defina o objetivo e o público","text":"Especifique o tema, a duração e o tom desejado, criando um prompt claro e objetivo."},{"@type":"HowToStep","name":"Envie o prompt ao ChatGPT","text":"Use a API do OpenAI ou a interface web, inserindo seu prompt e ajustando parâmetros como temperatura."},{"@type":"HowToStep","name":"Revise e ajuste o roteiro","text":"Leia o script gerado, faça pequenas edições para alinhar ao seu estilo e adicione detalhes específicos."},{"@type":"HowToStep","name":"Automatize a entrega","text":"Integre o ChatGPT a ferramentas como n8n ou Zapier para salvar o roteiro em Notion, Google Docs ou outra plataforma."}]}]}
 </script>
-</body>
-</html>
+

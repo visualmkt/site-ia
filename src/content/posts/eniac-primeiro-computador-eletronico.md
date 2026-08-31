@@ -9,18 +9,7 @@ imageAlt: "ENIAC, o primeiro computador eletrônico, em ação"
 draft: false
 ---
 
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <title>ENIAC: como era o primeiro computador eletrônico - História da Computação</title>
-    <meta name="description" content="Descubra como era o ENIAC, o primeiro computador eletrônico, sua arquitetura, funcionamento e legado na história da computação. Saiba detalhes técnicos, quem o criou e sua influência na IA.">
-    <!-- slug: eniac-como-era-o-primeiro-computador-eletronico -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="canonical" href="https://www.seusite.com/eniac-como-era-o-primeiro-computador-eletronico" />
-</head>
-<body>
-    <h1>ENIAC: como era o primeiro computador eletrônico</h1>
+<h2>ENIAC: como era o primeiro computador eletrônico</h2>
     <p><img src="https://www.seusite.com/imagens/eniac.jpg" alt="ENIAC como era o primeiro computador eletrônico" style="max-width:100%;height:auto;" /></p>
     <h2>Introdução ao ENIAC</h2>
     <p>O ENIAC, ou Electronic Numerical Integrator and Computer, foi o primeiro computador eletrônico e, como era o primeiro computador eletrônico, marcou o início da era digital. Desenvolvido durante a Segunda Guerra Mundial, ele foi criado para calcular tabelas de artilharia para o Exército dos EUA.</p>
@@ -140,5 +129,4 @@ draft: false
       ]
     }
     </script>
-</body>
-</html>
+

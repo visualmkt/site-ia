@@ -9,18 +9,7 @@ imageAlt: "API do WhatsApp para negócios"
 draft: false
 ---
 
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>API oficial do WhatsApp: quanto custa? - Guia completo</title>
-  <meta name="description" content="Descubra o custo da API oficial do WhatsApp, preços por mensagem, planos disponíveis e como integrar a solução ao seu negócio para melhorar o atendimento ao cliente e aumentar as vendas.">
-  <link rel="canonical" href="https://www.seusite.com/api-oficial-whatsapp-quanto-custa" />
-</head>
-<body>
-  <h1>API oficial do WhatsApp: quanto custa?</h1>
+<h2>API oficial do WhatsApp: quanto custa?</h2>
   <img src="https://www.seusite.com/imagens/whatsapp-api.jpg" alt="api oficial do whatsapp quanto custa" style="max-width:100%;height:auto;" />
   <h2>Introdução ao custo da API oficial do WhatsApp</h2>
   <p>O custo da API oficial do WhatsApp varia de acordo com o volume de mensagens e o tipo de plano escolhido, com preços a partir de R$ 0,071 por mensagem. Você pode escolher entre planos de mensagens ilimitadas ou pagas por uso.</p>
@@ -211,5 +200,4 @@ draft: false
     ]
   }
   </script>
-</body>
-</html>
+

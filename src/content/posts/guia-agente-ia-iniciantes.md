@@ -9,17 +9,7 @@ imageAlt: "Agente de IA em ação"
 draft: false
 ---
 
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <title>Guia completo de agentes de IA para iniciantes – Tudo o que você precisa saber</title>
-    <meta name="description" content="Descubra o guia completo de agentes de IA para iniciantes: o que são, como criar, diferenças com chatbots, ferramentas como n8n, Zapier e Make, e casos de uso em pequenos negócios. Aprenda passo a passo e veja exemplos práticos.">
-    <link rel="canonical" href="https://automacao.art.br/guia-completo-de-agentes-de-ia-para-iniciantes">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
-<body>
-<h1>Guia completo de agentes de IA para iniciantes</h1>
+<h2>Guia completo de agentes de IA para iniciantes</h2>
 
 <h2>Introdução</h2>
 <p>Um <strong>guia completo de agentes de IA para iniciantes</strong> é essencial para entender como criar e implementar esses agentes em seu negócio. Você pode criar agentes de IA para automatizar tarefas e melhorar processos.</p>
@@ -134,5 +124,4 @@ draft: false
   ]
 }
 </script>
-</body>
-</html>
+

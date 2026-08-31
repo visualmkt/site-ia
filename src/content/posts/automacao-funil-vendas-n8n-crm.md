@@ -8,16 +8,7 @@ imageAlt: "Funil de vendas automático com n8n e CRM"
 draft: false
 ---
 
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-<title>Guia completo de automação de funil de vendas com n8n e CRM gratuito</title>
-<meta charset="UTF-8">
-<meta name="description" content="Aprenda passo a passo como automatizar seu funil de vendas usando n8n e um CRM gratuito. Guia completo com exemplos, dicas e melhores práticas para aumentar a eficiência em até 30%." />
-<link rel="canonical" href="https://example.com/guia-completo-automacao-funil-vendas-n8n-crm-gratis" />
-</head>
-<body>
-<h1>Guia completo de automação de funil de vendas com n8n e CRM gratuito</h1>
+<h2>Guia completo de automação de funil de vendas com n8n e CRM gratuito</h2>
 <h2>Introdução</h2>
 <p>O <strong>Guia completo de automação de funil de vendas com n8n e CRM gratuito</strong> é uma solução eficaz para aumentar a eficiência dos negócios. Você pode automatizar tarefas repetitivas e focar em estratégias de vendas. Com o n8n e o CRM, você pode criar workflows personalizados para gerenciar leads e clientes.</p>
 <p>A automação de funil de vendas é fundamental para os negócios, pois ajuda a reduzir custos e aumentar a produtividade. Segundo estudo da HubSpot (2023), a automação de funil de vendas pode aumentar a eficiência em até 30%.</p>
@@ -193,5 +184,4 @@ draft: false
   ]
 }
 </script>
-</body>
-</html>
+

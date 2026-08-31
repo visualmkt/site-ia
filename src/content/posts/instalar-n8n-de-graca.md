@@ -9,19 +9,7 @@ imageAlt: "Fluxo de trabalho no n8n"
 draft: false
 ---
 
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Como instalar o n8n de graça – Guia passo a passo</title>
-  <meta name="description" content="Aprenda passo a passo como instalar o n8n de graça usando Docker ou Node.js, com requisitos, comandos e dicas para automação sem custos.">
-  <link rel="canonical" href="https://automacao.art.br/como-instalar-n8n-de-graca">
-  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Article","headline":"Instalando o n8n de Forma Gratuita: Um Guia Prático","description":"Aprenda a instalar o n8n gratuitamente e automatize processos em minutos. Guia passo a passo para pequenos negócios.","author":{"@type":"Person","name":"Automação.art"},"publisher":{"@type":"Organization","name":"automacao.art.br","url":"https://automacao.art.br"},"datePublished":"2026-07-15","inLanguage":"pt-BR","url":"https://automacao.art.br/como-instalar-n8n-de-graca"},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"O que é o n8n?","acceptedAnswer":{"@type":"Answer","text":"O n8n é uma plataforma open‑source de automação que permite conectar APIs, serviços e bancos de dados através de fluxos de trabalho visuais, sem necessidade de código avançado."}},{"@type":"Question","name":"Qual é o custo do n8n?","acceptedAnswer":{"@type":"Answer","text":"O n8n pode ser usado gratuitamente, pois é open‑source. Custos só surgem se você optar por hospedagem gerenciada ou recursos de infraestrutura pagos."}},{"@type":"Question","name":"Como posso usar o n8n para automação de processos?","acceptedAnswer":{"@type":"Answer","text":"Crie workflows adicionando nós como Webhook, HTTP Request ou integrações nativas, conecte‑os e agende execuções. A interface permite testar cada passo antes de publicar."}},{"@type":"Question","name":"É difícil instalar o n8n?","acceptedAnswer":{"@type":"Answer","text":"Não. A instalação pode ser feita em poucos minutos usando Docker ou Node.js, seguindo o guia passo a passo do artigo."}},{"@type":"Question","name":"O n8n é seguro?","acceptedAnswer":{"@type":"Answer","text":"Sim. Por ser self‑hosted, você controla totalmente o acesso, pode usar HTTPS, autenticação e armazenar dados em bancos seguros como PostgreSQL."}},{"@type":"Question","name":"Posso usar o n8n com outros serviços de automação?","acceptedAnswer":{"@type":"Answer","text":"O n8n oferece mais de 300 integrações nativas e pode se conectar via API a ferramentas como Zapier, Make, OpenAI e qualquer serviço que possua webhook."}},{"@type":"Question","name":"Quais são as principais vantagens do uso do n8n?","acceptedAnswer":{"@type":"Answer","text":"É gratuito, self‑hosted, sem limites de execuções, permite total controle de dados e oferece uma interface visual que simplifica a criação de automações complexas."}}]},{"@type":"HowTo","name":"Como instalar o n8n de graça","description":"Instalação passo a passo do n8n usando Docker ou Node.js.","step":[{"@type":"HowToStep","name":"Conectar ao servidor via SSH","text":"Abra o terminal e execute ssh usuario@seu-servidor.com para acessar o servidor."},{"@type":"HowToStep","name":"Instalar Docker e Docker Compose","text":"Execute sudo apt update && sudo apt install -y docker.io docker-compose para instalar o Docker."},{"@type":"HowToStep","name":"Baixar o docker‑compose.yml do n8n","text":"Crie a pasta n8n, entre nela e rode curl -o docker-compose.yml https://raw.githubusercontent.com/n8n-io/n8n/master/docker-compose.yml."},{"@type":"HowToStep","name":"Iniciar os containers","text":"Execute docker-compose up -d e aguarde o n8n ficar disponível em http://seu-servidor.com:5678."},{"@type":"HowToStep","name":"Acessar a interface web","text":"Abra o navegador e acesse http://seu-servidor.com:5678 para começar a criar workflows."}]}]}
-</script>
-</head>
-<body>
-  <header>
+<header>
     <img src="https://automacao.art.br/images/n8n-instalar-gratis.jpg" alt="como instalar o n8n de graça" style="max-width:100%;height:auto;">
   </header>
   <article>
@@ -253,5 +241,4 @@ npm run build</code></pre>
     </ul>
     <p>Explore mais artigos sobre automação na nossa categoria e descubra novas possibilidades para impulsionar seu negócio.</p>
   </article>
-</body>
-</html>
+

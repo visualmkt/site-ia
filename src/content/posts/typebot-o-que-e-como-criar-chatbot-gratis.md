@@ -9,18 +9,7 @@ imageAlt: "Typebot chatbot grátis para automação de tarefas"
 draft: false
 ---
 
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-  <meta charset="UTF-8">
-  <title>Typebot: o que é e como criar um chatbot grátis – Guia completo</title>
-  <meta name="description" content="Descubra o que é Typebot e aprenda passo a passo como criar um chatbot grátis para automatizar seu negócio, sem precisar programar.">
-  <meta name="slug" content="typebot-o-que-e-e-como-criar-um-chatbot-gratis">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="canonical" href="https://automacao.art.br/typebot-o-que-e-e-como-criar-um-chatbot-gratis">
-</head>
-<body>
-<h1>Typebot: o que é e como criar um chatbot grátis</h1>
+<h2>Typebot: o que é e como criar um chatbot grátis</h2>
 <h2>Introdução</h2>
 <p>Typebot o que é e como criar um chatbot grátis? Um Typebot é uma ferramenta de automação que permite criar chatbots grátis para automação de tarefas. Você pode criar um chatbot com Typebot sem conhecimento de programação e integrá-lo com outros sistemas para automação de processos.</p>
 <p>Com o Typebot, você pode criar chatbots personalizados para atender às necessidades do seu negócio. Além disso, o Typebot é seguro e fácil de usar, tornando-o uma ótima opção para pequenos negócios e iniciantes em automação e IA.</p>
@@ -130,5 +119,4 @@ draft: false
 
 <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"O que é um Typebot?","acceptedAnswer":{"@type":"Answer","text":"Typebot é uma plataforma de automação que permite criar chatbots sem escrever código, facilitando a construção de fluxos de conversa para tarefas repetitivas."}},{"@type":"Question","name":"Como criar um chatbot grátis com Typebot?","acceptedAnswer":{"@type":"Answer","text":"Crie uma conta gratuita, defina o objetivo do bot, configure as respostas no editor visual e, se desejar, conecte integrações como webhooks ou APIs externas."}},{"@type":"Question","name":"Quais são as vantagens de usar um chatbot para automação de tarefas?","acceptedAnswer":{"@type":"Answer","text":"Os chatbots aumentam a eficiência operacional, reduzem custos ao substituir atendimentos manuais e melhoram a experiência do cliente com respostas instantâneas 24/7."}},{"@type":"Question","name":"Como integrar o Typebot com outros sistemas?","acceptedAnswer":{"@type":"Answer","text":"O Typebot aceita webhooks e chamadas REST, permitindo conectar‑se a ferramentas como n8n, Zapier, Make ou APIs personalizadas para orquestrar processos."}},{"@type":"Question","name":"Posso criar um chatbot com Typebot sem conhecimento de programação?","acceptedAnswer":{"@type":"Answer","text":"Sim. A interface visual de arrastar e soltar foi projetada para usuários sem experiência em código, tornando a criação de fluxos simples e intuitiva."}},{"@type":"Question","name":"Quais são as limitações do Typebot?","acceptedAnswer":{"@type":"Answer","text":"A versão gratuita possui limites de mensagens mensais e restrições em integrações avançadas; planos pagos ampliam esses recursos e removem as barreiras."}},{"@type":"Question","name":"Como posso personalizar o meu chatbot criado com Typebot?","acceptedAnswer":{"@type":"Answer","text":"É possível mudar temas, inserir variáveis dinâmicas, aplicar CSS customizado, habilitar memória de sessão e criar fluxos condicionais com blocos \"if/else\"."}},{"@type":"Question","name":"O Typebot é seguro para uso em pequenos negócios?","acceptedAnswer":{"@type":"Answer","text":"Sim. O Typebot utiliza criptografia HTTPS, suporta tokens JWT e oferece opções de hospedagem self‑hosted, garantindo proteção dos dados e conformidade."}}]}},{"@type":"Article","headline":"Typebot: o que é e como criar um chatbot grátis","description":"Descubra o que é Typebot e aprenda passo a passo como criar um chatbot grátis para automatizar seu negócio, sem precisar programar.","author":{"@type":"Person","name":"Equipe Automação"},"publisher":{"@type":"Organization","name":"automacao.art.br","logo":{"@type":"ImageObject","url":"https://automacao.art.br/logo.png"}},"inLanguage":"pt-BR","datePublished":"2026-07-17"},{"@type":"HowTo","name":"Como criar um chatbot grátis com Typebot","step":[{"@type":"HowToStep","url":"#passo-1","name":"Criar conta no Typebot","text":"Acesse typebot.io e registre uma conta gratuita."},{"@type":"HowToStep","url":"#passo-2","name":"Definir objetivo do bot","text":"Escolha a tarefa que o bot deve automatizar, como atendimento ou agendamento."},{"@type":"HowToStep","url":"#passo-3","name":"Configurar respostas","text":"Utilize o editor visual para montar fluxos de conversa e inserir variáveis dinâmicas."},{"@type":"HowToStep","url":"#passo-4","name":"Integrar com outros sistemas","text":"Adicione um webhook ou conecte ao n8n/Zapier para acionar APIs externas."},{"@type":"HowToStep","url":"#passo-5","name":"Testar e publicar","text":"Teste o bot no modo preview, ajuste erros e publique o chatbot para uso."}]}]}
 </script>
-</body>
-</html>
+

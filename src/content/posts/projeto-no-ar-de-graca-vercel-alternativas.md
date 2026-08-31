@@ -9,52 +9,7 @@ imageAlt: "Vercel hospedagem de projetos"
 draft: false
 ---
 
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-  <meta charset="UTF-8">
-  <title>Como colocar um projeto no ar de graça Vercel e alternativas</title>
-  <meta name="description" content="Aprenda passo a passo como colocar seu projeto no ar de graça usando Vercel e descubra alternativas como GitHub Pages, Netlify e Heroku, com limites de tráfego e dicas de otimização.">
-  <link rel="canonical" href="https://automacao.art.br/como-colocar-projeto-no-ar-gratis-vercel-alternativas" />
-  <script type="application/ld+json">
-  {
-    "@graph": [
-      {
-        "@type": "FAQPage",
-        "mainEntity": [
-          {
-            "@type": "Question",
-            "name": "Qual é o melhor serviço de hospedagem gratuito para projetos de automação?",
-            "acceptedAnswer": { "@type": "Answer", "text": "O Vercel é uma opção popular para hospedagem gratuita de projetos de automação, pois oferece 100 GB de tráfego mensal e 12 funções serverless sem custo." }
-          },
-          {
-            "@type": "Question",
-            "name": "Como posso usar o Vercel para hospedar meu projeto de IA?",
-            "acceptedAnswer": { "@type": "Answer", "text": "Crie uma conta no Vercel, conecte seu repositório Git, configure as variáveis de ambiente e faça o deploy. O plano gratuito cobre até 100 GB de tráfego mensal." }
-          }
-        ]
-      },
-      {
-        "@type": "Article",
-        "headline": "Como colocar um projeto no ar de graça Vercel e alternativas",
-        "description": "Guia completo para publicar seu projeto gratuitamente usando Vercel e conhecer alternativas como GitHub Pages, Netlify e Heroku.",
-        "author": "automacao.art.br",
-        "publisher": { "@type": "Organization", "name": "automacao.art.br" },
-        "inLanguage": "pt-BR"
-      },
-      {
-        "@type": "HowTo",
-        "name": "Como colocar um projeto no ar de graça com Vercel e alternativas",
-        "description": "Passo a passo para publicar seu site ou aplicação sem custos.",
-        "tool": ["Vercel", "GitHub", "Netlify"],
-        "supply": ["conta no Vercel", "repositório Git"]
-      }
-    ]
-  }
-  </script>
-</head>
-<body>
-  <h1>Como colocar um projeto no ar de graça Vercel e alternativas</h1>
+<h2>Como colocar um projeto no ar de graça Vercel e alternativas</h2>
   <img src="https://via.placeholder.com/800x400" alt="Como colocar um projeto no ar de graça Vercel e alternativas" />
   <h2>Introdução ao Vercel e hospedagem de projetos</h2>
   <p>Para <strong>como colocar um projeto no ar de graça Vercel e alternativas</strong>, você precisa criar uma conta no Vercel e seguir os passos para hospedar seu projeto. O Vercel oferece um plano gratuito com até <strong>100 GB de tráfego mensal</strong> e <strong>12 funções serverless</strong>. Alternativas como GitHub Pages, Netlify e Heroku também disponibilizam hospedagem gratuita com limites semelhantes.</p>
@@ -132,5 +87,4 @@ draft: false
     <li>Vantagens e desvantagens de cada opção</li>
   </ul>
   <p>Explore nossa categoria de hospedagem de projetos para mais tutoriais.</p>
-</body>
-</html>
+

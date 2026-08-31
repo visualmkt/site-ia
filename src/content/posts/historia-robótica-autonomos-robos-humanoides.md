@@ -9,15 +9,6 @@ imageAlt: "cronologia da história da robótica desde autômatos até robôs hum
 draft: false
 ---
 
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-<meta charset="UTF-8">
-<title>História da robótica dos autômatos aos robôs humanoides: da Grécia Antiga à IA</title>
-<meta name="description" content="Explore a história da robótica, dos autômatos da Grécia Antiga aos robôs humanoides modernos, com marcos, pioneiros, IA e tutoriais práticos usando n8n e ChatGPT.">
-<link rel="canonical" href="https://automacao.art.br/historia-da-robotica-dos-automatos-aos-robos-humanoides" />
-</head>
-<body>
 <p><img src="https://automacao.art.br/wp-content/uploads/2024/01/robotics-history.jpg" alt="história da robótica dos autômatos aos robôs humanoides" style="max-width:100%;height:auto;" /></p>
 <p>Você quer entender <strong>história da robótica dos autômatos aos robôs humanoides</strong>. A história começa na Grécia Antiga, passa pela Revolução Industrial e evolui com a computação e a IA. Cada salto tecnológico trouxe máquinas mais inteligentes e autônomas.</p>
 <p>Este artigo traça a linha do tempo, destaca os pioneiros que abriram o caminho e mostra como a IA está remodelando o cenário atual. Ao final, você verá oportunidades práticas para aplicar essas ideias usando ferramentas como n8n e ChatGPT.</p>
@@ -247,5 +238,4 @@ draft: false
   ]
 }
 </script>
-</body>
-</html>
+

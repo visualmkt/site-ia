@@ -9,50 +9,7 @@ imageAlt: "Invenções que revolucionaram a automação de negócios"
 draft: false
 ---
 
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Invenções que revolucionaram a automação de negócios: Guia completo</title>
-  <meta name="description" content="Descubra as invenções que revolucionaram a automação de negócios, como robôs industriais, sistemas de controle e softwares, e veja dados reais de aumento de produtividade.">
-  <link rel="canonical" href="https://example.com/invencoes-que-revolucionaram-automacao-de-negocios">
-  <meta name="author" content="Equipe Automação.art.br">
-  <script type="application/ld+json">
-  {
-    "@graph": [
-      {
-        "@type": "FAQPage",
-        "name": "Invenções que Revolucionaram a Automação de Negócios",
-        "description": "Perguntas frequentes sobre invenções que revolucionaram a automação de negócios"
-      },
-      {
-        "@type": "Article",
-        "headline": "Invenções que Mudaram o Jogo: Automação de Negócios",
-        "description": "Descubra as principais invenções que transformaram a automação de negócios e como elas podem ajudar o seu negócio.",
-        "author": { "@type": "Organization", "name": "automação.art.br" },
-        "publisher": { "@type": "Organization", "name": "automação.art.br", "url": "https://automação.art.br" },
-        "inLanguage": "pt-BR"
-      },
-      {
-        "@type": "HowTo",
-        "name": "Como começar a automatizar seu negócio",
-        "description": "Passos para começar a automatizar seu negócio",
-        "tool": ["n8n", "Zapier", "Make"],
-        "supply": ["computador", "internet"],
-        "step": [
-          { "@type": "HowToStep", "text": "Identifique os processos que podem ser automatizados" },
-          { "@type": "HowToStep", "text": "Escolha as ferramentas certas para sua empresa" },
-          { "@type": "HowToStep", "text": "Desenvolva uma estratégia de implementação" }
-        ]
-      }
-    ]
-  }
-  </script>
-</head>
-<body>
-  <h1>Invenções que revolucionaram a automação de negócios</h1>
+<h2>Invenções que revolucionaram a automação de negócios</h2>
   <h2>Introdução à Automação de Negócios</h2>
   <p>As invenções que revolucionaram a automação de negócios incluem a criação de robôs industriais, sistemas de controle de processos e software de automação. Essas invenções transformaram a forma como as empresas operam, aumentando a eficiência e reduzindo custos.</p>
   <p>A automação de negócios é fundamental para a competitividade e crescimento das empresas. Ela permite que as empresas sejam mais ágeis e respondam rapidamente às mudanças no mercado.</p>
@@ -143,5 +100,4 @@ draft: false
     <li>Reduza a carga de trabalho e permita que os proprietários de negócios se concentrem em tarefas mais estratégicas</li>
   </ul>
   <p>Explore nossa categoria de automação de negócios para aprender mais sobre como você pode começar a automatizar seu negócio e alcançar seus objetivos.</p>
-</body>
-</html>
+

@@ -9,18 +9,7 @@ imageAlt: "Central de atendimento com IA"
 draft: false
 ---
 
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Como criar uma central de atendimento com IA: Guia completo</title>
-  <meta name="description" content="Aprenda passo a passo como criar uma central de atendimento com IA usando n8n, ChatGPT e WhatsApp Business, reduzindo custos e aumentando a satisfação do cliente.">
-  <!-- slug: como-criar-uma-central-de-atendimento-com-ia -->
-  <link rel="canonical" href="https://automacao.art.br/como-criar-uma-central-de-atendimento-com-ia" />
-</head>
-<body>
-  <h1>Como criar uma central de atendimento com IA</h1>
+<h2>Como criar uma central de atendimento com IA</h2>
   <p>Se você quer saber <strong>como criar uma central de atendimento com IA</strong>, este guia traz todas as etapas, ferramentas e boas práticas para montar um fluxo automatizado, reduzir custos e melhorar a experiência do cliente.</p>
   <img src="https://automacao.art.br/images/central-atendimento-ia.jpg" alt="Como criar uma central de atendimento com IA" style="max-width:100%;height:auto;" />
 
@@ -219,5 +208,4 @@ draft: false
     ]
   }
   </script>
-</body>
-</html>
+

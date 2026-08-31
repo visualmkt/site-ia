@@ -9,17 +9,7 @@ imageAlt: "Exemplo de design criado com a IA do Canva"
 draft: false
 ---
 
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Canva IA: como usar os recursos de inteligência artificial</title>
-  <meta name="description" content="Descubra como usar os recursos de inteligência artificial do Canva, passo a passo, integrações com n8n e Zapier, e dicas para superar limitações.">
-  <!-- Slug sugerido: /canva-ia-como-usar-os-recursos-de-inteligencia-artificial -->
-</head>
-<body>
-  <h1>Canva IA: como usar os recursos de inteligência artificial</h1>
+<h2>Canva IA: como usar os recursos de inteligência artificial</h2>
   <img src="https://automacao.art.br/images/canva-ia.jpg" alt="canva ia como usar os recursos de inteligência artificial" />
   <h2>Introdução à Inteligência Artificial do Canva</h2>
   <p>Para <strong>canva ia como usar os recursos de inteligência artificial</strong>, você precisa entender como a IA pode ajudar a melhorar sua criação de conteúdo. A IA do Canva permite que você crie designs personalizados e automatize tarefas, economizando tempo e esforço.</p>
@@ -104,5 +94,4 @@ draft: false
   <p>Explore mais artigos sobre automação e design na nossa categoria e leve sua produção de conteúdo a outro nível.</p>
 
   <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Article","headline":"Canva IA: Como Usar os Recursos de Inteligência Artificial","description":"Aprenda a usar a IA do Canva para criar designs incríveis, automatizar tarefas e integrar com ferramentas como n8n e Zapier.","author":{"@type":"Person","name":"automação.art.br"},"publisher":{"@type":"Organization","name":"automação.art.br","logo":{"@type":"ImageObject","url":"https://automacao.art.br/logo.png"}},"inLanguage":"pt-BR","url":"https://automacao.art.br/canva-ia-recursos"},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"O que é a inteligência artificial do Canva?","acceptedAnswer":{"@type":"Answer","text":"A IA do Canva é um conjunto de recursos que utiliza aprendizado de máquina para gerar layouts, editar imagens e sugerir conteúdos de forma automática, facilitando a criação de designs."}},{"@type":"Question","name":"Como posso usar a IA do Canva para melhorar meus designs?","acceptedAnswer":{"@type":"Answer","text":"Acesse a seção de Design Inteligente, informe o objetivo do projeto e deixe a IA gerar sugestões de cores, fontes e imagens, ajustando depois conforme necessário."}},{"@type":"Question","name":"Quais são os recursos de IA disponíveis no Canva?","acceptedAnswer":{"@type":"Answer","text":"Design Inteligente, geração automática de imagens, reconhecimento de objetos, sugestões de texto e automação via webhooks."}},{"@type":"Question","name":"Posso usar a IA do Canva para criar conteúdo automaticamente?","acceptedAnswer":{"@type":"Answer","text":"Sim, a IA pode gerar posts, banners e apresentações a partir de um brief simples, reduzindo o tempo de produção."}},{"@type":"Question","name":"A inteligência artificial do Canva é fácil de usar?","acceptedAnswer":{"@type":"Answer","text":"Sim, basta escolher o tipo de design, responder algumas perguntas e a IA entrega um modelo pronto para edição."}},{"@type":"Question","name":"Quais são as limitações da IA do Canva?","acceptedAnswer":{"@type":"Answer","text":"Dificuldade com contextos muito específicos, limite de 10 MB por arquivo e possíveis artefatos em imagens complexas, exigindo revisão humana."}},{"@type":"Question","name":"Posso integrar a IA do Canva com outras ferramentas de automação?","acceptedAnswer":{"@type":"Answer","text":"Sim, usando webhooks e APIs é possível conectar o Canva ao n8n, Zapier, Make e outras plataformas para fluxos automáticos."}}]},{"@type":"HowTo","name":"Como usar a IA do Canva para melhorar sua criação de conteúdo","step":[{"@type":"HowToStep","position":1,"name":"Crie sua conta no Canva","url":"https://www.canva.com/"},{"@type":"HowToStep","position":2,"name":"Acesse a seção de Design Inteligente e selecione o tipo de design desejado"},{"@type":"HowToStep","position":3,"name":"Forneça as informações e preferências necessárias"},{"@type":"HowToStep","position":4,"name":"Deixe a IA gerar o design personalizado"},{"@type":"HowToStep","position":5,"name":"Ajuste o resultado e, se desejar, configure webhooks para automação"}]}]}</script>
-</body>
-</html>
+

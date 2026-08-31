@@ -9,16 +9,7 @@ imageAlt: "ChatGPT escrevendo como você"
 draft: false
 ---
 
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <title>Como fazer o ChatGPT escrever como você: Guia passo a passo</title>
-    <meta name="description" content="Aprenda, em 5 passos, como personalizar o ChatGPT para escrever como você, com exemplos práticos, integração ao n8n e Zapier, e dados de produtividade.">
-    <link rel="canonical" href="https://www.seusite.com/como-fazer-o-chatgpt-escrever-como-voce" />
-</head>
-<body>
-    <h1>Como fazer o ChatGPT escrever como você</h1>
+<h2>Como fazer o ChatGPT escrever como você</h2>
     <h2>Introdução ao ChatGPT e sua Personalização</h2>
     <p>Para <strong>como fazer o ChatGPT escrever como você</strong>, é preciso personalizar a ferramenta com prompts e treinamento. Isso envolve entender como o ChatGPT funciona e como adaptá‑lo às suas necessidades.</p>
     <p>O ChatGPT é uma IA desenvolvida pela <a href="https://www.openai.com/" target="_blank" rel="noopener noreferrer">OpenAI</a> que pode ser personalizada para realizar tarefas de escrita criativa.</p>
@@ -143,5 +134,4 @@ draft: false
         ]
     }
     </script>
-</body>
-</html>
+

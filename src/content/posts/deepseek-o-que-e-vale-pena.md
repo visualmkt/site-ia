@@ -9,15 +9,6 @@ imageAlt: "DeepSeek logo"
 draft: false
 ---
 
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-<meta charset="UTF-8">
-<title>DeepSeek: o que é e vale a pena - Guia completo</title>
-<meta name="description" content="DeepSeek o que é e vale a pena? Descubra tudo sobre o modelo LLM, custos, velocidade, integração com n8n e Zapier, e compare com ChatGPT. Guia completo para iniciantes.">
-<!-- slug: deepseek-o-que-e-e-vale-a-pena -->
-</head>
-<body>
 <p>DeepSeek é um modelo de linguagem grande (LLM) lançado em 2024, focado em respostas rápidas e custo baixo. Para pequenos negócios e iniciantes, ele costuma ser mais acessível que o ChatGPT e pode valer a pena se você busca integração simples e preço competitivo.</p>
 <img src="https://automacao.art.br/images/deepseek.jpg" alt="DeepSeek o que é e vale a pena">
 
@@ -190,5 +181,4 @@ draft: false
     }
   ]
 }</script>
-</body>
-</html>
+

@@ -9,19 +9,7 @@ imageAlt: "Agente de IA para atendimento ao cliente"
 draft: false
 ---
 
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Como criar um agente de IA para atendimento ao cliente – Guia passo a passo</title>
-    <meta name="description" content="Aprenda como criar um agente de IA para atendimento ao cliente usando n8n, OpenAI e Zapier. Veja custos, ferramentas, passo a passo e dicas práticas.">
-    <link rel="canonical" href="https://automacao.art.br/como-criar-um-agente-de-ia-para-atendimento-ao-cliente" />
-    <!-- slug: como-criar-um-agente-de-ia-para-atendimento-ao-cliente -->
-</head>
-<body>
-    <h1>Como criar um agente de IA para atendimento ao cliente</h1>
+<h2>Como criar um agente de IA para atendimento ao cliente</h2>
     <h2>Introdução</h2>
     <p>Para <strong>criar um agente de IA para atendimento ao cliente</strong>, você precisa definir o escopo do projeto, escolher as ferramentas certas e integrar com outros sistemas de automação. Atualmente, as versões mais recentes do n8n (v1.2) e do OpenAI (GPT‑4) facilitam esse processo.</p>
     <p>Um agente de IA pode ser criado para atender a diferentes necessidades, desde respostas automáticas a perguntas frequentes até a gestão de pedidos e solicitações de suporte.</p>
@@ -127,5 +115,4 @@ draft: false
       ]
     }
     </script>
-</body>
-</html>
+

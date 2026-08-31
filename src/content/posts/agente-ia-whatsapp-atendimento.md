@@ -9,16 +9,6 @@ imageAlt: "Fluxo n8n agente de IA para atendimento no WhatsApp"
 draft: false
 ---
 
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-<meta charset="UTF-8">
-<title>Agente de IA para atendimento no WhatsApp: Guia completo</title>
-<meta name="description" content="Descubra como montar um agente de IA para atendimento no WhatsApp usando n8n, OpenAI ou Gemini, configurando webhook, memória e monitoramento para respostas rápidas e eficientes.">
-<link rel="canonical" href="https://automacao.art.br/agente-de-ia-para-atendimento-no-whatsapp">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
-<body>
 <h2>Introdução</h2>
 <p>Um <strong>agente de IA para atendimento no WhatsApp</strong> responde mensagens dos clientes em tempo real usando modelos de linguagem como ChatGPT ou Gemini.</p>
 <p>Você cria um fluxo que recebe a mensagem via webhook, envia ao LLM, recebe a resposta e devolve ao usuário, tudo sem intervenção manual.</p>
@@ -375,5 +365,4 @@ draft: false
   ]
 }
 </script>
-</body>
-</html>
+

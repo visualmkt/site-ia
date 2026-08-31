@@ -9,22 +9,11 @@ imageAlt: "Advogado usando prompts prontos com ChatGPT"
 draft: false
 ---
 
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Prompts Prontos para Advogados: Guia Completo de Automação com IA</title>
-    <meta name="description" content="Descubra prompts prontos para advogados, como automatizar documentos, reduzir custos e garantir segurança de dados usando IA como ChatGPT, n8n e Zapier. Guia prático e seguro para escritórios de advocacia.">
-    <link rel="canonical" href="https://automacao.art.br/prompts-prontos-para-advogados" />
-</head>
-<body>
-    <header>
+<header>
         <img src="https://automacao.art.br/logo.png" alt="Logo automacao.art.br - prompts prontos para advogados" />
     </header>
     <main>
-        <h1>Prompts Prontos para Advogados</h1>
+        <h2>Prompts Prontos para Advogados</h2>
         <h2>Introdução</h2>
         <p>Os <strong>prompts prontos para advogados</strong> são modelos de texto pré‑definidos que podem ser usados em ferramentas de IA como o ChatGPT para automatizar tarefas e obter respostas rápidas para questões legais.</p>
         <p>Você pode usar esses prompts para criar documentos, responder a perguntas frequentes e até mesmo automatizar tarefas administrativas.</p>
@@ -195,5 +184,4 @@ draft: false
       ]
     }
     </script>
-</body>
-</html>
+

@@ -9,16 +9,7 @@ imageAlt: "Automação e eficiência em marketing"
 draft: false
 ---
 
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <title>IA para agência de marketing: o que automatizar primeiro</title>
-    <meta name="description" content="Descubra o que automatizar primeiro com IA em sua agência de marketing, reduza custos em até 30% e aumente a eficiência com ferramentas como n8n, Zapier e Make.">
-    <!-- slug: ia-para-agencia-de-marketing-o-que-automatizar-primeiro -->
-</head>
-<body>
-    <h1>IA para agência de marketing: o que automatizar primeiro</h1>
+<h2>IA para agência de marketing: o que automatizar primeiro</h2>
     <p>Implementar IA em uma agência de marketing pode transformar processos críticos. <strong>IA para agência de marketing o que automatizar primeiro</strong> é a pergunta que guia a escolha de ferramentas e fluxos que trazem maior retorno imediato.</p>
     <h2>Introdução à Automação em Agências de Marketing</h2>
     <p>Ao aplicar IA, você pode automatizar atendimento ao cliente, postagens em redes sociais e relatórios de desempenho, reduzindo custos operacionais em até <strong>30%</strong> (estudo HubSpot) e melhorando a eficiência.</p>
@@ -152,5 +143,4 @@ draft: false
       ]
     }
     </script>
-</body>
-</html>
+

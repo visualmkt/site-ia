@@ -9,16 +9,7 @@ imageAlt: "Agente de IA em ação"
 draft: false
 ---
 
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-  <meta charset="UTF-8">
-  <title>Agentes de IA: o que são e como criar - Guia completo</title>
-  <meta name="description" content="Descubra o que são agentes de IA, suas aplicações e aprenda passo a passo como criar um agente de IA para seu negócio. Guia completo com exemplos e dicas.">
-  <link rel="canonical" href="https://automacao.art.br/agentes-de-ia-o-que-sao-e-como-criar">
-</head>
-<body>
-  <h1>Agentes de IA: o que são e como criar</h1>
+<h2>Agentes de IA: o que são e como criar</h2>
   <img src="https://automacao.art.br/images/agentes-ia.jpg" alt="agentes de ia o que são e como criar" style="max-width:100%;height:auto;">
   <h2>Introdução aos Agentes de IA</h2>
   <p>Um agente de IA é um software que utiliza inteligência artificial para realizar tarefas automaticamente. <strong>Agentes de IA o que são e como criar</strong> é a pergunta que vamos responder neste guia. Você pode criar um agente de IA para automatizar processos, melhorar a eficiência e aumentar a produtividade. A criação de um agente de IA envolve a escolha da plataforma certa e a integração com outros sistemas.</p>
@@ -169,5 +160,4 @@ draft: false
     ]
   }
   </script>
-</body>
-</html>
+

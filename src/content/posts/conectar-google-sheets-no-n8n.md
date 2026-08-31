@@ -9,17 +9,7 @@ imageAlt: "Fluxo de trabalho no n8n com Google Sheets"
 draft: false
 ---
 
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <title>Como conectar Google Sheets no n8n: Guia passo a passo</title>
-    <meta name="description" content="Aprenda como conectar Google Sheets no n8n de forma simples. Configuramos a API, criamos fluxos e automatizamos tarefas em poucos minutos.">
-    <meta name="slug" content="como-conectar-google-sheets-no-n8n">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
-<body>
-<h1>Como conectar Google Sheets no n8n</h1>
+<h2>Como conectar Google Sheets no n8n</h2>
 
 <h2>Introdução ao n8n e ao Google Sheets</h2>
 <p>Para <strong>como conectar Google Sheets no n8n</strong>, você precisa criar uma conta no n8n e configurar a API do Google Sheets. Em seguida, pode criar um fluxo de trabalho no n8n para automatizar tarefas com o Google Sheets.</p>
@@ -99,5 +89,4 @@ draft: false
 <p>Explore nossa categoria de automatização e descubra como o n8n e o Google Sheets podem ajudá‑lo a melhorar seus processos.</p>
 
 <script type="application/ld+json">{"@graph":[{"@type":"FAQPage","name":"Perguntas frequentes sobre como conectar Google Sheets no n8n","description":"Perguntas frequentes sobre como conectar Google Sheets no n8n"},{"@type":"Article","headline":"Como conectar Google Sheets no n8n: Guia passo a passo","description":"Aprenda a conectar Google Sheets ao n8n e automatizar tarefas","author":"","publisher":{"@type":"Organization","name":"automacao.art.br","url":"https://automacao.art.br"},"inLanguage":"pt-BR"},{"@type":"HowTo","name":"Conectar Google Sheets ao n8n","description":"Aprenda a conectar Google Sheets ao n8n e automatizar tarefas","tool":"n8n","supply":"Google Sheets"}]}</script>
-</body>
-</html>
+

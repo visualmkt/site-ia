@@ -9,16 +9,6 @@ imageAlt: "Professor utilizando ChatGPT"
 draft: false
 ---
 
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Prompts Prontos para Professores: Guia Completo e Exemplos Práticos</title>
-  <meta name="description" content="Descubra prompts prontos para professores, com exemplos por disciplina, dicas de integração ao ChatGPT, métricas de avaliação e FAQs. Economize tempo e personalize o ensino.">
-  <link rel="canonical" href="https://example.com/prompts-prontos-para-professores">
-</head>
-<body>
 <h2>Introdução aos Prompts Prontos para Professores</h2>
 <p>Prompts prontos para professores são ferramentas valiosas que ajudam a melhorar a experiência de aprendizado dos alunos, fornecendo perguntas e tarefas pré-definidas para estimular o pensamento crítico e a criatividade.</p>
 <img src="https://automacao.art.br/imagens/prompts-professores.jpg" alt="Prompts prontos para professores" style="max-width:100%;height:auto;">
@@ -220,5 +210,4 @@ draft: false
   ]
 }
 </script>
-</body>
-</html>
+

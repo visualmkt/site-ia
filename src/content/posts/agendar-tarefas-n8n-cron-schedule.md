@@ -9,14 +9,6 @@ imageAlt: "Agendar tarefas no n8n com cron e schedule"
 draft: false
 ---
 
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-<title>Como agendar tarefas no n8n cron e schedule – Guia completo</title>
-<meta name="description" content="Aprenda como agendar tarefas no n8n usando cron e schedule. Guia passo a passo com exemplos, custos e dicas para automatizar seu negócio.">
-<!-- slug: como-agendar-tarefas-no-n8n-cron-e-schedule -->
-</head>
-<body>
 <p>Como agendar tarefas no n8n usando cron ou schedule é simples: basta arrastar o nó <strong>Cron</strong> ou <strong>Schedule</strong>, definir a expressão de tempo e conectar ao fluxo desejado. O gatilho executa o fluxo automaticamente conforme a agenda configurada.</p>
 <p>Essa funcionalidade elimina a necessidade de scripts externos e garante que processos como envio de relatórios ou limpeza de bancos rodem sem intervenção manual. Pequenos negócios ganham consistência e reduzem custos operacionais.</p>
 
@@ -116,5 +108,4 @@ draft: false
 <p>Explore mais artigos na categoria <a href="/automacao-de-processos">Automação de Processos</a> e continue aprimorando suas automações.</p>
 
 <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"O que é n8n e como funciona?","acceptedAnswer":{"@type":"Answer","text":"n8n é uma plataforma open‑source de automação de workflows que conecta APIs, bancos de dados e serviços sem precisar de código."}},{"@type":"Question","name":"Como instalar o n8n?","acceptedAnswer":{"@type":"Answer","text":"Instale via Docker, npm ou use o instalador one‑click; basta executar `docker run n8nio/n8n` ou `npm install n8n -g`."}},{"@type":"Question","name":"Quais são as principais diferenças entre n8n self‑hosted e cloud?","acceptedAnswer":{"@type":"Answer","text":"Self‑hosted dá controle total da infraestrutura e custos fixos; Cloud cuida da disponibilidade, escalabilidade automática e cobra por execução."}},{"@type":"Question","name":"Como criar um fluxo no n8n?","acceptedAnswer":{"@type":"Answer","text":"Abra o editor, adicione um nó de gatilho (ex.: HTTP Trigger) e conecte nós de ação como HTTP Request, Set ou Send Email, depois salve e ative."}},{"@type":"Question","name":"Como agendar tarefas no n8n utilizando cron?","acceptedAnswer":{"@type":"Answer","text":"Use o nó Cron, informe a expressão cron (ex.: 0 8 * * 1‑5) e conecte ao fluxo; o n8n executará o workflow nos horários definidos."}},{"@type":"Question","name":"Como utilizar o schedule no n8n?","acceptedAnswer":{"@type":"Answer","text":"Adicione o nó Schedule, escolha um intervalo (ex.: a cada 5 min), defina datas de início/fim e ligue ao fluxo; ele disparará periodicamente."}},{"@type":"Question","name":"Quais são as vantagens de utilizar o n8n para automação de tarefas?","acceptedAnswer":{"@type":"Answer","text":"n8n é gratuito, auto‑hospedado, possui mais de 300 integrações e permite criar fluxos complexos sem código, reduzindo custos operacionais."}}]},{"@type":"Article","headline":"Agendar Tarefas no n8n com Cron e Schedule","description":"Aprenda a agendar tarefas no n8n com cron e schedule e automatize processos. Guia prático para iniciantes e pequenos negócios.","author":{"@type":"Person","name":"Automação.art"},"publisher":{"@type":"Organization","name":"automacao.art.br"},"inLanguage":"pt-BR"},{"@type":"HowTo","name":"Como agendar tarefas no n8n usando Cron e Schedule","description":"Passo a passo para configurar nós Cron e Schedule no n8n.","step":[{"@type":"HowToStep","name":"Adicionar nó Cron","text":"Arraste o nó Cron para o editor e configure a expressão de tempo desejada."},{"@type":"HowToStep","name":"Conectar ao fluxo","text":"Conecte o nó Cron ao próximo nó, como HTTP Request ou Set, e salve o workflow."},{"@type":"HowToStep","name":"Adicionar nó Schedule (opcional)","text":"Se precisar de intervalos flexíveis, adicione o nó Schedule, defina o intervalo e as datas de início/fim."},{"@type":"HowToStep","name":"Ativar o workflow","text":"Ative o workflow; o n8n executará as tarefas automaticamente conforme a agenda."}],"inLanguage":"pt-BR"}]}</script>
-</body>
-</html>
+

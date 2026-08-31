@@ -9,15 +9,6 @@ imageAlt: "Modelo de linguagem personalizado como o ChatGPT"
 draft: false
 ---
 
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-<meta charset="UTF-8">
-<title>Como criar um GPT personalizado: guia passo a passo</title>
-<meta name="description" content="Aprenda como criar um GPT personalizado usando a API da OpenAI, fine‑tuning, técnicas avançadas e integração com n8n. Guia completo e prático.">
-<link rel="canonical" href="https://automacao.art.br/como-criar-um-gpt-personalizado">
-</head>
-<body>
 <p><strong>Como criar um GPT personalizado</strong>, você usa a API da OpenAI, carrega seu próprio conjunto de dados e executa o fine‑tuning. O processo leva de algumas horas a alguns dias, dependendo do volume de texto e da complexidade das instruções.</p>
 <img src="https://automacao.art.br/images/gpt-personalizado.png" alt="Como criar um GPT personalizado">
 
@@ -203,5 +194,4 @@ draft: false
   ]
 }
 </script>
-</body>
-</html>
+

@@ -9,17 +9,7 @@ imageAlt: "IA para transcrever áudio em texto grátis"
 draft: false
 ---
 
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <title>IA para transcrever áudio em texto grátis: Guia completo</title>
-    <meta name="description" content="Descubra como usar IA para transcrever áudio em texto grátis. Conheça as melhores ferramentas gratuitas, preços, limites e como integrá‑las à sua automação.">
-    <!-- slug: ia-para-transcrever-audio-em-texto-gratis -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
-<body>
-    <h1>IA para transcrever áudio em texto grátis</h1>
+<h2>IA para transcrever áudio em texto grátis</h2>
     <h2>Introdução</h2>
     <p>Para <strong>ia para transcrever áudio em texto grátis</strong>, você pode utilizar ferramentas de transcrição que empregam Inteligência Artificial, como o Google Cloud Speech‑to‑Text, Microsoft Azure Speech Services e IBM Watson. Essas plataformas oferecem planos gratuitos que permitem transcrever até 60 minutos por mês sem custo.</p>
     <p>Além disso, existem outras opções gratuitas, como o OpenAI Whisper, que também disponibiliza um modelo de transcrição open‑source. É importante escolher a ferramenta certa para o seu negócio ou necessidade.</p>
@@ -174,5 +164,4 @@ draft: false
         ]
     }
     </script>
-</body>
-</html>
+

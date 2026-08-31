@@ -9,17 +9,7 @@ imageAlt: "ChatGPT criando conteúdo de podcast"
 draft: false
 ---
 
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-  <meta charset="UTF-8">
-  <title>ChatGPT para criar conteúdo de podcasts: Guia completo</title>
-  <meta name="description" content="Descubra como usar o ChatGPT para criar conteúdo de podcasts, gerar roteiros, ideias e automatizar a produção com dicas práticas e exemplos.">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- slug: chatgpt-para-criar-conteudo-de-podcasts -->
-</head>
-<body>
-<h1>ChatGPT para criar conteúdo de podcasts: Guia completo</h1>
+<h2>ChatGPT para criar conteúdo de podcasts: Guia completo</h2>
 
 <h2>Introdução ao ChatGPT para criar conteúdo de podcasts</h2>
 <p>O ChatGPT é uma ferramenta de inteligência artificial que pode ser usada para <strong>criar conteúdo de podcasts</strong> de forma eficaz. Você pode usar o ChatGPT para gerar roteiros, criar ideias e até mesmo escrever o conteúdo do seu podcast.</p>
@@ -186,5 +176,4 @@ draft: false
   ]
 }
 </script>
-</body>
-</html>
+

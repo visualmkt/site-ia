@@ -9,18 +9,7 @@ imageAlt: "Automação de DevOps com n8n"
 draft: false
 ---
 
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <title>Guia completo de automação de DevOps com n8n – Passo a passo definitivo</title>
-    <meta name="description" content="Aprenda, passo a passo, como automatizar processos de DevOps usando n8n. Guia completo com exemplos, melhores práticas, preços e versões atuais.">
-    <meta name="slug" content="guia-completo-automacao-devops-n8n">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="canonical" href="https://automacao.art.br/guia-completo-automacao-devops-n8n">
-</head>
-<body>
-<h1>Guia completo de automação de DevOps com n8n</h1>
+<h2>Guia completo de automação de DevOps com n8n</h2>
 
 <h2>Introdução à Automação de DevOps</h2>
 <p>O <strong>guia completo de automação de DevOps com n8n</strong> é uma ferramenta poderosa para melhorar a eficiência do seu time. A automação de DevOps é o processo de automatizar tarefas e processos para melhorar a entrega de software. Você pode aprender mais sobre <a href="https://en.wikipedia.org/wiki/DevOps" target="_blank" rel="noopener noreferrer">DevOps</a> e como ele pode ser aplicado na prática.</p>
@@ -136,5 +125,4 @@ draft: false
   ]
 }
 </script>
-</body>
-</html>
+

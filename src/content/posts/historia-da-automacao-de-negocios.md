@@ -9,16 +9,7 @@ imageAlt: "História da Automação de Negócios"
 draft: false
 ---
 
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-<meta charset="UTF-8">
-<title>História da automação de negócios: evolução e tendências</title>
-<meta name="description" content="Descubra a história da automação de negócios, desde a revolução industrial até as ferramentas modernas como n8n, Zapier e Make, e como elas podem transformar sua empresa.">
-<link rel="canonical" href="https://automacao.art.br/historia-da-automacao-de-negocios" />
-</head>
-<body>
-<h1>História da automação de negócios</h1>
+<h2>História da automação de negócios</h2>
 
 <h2>Introdução à automação de negócios</h2>
 <p>A história da automação de negócios começou com a automação industrial, que datava do século XVIII. Você pode automatizar processos de negócios para aumentar a eficiência.</p>
@@ -102,5 +93,4 @@ draft: false
 
 <script type="application/ld+json">{"@graph":[{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"O que é automação de negócios?","acceptedAnswer":{"@type":"Answer","text":"Automação de negócios é o uso de tecnologia para automatizar processos de negócios, incluindo tarefas como gerenciamento de estoque, faturamento e atendimento ao cliente."}},{"@type":"Question","name":"Quais são os benefícios da automação de negócios?","acceptedAnswer":{"@type":"Answer","text":"Os benefícios da automação de negócios incluem aumento da eficiência, redução de custos e aumento da produtividade."}},{"@type":"Question","name":"Como começar a automatizar meus processos de negócios?","acceptedAnswer":{"@type":"Answer","text":"Para começar a automatizar seus processos de negócios, você precisa identificar os processos que podem ser automatizados, escolher as ferramentas certas e implementar e monitorar os resultados."}},{"@type":"Question","name":"Quais são as ferramentas mais comuns de automação de negócios?","acceptedAnswer":{"@type":"Answer","text":"Algumas ferramentas de automação de negócios incluem n8n, Zapier e Make."}},{"@type":"Question","name":"Como a automação de negócios pode melhorar a eficiência?","acceptedAnswer":{"@type":"Answer","text":"A automação de negócios pode melhorar a eficiência ao automatizar tarefas repetitivas e permitir que você se concentre em estratégias de negócios."}},{"@type":"Question","name":"Quais são os desafios mais comuns da automação de negócios?","acceptedAnswer":{"@type":"Answer","text":"Os desafios mais comuns da automação de negócios incluem a falta de conhecimento técnico e a resistência à mudança."}}],"@type":"Article","headline":"A História da Automação de Negócios: Uma Visão Geral","description":"Aprenda sobre a evolução da automação de negócios e como ela pode ajudar sua empresa a crescer","author":"","publisher":{"@type":"Organization","name":"automacao.art.br","url":"https://automacao.art.br"},"inLanguage":"pt-BR"},{"@type":"HowTo","name":"Como começar a automatizar seus processos de negócios","description":"Aprenda a automatizar seus processos de negócios com n8n, Zapier e Make","tool":"n8n, Zapier, Make","supply":"Conhecimento técnico, Resistência à mudança","step":[{"@type":"HowToStep","text":"Identifique os processos que podem ser automatizados"},{"@type":"HowToStep","text":"Escolha as ferramentas certas"},{"@type":"HowToStep","text":"Implemente e monitore os resultados"}]}]}
 </script>
-</body>
-</html>
+

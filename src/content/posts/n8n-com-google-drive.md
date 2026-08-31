@@ -9,16 +9,7 @@ imageAlt: "N8n painel de controle"
 draft: false
 ---
 
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-<meta charset="UTF-8">
-<title>n8n com Google Drive automatizando arquivos: Guia completo</title>
-<meta name="description" content="Aprenda como usar n8n com Google Drive para automatizar arquivos. Guia passo a passo, exemplos, erros comuns e dicas para melhorar sua produtividade.">
-<!-- slug: n8n-com-google-drive-automatizando-arquivos -->
-</head>
-<body>
-<h1>n8n com Google Drive automatizando arquivos</h1>
+<h2>n8n com Google Drive automatizando arquivos</h2>
 <img src="https://example.com/n8n-google-drive.png" alt="n8n com Google Drive automatizando arquivos" />
 <h2>Introdução</h2>
 <p>O n8n com Google Drive automatizando arquivos é uma combinação poderosa para automatizar arquivos, permitindo que você crie fluxos de trabalho personalizados para gerenciar seus arquivos de forma eficiente. Com o n8n, você pode automatizar tarefas como copiar arquivos do Google Drive para outro serviço de armazenamento, enviar notificações quando um arquivo é atualizado e muito mais. Isso pode economizar tempo e reduzir a carga de trabalho manual.</p>
@@ -236,5 +227,4 @@ draft: false
   ]
 }
 </script>
-</body>
-</html>
+

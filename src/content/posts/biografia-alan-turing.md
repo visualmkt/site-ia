@@ -9,16 +9,6 @@ imageAlt: "Alan Turing"
 draft: false
 ---
 
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <title>Biografia de Alan Turing: vida, obra e legado</title>
-    <meta name="description" content="Conheça a biografia de Alan Turing, o pai da computação, suas contribuições para a ciência, IA, criptografia e seu legado histórico. Descubra fatos, curiosidades e impactos até hoje." />
-    <link rel="canonical" href="https://automacao.art.br/biografia-de-alan-turing" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-</head>
-<body>
 <article>
 <p>Esta <strong>biografia de Alan Turing</strong> (1912‑1954) apresenta a trajetória do matemático britânico que fundou a ciência da computação. Seu trabalho sobre algoritmos e decidibilidade estabeleceu as bases da informática moderna.</p>
 <p>Além da teoria, ele quebrou códigos nazistas, desenvolveu a máquina de Turing e antecipou a inteligência artificial. Hoje, sua biografia inspira programadores, pesquisadores e historiadores.</p>
@@ -93,5 +83,4 @@ draft: false
 
 <script type="application/ld+json">{ "@context": "https://schema.org", "@graph": [ { "@type": "Article", "headline": "Biografia de Alan Turing: vida, obra e legado", "description": "Conheça a biografia de Alan Turing, suas contribuições à computação, IA, criptografia e legado, além da perseguição e morte.", "author": { "@type": "Person", "name": "Automação" }, "publisher": { "@type": "Organization", "name": "automacao.art.br", "url": "https://automacao.art.br" }, "inLanguage": "pt-BR" }, { "@type": "FAQPage", "mainEntity": [ { "@type": "Question", "name": "Quem foi Alan Turing?", "acceptedAnswer": { "@type": "Answer", "text": "Alan Turing foi um matemático, lógico e criptoanalista britânico, considerado o pai da computação moderna por criar o conceito de máquina de Turing." } }, { "@type": "Question", "name": "O que Alan Turing criou?", "acceptedAnswer": { "@type": "Answer", "text": "Ele desenvolveu a máquina de Turing, um modelo abstrato que define o que é computável, e projetou a \"Bombe\", aparelho que decifrou a máquina Enigma durante a Segunda Guerra Mundial." } }, { "@type": "Question", "name": "Qual foi a contribuição de Alan Turing para a computação?", "acceptedAnswer": { "@type": "Answer", "text": "Turing estabeleceu as bases teóricas da ciência da computação, introduzindo a noção de algoritmo universal e influenciando a arquitetura dos computadores atuais." } }, { "@type": "Question", "name": "Qual foi a importância de Alan Turing na guerra?", "acceptedAnswer": { "@type": "Answer", "text": "Na Segunda Guerra Mundial, sua liderança em Bletchley Park e a invenção da \"Bombe\" permitiram decifrar mensagens alemãs, encurtando o conflito em até dois anos." } }, { "@type": "Question", "name": "Como Alan Turing morreu?", "acceptedAnswer": { "@type": "Answer", "text": "Ele morreu em 7 de junho de 1954, oficialmente por suicídio com cianeto, após sofrer perseguição e tratamento hormonal forçado devido à sua homossexualidade." } }, { "@type": "Question", "name": "O que é a máquina de Turing?", "acceptedAnswer": { "@type": "Answer", "text": "A máquina de Turing é um modelo teórico de computação que consiste em uma fita infinita, um cabeçote de leitura/escrita e um conjunto de regras que definem como a fita é manipulada." } }, { "@type": "Question", "name": "Qual foi a relação de Alan Turing com a inteligência artificial?", "acceptedAnswer": { "@type": "Answer", "text": "Turing foi pioneiro na IA ao propor o \"teste de Turing\" em 1950, um método para avaliar se uma máquina pode exibir comportamento indistinguível do humano." } }, { "@type": "Question", "name": "O que é o teste de Turing?", "acceptedAnswer": { "@type": "Answer", "text": "É um experimento que verifica se uma máquina consegue enganar um avaliador humano, fazendo com que ele não consiga distinguir entre respostas humanas e de máquina." } } ] } ] }</script>
 </article>
-</body>
-</html>
+

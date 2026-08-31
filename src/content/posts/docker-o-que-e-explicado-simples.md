@@ -9,16 +9,6 @@ imageAlt: "Comparação entre container Docker e máquina virtual"
 draft: false
 ---
 
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <title>Docker: o que é explicado simples - Guia rápido</title>
-    <meta name="description" content="Docker o que é explicado simples: descubra de forma clara o que é Docker, como funciona, principais comandos e quando usar. Guia rápido para iniciantes em 2024.">
-    <link rel="canonical" href="https://automacao.art.br/docker-o-que-e-explicado-simples" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-</head>
-<body>
 <p><strong>Docker o que é explicado simples</strong> é uma plataforma de containerização que empacota sua aplicação e todas as dependências em um único artefato portátil.</p>
 <p>Com Docker você executa o mesmo container em Windows, macOS ou Linux sem ajustes, o que acelera desenvolvimento e reduz custos.</p>
 
@@ -211,5 +201,4 @@ echo "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.
   ]
 }
 </script>
-</body>
-</html>
+

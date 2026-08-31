@@ -9,15 +9,6 @@ imageAlt: "n8n vs apache airflow"
 draft: false
 ---
 
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-  <meta charset="UTF-8">
-  <title>n8n vs Apache Airflow: qual é o melhor para automação?</title>
-  <meta name="description" content="Compare n8n e Apache Airflow e descubra qual é a melhor ferramenta para automação de processos, custos, segurança e escalabilidade. Guia completo.">
-  <link rel="canonical" href="https://automacao.art.br/n8n-vs-apache-airflow-qual-e-o-melhor-para-automacao">
-</head>
-<body>
 <h2>n8n vs Apache Airflow: qual é o melhor para automação – Introdução</h2>
 <p>Para automação de processos, você pode escolher entre n8n e Apache Airflow. Neste artigo, analisamos <strong>n8n vs Apache Airflow: qual é o melhor para automação</strong> e ajudamos você a decidir qual ferramenta atende melhor às suas necessidades.</p>
 <p>N8n é uma ferramenta de automação de workflows que usa uma interface visual. Apache Airflow (<a href="https://airflow.apache.org" target="_blank" rel="noopener noreferrer">site oficial</a>) é uma plataforma de gerenciamento de workflows.</p>
@@ -245,5 +236,4 @@ draft: false
   ]
 }
 </script>
-</body>
-</html>
+

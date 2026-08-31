@@ -9,18 +9,7 @@ imageAlt: "Vibe Coding em ação"
 draft: false
 ---
 
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vibe Coding: o que é e como começar – Guia completo</title>
-    <meta name="description" content="Descubra o que é Vibe Coding, como começar e quais ferramentas usar. Aprenda a criar fluxos automatizados com n8n, Zapier e IA para melhorar sua produtividade.">
-    <link rel="canonical" href="https://automacao.art.br/vibe-coding-o-que-e-e-como-comecar">
-</head>
-<body>
-<h1>Vibe Coding: o que é e como começar</h1>
+<h2>Vibe Coding: o que é e como começar</h2>
 <img src="https://automacao.art.br/images/vibe-coding.jpg" alt="Vibe Coding o que é e como começar" style="max-width:100%;height:auto;">
 <h2>Introdução ao Vibe Coding</h2>
 <p>Vibe Coding é uma abordagem de desenvolvimento de software que combina automação e IA para criar soluções personalizadas. <strong>Vibe Coding o que é e como começar</strong> é a pergunta que vamos responder neste guia, mostrando como iniciar seus primeiros fluxos de trabalho automatizados.</p>
@@ -177,5 +166,4 @@ draft: false
   ]
 }
 </script>
-</body>
-</html>
+

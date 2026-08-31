@@ -9,16 +9,6 @@ imageAlt: "Diagrama do workflow n8n para criar bot de Telegram"
 draft: false
 ---
 
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-<meta charset="UTF-8">
-<title>Como criar um bot de Telegram com n8n – Guia completo passo a passo</title>
-<meta name="description" content="Aprenda passo a passo a criar um bot de Telegram com n8n, configurando webhook, Docker, VPS e integração OpenAI. Guia completo para iniciantes.">
-<meta name="slug" content="como-criar-bot-telegram-com-n8n">
-<link rel="canonical" href="https://automacao.art.br/como-criar-bot-telegram-com-n8n">
-</head>
-<body>
 <h2>Como criar um bot de Telegram com n8n – Guia completo passo a passo</h2>
 <p>Neste artigo, você vai aprender como criar um bot de Telegram com n8n em 5 etapas: gerar token no BotFather, instalar n8n (Docker ou VPS), configurar webhook com URL pública e SSL, montar workflow com <strong>Telegram Trigger</strong> e <strong>Telegram Send Message</strong>, e testar com mensagens reais. O fluxo roda 100% self-hosted ou no n8n Cloud, com suporte a automação avançada via <strong>HTTP Request</strong> para APIs como OpenAI.</p>
 <p>Neste guia, você vai do zero ao deploy de um bot funcional que recebe comandos e responde automaticamente, usando nodes nativos do n8n. Não precisa saber programar: tudo é feito por interface visual e configurações prontas.</p>
@@ -296,5 +286,4 @@ help - Mostra ajuda</pre>
   ]
 }
 </script>
-</body>
-</html>
+

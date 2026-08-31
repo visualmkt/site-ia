@@ -9,16 +9,7 @@ imageAlt: "Agente de IA"
 draft: false
 ---
 
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <title>História dos agentes de IA: como eles evoluíram ao longo do tempo</title>
-    <meta name="description" content="Explore a história dos agentes de IA e veja como evoluíram ao longo do tempo, dos primeiros sistemas de regras às avançadas soluções de aprendizado de máquina.">
-    <!-- slug: historia-dos-agentes-de-ia-como-eles-evoluíram-ao-longo-do-tempo -->
-</head>
-<body>
-<h1>História dos agentes de IA: como eles evoluíram ao longo do tempo</h1>
+<h2>História dos agentes de IA: como eles evoluíram ao longo do tempo</h2>
 <h2>Introdução aos Agentes de IA</h2>
 <p>Os agentes de IA evoluíram ao longo do tempo, passando de simples sistemas de regras para soluções avançadas de aprendizado de máquina. <strong>História dos agentes de IA: como eles evoluíram ao longo do tempo</strong> é o tema central deste artigo, que traz uma visão completa desde os primórdios até as tendências atuais. Você pode aprender mais sobre o que são agentes de IA e como funcionam em nosso artigo <a href="https://automacao.art.br/agentes/o-que-e-agente-de-ia/">O que é um agente de IA?</a>.</p>
 <p>Os agentes de IA desempenham um papel crucial na automação, permitindo que as empresas automatizem tarefas e processos de forma eficiente. Eles podem ser usados em uma variedade de aplicações, desde atendimento ao cliente até gestão de estoque.</p>
@@ -142,5 +133,4 @@ Explore nossa categoria de agentes de IA para aprender mais sobre como você pod
   ]
 }
 </script>
-</body>
-</html>
+

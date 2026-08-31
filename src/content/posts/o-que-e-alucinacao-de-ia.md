@@ -9,17 +9,7 @@ imageAlt: "Alucinação de IA em modelos de linguagem"
 draft: false
 ---
 
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-<meta charset="UTF-8">
-<title>O que é alucinação de IA e como evitar – Guia completo</title>
-<meta name="description" content="Descubra o que é alucinação de IA, seus riscos e aprenda estratégias práticas para evitar respostas falsas ao usar ChatGPT e outros modelos de linguagem.">
-<meta name="slug" content="o-que-e-alucinacao-de-ia-e-como-evitar">
-<link rel="canonical" href="https://automacao.art.br/o-que-e-alucinacao-de-ia-e-como-evitar">
-</head>
-<body>
-<h1>O que é alucinação de IA e como evitar</h1>
+<h2>O que é alucinação de IA e como evitar</h2>
 <img src="https://automacao.art.br/images/alucinacao-ia.jpg" alt="o que é alucinação de ia e como evitar" style="max-width:100%;height:auto;">
 <h2>Introdução</h2>
 <p>O que é alucinação de IA e como evitar? A alucinação de IA ocorre quando um modelo de linguagem gera informações falsas ou inexatas. Para evitá‑la, é crucial entender como os modelos funcionam e como utilizar os prompts de forma eficaz.</p>
@@ -210,5 +200,4 @@ draft: false
   ]
 }
 </script>
-</body>
-</html>
+

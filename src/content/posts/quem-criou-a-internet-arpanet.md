@@ -9,17 +9,7 @@ imageAlt: "ARPANET primeira rede"
 draft: false
 ---
 
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-<meta charset="UTF-8">
-<title>Quem criou a internet? A história da ARPANET</title>
-<meta name="description" content="Descubra quem criou a internet e a história da ARPANET, a rede pioneira que deu origem à web, com detalhes sobre seus criadores, tecnologias e legado.">
-<meta name="slug" content="quem-criou-a-internet-a-historia-da-arpanet">
-<link rel="canonical" href="https://example.com/quem-criou-a-internet-a-historia-da-arpanet">
-</head>
-<body>
-<h1>Quem criou a internet? A história da ARPANET</h1>
+<h2>Quem criou a internet? A história da ARPANET</h2>
 <h2>Quem criou a internet? A história da ARPANET</h2>
 <p>A ARPANET foi a primeira rede de computadores operacional baseada no conceito de comutação de pacotes, lançada em 1969 pelo <a href="https://pt.wikipedia.org/wiki/Advanced_Research_Projects_Agency" target="_blank" rel="noopener noreferrer">ARPA</a> (hoje DARPA). <strong>Quem criou a internet a história da ARPANET</strong> está intimamente ligada a esse projeto, que criou a base técnica que permitiu seu nascimento. A rede conectou inicialmente quatro universidades norte‑americanas, provando que máquinas diferentes podiam se comunicar.</p>
 <img src="https://example.com/images/arpanet.jpg" alt="Quem criou a internet? A história da ARPANET" style="max-width:100%;height:auto;">
@@ -298,5 +288,4 @@ draft: false
   ]
 }
 </script>
-</body>
-</html>
+

@@ -9,18 +9,7 @@ imageAlt: "Máquina a vapor, um dos primeiros marcos da história da automação
 draft: false
 ---
 
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <title>Marcos Importantes na História da Automação - Guia Completo</title>
-    <meta name="description" content="Descubra os marcos importantes na história da automação, da máquina a vapor à inteligência artificial, e aprenda como aplicar essas inovações no seu negócio.">
-    <meta name="slug" content="marcos-importantes-historia-automacao">
-    <link rel="canonical" href="https://automacao.art.br/marcos-importantes-historia-automacao">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
-<body>
-    <h2>Introdução aos marcos importantes na história da automação</h2>
+<h2>Introdução aos marcos importantes na história da automação</h2>
     <p>A história da automação é marcada por inovações como a máquina a vapor, a revolução industrial e a criação de Alan Turing. Esses marcos importantes moldaram a automação industrial e abriram caminho para a inteligência artificial.</p>
     <p>A automação transformou a indústria e a sociedade, aumentando a eficiência e a produtividade. Conhecer os marcos importantes na história da automação é essencial para entender como ela evoluiu e como pode ser aplicada nos dias atuais.</p>
     <p>Desde a máquina a vapor até a inteligência artificial, a automação passou por muitas fases, com contribuições de personagens como Ada Lovelace e Alan Turing.</p>
@@ -183,5 +172,4 @@ draft: false
         ]
     }
     </script>
-</body>
-</html>
+

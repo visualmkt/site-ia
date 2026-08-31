@@ -100,7 +100,7 @@ sudo install -o root -g root -m 0755 kubectl /usr/local/bin/kubectl</code></pre>
 <li>Verifique os nós:
 <div class="code-block">
 <pre><code>kubectl get nodes
-# Saída esperada:
+\# Saída esperada:
 NAME                STATUS   ROLES    AGE   VERSION
 pool-abc123-xyz     Ready    <none>   5m    v1.27.4</code></pre>
 </div>
@@ -114,7 +114,7 @@ pool-abc123-xyz     Ready    <none>   5m    v1.27.4</code></pre>
 <li>Instale o Helm:
 <div class="code-block">
 <pre><code>helm version --client
-# Deve mostrar: version.BuildInfo{Version:"v3.12.0"}</code></pre>
+\# Deve mostrar: version.BuildInfo{Version:"v3.12.0"}</code></pre>
 </div>
 </li>
 <li>Adicione o repositório oficial do n8n (mantido pela comunidade):
@@ -126,7 +126,7 @@ helm repo update</code></pre>
 <li>Verifique as versões disponíveis:
 <div class="code-block">
 <pre><code>helm search repo n8n/n8n --versions
-# Saída esperada:
+\# Saída esperada:
 n8n/n8n    0.25.0    1.33.0    Self-host n8n in Kubernetes</code></pre>
 </div>
 </li>
@@ -245,7 +245,7 @@ redis:
 <p><strong>Snippet útil:</strong> Para verificar se o PostgreSQL está pronto:</p>
 <div class="code-block">
 <pre><code>kubectl get pods -n n8n
-# Saída esperada:
+\# Saída esperada:
 NAME                            READY   STATUS    RESTARTS   AGE
 n8n-prod-n8n-abc123-xyz         1/1     Running   0          2m
 postgres-primary-0              1/1     Running   0          5m
@@ -359,7 +359,7 @@ spec:
 <p>Verifique a escalabilidade:</p>
 <div class="code-block">
 <pre><code>kubectl get hpa -n n8n
-# Saída esperada:
+\# Saída esperada:
 NAME            REFERENCE                  TARGETS   MINPODS   MAXPODS   REPLICAS   AGE
 n8n-prod-n8n    Deployment/n8n-prod-n8n     50%/70%   3         10        5          10m</code></pre>
 </div>
@@ -407,8 +407,8 @@ spec:
 <li>Aplique e acesse o Grafana:
 <div class="code-block">
 <pre><code>kubectl port-forward svc/prometheus-grafana 3000:80 -n monitoring
-# Acesse: http://localhost:3000
-# Usuário: admin, Senha: prom-operator</code></pre>
+\# Acesse: http://localhost:3000
+\# Usuário: admin, Senha: prom-operator</code></pre>
 </div>
 </li>
 <li>Verifique logs do n8n:
@@ -498,7 +498,7 @@ kubectl cp ./n8n_backup_20240101.dump n8n/postgres-primary-0:/tmp/n8n_backup.dum
 kubectl exec -it postgres-primary-0 -n n8n -- bash -c \
   "pg_restore -U postgres -d n8n /tmp/n8n_backup.dump --clean --if-exists"
 
-# Restaurar PV do n8n
+\# Restaurar PV do n8n
 kubectl cp ./n8n_data_backup_20240101.tar.gz n8n/n8n-prod-n8n-new-xyz:/tmp/n8n_data.tar.gz
 kubectl exec -it n8n-prod-n8n-new-xyz -n n8n -- bash -c \
   "tar xzvf /tmp/n8n_data.tar.gz -C /home/node/.n8n"</code></pre>

@@ -9,19 +9,7 @@ imageAlt: "Agente de IA em ação"
 draft: false
 ---
 
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <title>Marcos importantes na história do desenvolvimento de agentes de IA | Automacao.art.br</title>
-    <meta name="description" content="Descubra os marcos importantes na história do desenvolvimento de agentes de IA, desde os primeiros algoritmos até o ChatGPT e as integrações com automação. Saiba datas, versões e tendências futuras.">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="slug" content="marcos-importantes-historia-desenvolvimento-agentes-ia">
-    <link rel="canonical" href="https://automacao.art.br/marcos-importantes-historia-desenvolvimento-agentes-ia" />
-    <script type="application/ld+json">{"@graph":[{"@type":"FAQPage","name":"Perguntas frequentes sobre marcos importantes na história do desenvolvimento de agentes de IA","description":"Perguntas frequentes sobre marcos importantes na história do desenvolvimento de agentes de IA"},{"@type":"Article","headline":"Marcos importantes na história do desenvolvimento de agentes de IA","description":"Descubra os principais marcos na evolução dos agentes de IA, com datas, versões e aplicações atuais","author":"Automacao.art.br","publisher":{"@type":"Organization","name":"Automacao.art.br","url":"https://automacao.art.br"},"inLanguage":"pt-BR"}]}</script>
-</head>
-<body>
-    <h1>Marcos importantes na história do desenvolvimento de agentes de IA</h1>
+<h2>Marcos importantes na história do desenvolvimento de agentes de IA</h2>
     <h2>Introdução aos Agentes de IA</h2>
     <p>Os <strong>marcos importantes na história do desenvolvimento de agentes de IA</strong> incluem o desenvolvimento de algoritmos de aprendizado de máquina desde a década de 1950, a criação de sistemas especializados como o ChatGPT (lançado em março de 2023) e a integração com tecnologias de automação.</p>
     <p>Para entender melhor os agentes de IA, é essencial conhecer sua definição e funcionalidades. Você pode encontrar mais informações sobre o que é um agente de IA e como ele funciona em <a href="https://automacao.art.br/agentes/o-que-e-agente-de-ia/">nossa página sobre agentes de IA</a>.</p>
@@ -86,5 +74,4 @@ draft: false
         <li>Integração com tecnologias de automação</li>
     </ul>
     <p>Explore nossa categoria de agentes de IA para saber mais sobre como você pode começar a trabalhar com essas tecnologias e transformar sua vida e negócios.</p>
-</body>
-</html>
+

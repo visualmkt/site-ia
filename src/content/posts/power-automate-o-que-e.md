@@ -9,16 +9,7 @@ imageAlt: "Power Automate para automação de processos"
 draft: false
 ---
 
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-<meta charset="UTF-8">
-<title>Power Automate: o que é e quando usar – Guia completo</title>
-<meta name="description" content="Descubra o que é Power Automate, como funciona e quando usar para automatizar processos, integrar apps e ganhar eficiência no seu negócio.">
-<link rel="canonical" href="https://automacao.art.br/power-automate-o-que-e-e-quando-usar">
-</head>
-<body>
-<h1>Power Automate: o que é e quando usar</h1>
+<h2>Power Automate: o que é e quando usar</h2>
 <img src="https://automacao.art.br/images/power-automate-logo.png" alt="Power Automate logo">
 <h2>Introdução ao Power Automate</h2>
 <p>Power Automate, o que é e quando usar, é uma ferramenta de automação de processos da Microsoft que permite criar fluxos de trabalho automatizados entre diferentes aplicativos e serviços. Você pode usá-lo quando precisar automatizar tarefas repetitivas ou integrar diferentes ferramentas. Isso ajuda a aumentar a eficiência e reduzir o tempo gasto em tarefas manuais.</p>
@@ -275,5 +266,4 @@ draft: false
   ]
 }
 </script>
-</body>
-</html>
+

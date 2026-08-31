@@ -9,16 +9,6 @@ imageAlt: "Anúncio criado com ChatGPT"
 draft: false
 ---
 
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <title>ChatGPT para criar conteúdo de anúncios: Guia completo</title>
-    <meta name="description" content="Descubra como usar o ChatGPT para criar conteúdo de anúncios eficazes, com dicas, exemplos de prompts e integração com ferramentas como n8n e Zapier.">
-    <link rel="canonical" href="https://automacao.art.br/chatgpt-para-criar-conteudo-de-anuncios" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
-<body>
 <h2>Introdução ao ChatGPT para Marketing</h2>
 <p>O ChatGPT é uma ferramenta poderosa para <strong>ChatGPT para criar conteúdo de anúncios</strong> personalizados e eficazes. Você pode usá-lo para gerar texto de anúncios, otimizar campanhas e até mesmo criar conteúdo para redes sociais.</p>
 <p>Se você quer saber mais sobre o ChatGPT, visite nosso <a href="https://automacao.art.br/chatgpt/chatgpt-guia-completo/">guia completo sobre ChatGPT</a> e descubra como ele pode ajudar seu negócio.</p>
@@ -78,5 +68,4 @@ draft: false
 <p>Explore nossa categoria de <a href="https://automacao.art.br/marketing-digital/">marketing digital</a> para aprender mais sobre como usar o ChatGPT e outras ferramentas para impulsionar seu negócio.</p>
 
 <script type="application/ld+json">{"@graph":[{"@type":"FAQPage","name":"Perguntas frequentes sobre ChatGPT para criar conteúdo de anúncios","description":"Perguntas frequentes sobre como usar o ChatGPT para criar conteúdo de anúncios"},{"@type":"Article","headline":"ChatGPT para Criar Conteúdo de Anúncios","description":"Aprenda a usar o ChatGPT para criar conteúdo de anúncios personalizados e eficazes","author":"Automacao.art.br","publisher":{"@type":"Organization","name":"Automacao.art.br","url":"https://automacao.art.br"},"inLanguage":"pt-BR"},{"@type":"HowTo","name":"Como usar o ChatGPT para criar conteúdo de anúncios","description":"Passo a passo para usar o ChatGPT para criar conteúdo de anúncios"}]}</script>
-</body>
-</html>
+

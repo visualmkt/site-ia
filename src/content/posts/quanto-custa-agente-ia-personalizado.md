@@ -9,16 +9,7 @@ imageAlt: "Agente de IA personalizado"
 draft: false
 ---
 
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <title>Quanto custa criar um agente de IA personalizado? Guia completo</title>
-    <meta name="description" content="Descubra quanto custa criar um agente de IA personalizado, com detalhes de preços, fatores que influenciam o valor e dicas para escolher a melhor plataforma.">
-    <link rel="canonical" href="https://automacao.art.br/quanto-custa-criar-um-agente-de-ia-personalizado">
-</head>
-<body>
-<h1>Quanto custa criar um agente de IA personalizado?</h1>
+<h2>Quanto custa criar um agente de IA personalizado?</h2>
 <h2>Introdução</h2>
 <p>O custo de criar um <strong>agente de IA personalizado</strong> pode variar de R$ 5.000 a R$ 50.000 ou mais, dependendo da complexidade do projeto e da plataforma utilizada. Você pode criar um agente de IA sem conhecimento de programação, utilizando ferramentas como n8n e ChatGPT. O custo também depende da necessidade de integração com outros sistemas.</p>
 <p>Um agente de IA personalizado pode ser uma solução eficaz para pequenos negócios, pois pode automatizar tarefas e melhorar a produtividade. Além disso, um agente de IA pode ser personalizado para atender às necessidades específicas do negócio.</p>
@@ -121,5 +112,4 @@ draft: false
   ]
 }
 </script>
-</body>
-</html>
+

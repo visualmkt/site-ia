@@ -9,17 +9,7 @@ imageAlt: "Automação de marketing para pequenas empresas"
 draft: false
 ---
 
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <title>Vale a Pena Investir em Automação de Marketing? Guia Completo</title>
-    <meta name="description" content="Descubra se vale a pena investir em automação de marketing, conheça vantagens, desafios, ferramentas e como começar, com dados reais e exemplos práticos.">
-    <meta name="slug" content="vale-a-pena-investir-em-automacao-de-marketing">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
-<body>
-    <h1>Vale a Pena Investir em Automação de Marketing?</h1>
+<h2>Vale a Pena Investir em Automação de Marketing?</h2>
     <h2>Introdução</h2>
     <p>Vale a pena investir em automação de marketing, pois pode aumentar a eficiência e reduzir custos. Com a automação, você pode otimizar processos e melhorar resultados. Isso é especialmente importante para pequenos empresários e marketers que buscam otimizar processos e melhorar resultados.</p>
     <p>A automação de marketing permite que você automatize tarefas repetitivas e foque em estratégias de marketing mais criativas e eficazes. Com as ferramentas certas, você pode automatizar desde postagens em redes sociais até e‑mail marketing e muito mais.</p>
@@ -134,5 +124,4 @@ draft: false
       ]
     }
     </script>
-</body>
-</html>
+

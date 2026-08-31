@@ -9,19 +9,7 @@ imageAlt: "Agente de IA em marketing digital"
 draft: false
 ---
 
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Prompts prontos para agentes de IA em marketing digital: Guia completo</title>
-    <meta name="description" content="Descubra os melhores prompts prontos para agentes de IA em marketing digital, como criar, integrar e otimizar suas campanhas. Aumente a eficiência em até 40% e reduza custos.">
-    <link rel="canonical" href="https://automacao.art.br/prompts-prontos-para-agentes-de-ia-em-marketing-digital">
-    <!-- Links internos e externos já presentes no corpo -->
-</head>
-<body>
-    <h1>Prompts prontos para agentes de IA em marketing digital</h1>
+<h2>Prompts prontos para agentes de IA em marketing digital</h2>
     <h2>Introdução</h2>
     <p>Prompts prontos para agentes de IA em marketing digital são comandos pré‑definidos que permitem que você automatize tarefas de marketing com eficiência. Você pode usar esses prompts para criar chatbots, automatizar campanhas de e‑mail e muito mais. Com prompts prontos, você pode reduzir o tempo gasto em tarefas manuais em até <strong>40 %</strong> e aumentar a produtividade.</p>
     <p>Os prompts prontos são especialmente úteis para pequenos negócios e iniciantes em automação e IA. Eles permitem que você comece a usar agentes de IA em marketing digital sem precisar ter conhecimentos avançados de programação.</p>
@@ -187,5 +175,4 @@ draft: false
       ]
     }
     </script>
-</body>
-</html>
+

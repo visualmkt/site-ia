@@ -11,7 +11,7 @@ draft: false
 
 <article>
 
-<h1>Quanto custa usar o Make na nuvem para pequenas empresas em 2025? Guia completo de preços e planos</h1>
+<h2>Quanto custa usar o Make na nuvem para pequenas empresas em 2025? Guia completo de preços e planos</h2>
 
 <p>Em 2025, o <strong>Make</strong> (antigo Integromat) adota um modelo de cobrança por <strong>tasks executadas</strong>, não por fluxos criados. Essa abordagem é especialmente vantajosa para pequenas empresas brasileiras que buscam automação escalável sem custos fixos elevados. Neste guia, você encontrará:</p>
 

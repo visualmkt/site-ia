@@ -9,18 +9,7 @@ imageAlt: "Agente de IA em vendas"
 draft: false
 ---
 
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-  <meta charset="UTF-8">
-  <title>Prompts prontos para agentes de IA em vendas: 20 exemplos práticos</title>
-  <meta name="description" content="Descubra 20 exemplos práticos de prompts prontos para agentes de IA em vendas que aumentam a eficiência, reduzem o tempo de resposta em até 30% e impulsionam suas conversões.">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="slug" content="prompts-prontos-para-agentes-de-ia-em-vendas-20-exemplos-praticos">
-  <link rel="canonical" href="https://automacao.art.br/prompts-prontos-para-agentes-de-ia-em-vendas-20-exemplos-praticos">
-</head>
-<body>
-  <h1>Prompts prontos para agentes de IA em vendas: 20 exemplos práticos</h1>
+<h2>Prompts prontos para agentes de IA em vendas: 20 exemplos práticos</h2>
   <h2>Introdução aos agentes de IA em vendas</h2>
   <p>Os <strong>prompts prontos para agentes de IA em vendas</strong> são fundamentais para melhorar a eficiência e produtividade das vendas. Você pode criar 20 exemplos práticos de prompts, como respostas automatizadas a perguntas frequentes ou sugestões de produtos personalizados. Estudos apontam que o uso de agentes de IA pode reduzir o tempo de resposta em até <strong>30 %</strong> e aumentar a taxa de conversão em <strong>15 %</strong>.</p>
   <p>Os agentes de IA em vendas são soluções de inteligência artificial projetadas para automatizar tarefas de vendas, como atendimento ao cliente e prospecção de leads. Eles podem ser integrados a outras ferramentas de vendas, como CRM e marketing automation, para melhorar a eficiência e produtividade.</p>
@@ -129,5 +118,4 @@ draft: false
     ]
   }
   </script>
-</body>
-</html>
+

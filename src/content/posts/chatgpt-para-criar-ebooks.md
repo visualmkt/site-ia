@@ -9,16 +9,6 @@ imageAlt: "E-book criado com ChatGPT"
 draft: false
 ---
 
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <title>ChatGPT para criar conteúdo de e‑books: Guia completo</title>
-    <meta name="description" content="Aprenda como usar o ChatGPT para criar conteúdo de e‑books de forma rápida, econômica e com alta qualidade. Passo a passo, dicas e integrações.">
-    <meta name="author" content="Autor Exemplo">
-    <link rel="canonical" href="https://automacao.art.br/chatgpt-para-criar-conteudo-de-e-books">
-</head>
-<body>
 <h2>Introdução ao ChatGPT para criar conteúdo de e‑books</h2>
 <p>O <strong>ChatGPT para criar conteúdo de e‑books</strong> é uma ferramenta de IA que pode gerar texto rapidamente e de forma eficaz. Você pode usar o ChatGPT para gerar conteúdo de qualidade, desde que forneça prompts claros e específicos. Com o ChatGPT, você pode economizar tempo e aumentar sua produtividade.</p>
 <p>Uma curiosidade sobre o ChatGPT é que ele utiliza um modelo de linguagem treinado por máquina, chamado RAG, que permite que ele entenda e responda a perguntas de forma mais precisa.</p>
@@ -101,5 +91,4 @@ draft: false
 <p>Explore nossa categoria de <a href="/chatgpt">ChatGPT</a> para aprender mais sobre como criar conteúdo de e‑books de forma eficaz e automatizar sua criação de conteúdo.</p>
 
 <script type="application/ld+json">{"@graph":[{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"O que é ChatGPT e como funciona?"},{"@type":"Question","name":"Posso usar o ChatGPT para criar conteúdo de e‑books gratuitamente?"},{"@type":"Question","name":"Quais são as vantagens de usar o ChatGPT para criar conteúdo de e‑books?"},{"@type":"Question","name":"Como posso personalizar o conteúdo gerado pelo ChatGPT?"},{"@type":"Question","name":"O ChatGPT pode substituir um escritor humano?"},{"@type":"Question","name":"Quais são as limitações do ChatGPT para criar conteúdo de e‑books?"},{"@type":"Question","name":"Como posso integrar o ChatGPT com outras ferramentas de automatização?"}]},{"@type":"Article","headline":"ChatGPT para criar conteúdo de e‑books","description":"Aprenda a criar conteúdo de e‑books com ChatGPT de forma eficaz","author":"Autor Exemplo","publisher":{"@type":"Organization","name":"automação.art.br","url":"https://automação.art.br"},"inLanguage":"pt-BR"},{"@type":"HowTo","name":"Como criar conteúdo de e‑books com ChatGPT","description":"Aprenda a criar conteúdo de e‑books com ChatGPT de forma eficaz","image":null,"tool":[],"supply":[],"step":[{"@type":"HowToStep","text":"Acesse o ChatGPT e forneça um prompt claro e específico."},{"@type":"HowToStep","text":"Selecione o tipo de conteúdo que você deseja criar (e‑book, artigo, post de blog, etc.)."},{"@type":"HowToStep","text":"Configure as opções de formatação e estilo de acordo com as suas necessidades."}]}]}</script>
-</body>
-</html>
+

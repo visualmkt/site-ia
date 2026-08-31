@@ -9,16 +9,7 @@ imageAlt: "Ferramentas de automação para pequenas empresas"
 draft: false
 ---
 
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-  <meta charset="UTF-8">
-  <title>Melhores ferramentas de automação para pequenas empresas – Guia completo</title>
-  <meta name="description" content="Descubra as melhores ferramentas de automação para pequenas empresas, compare Zapier, Make e n8n, veja preços, recursos e como escolher a solução ideal.">
-  <link rel="canonical" href="https://automacao.art.br/melhores-ferramentas-automacao-pequenas-empresas">
-</head>
-<body>
-  <h1>Melhores ferramentas de automação para pequenas empresas</h1>
+<h2>Melhores ferramentas de automação para pequenas empresas</h2>
   <h2>Introdução</h2>
   <p>As melhores ferramentas de automação para pequenas empresas são aquelas que podem ajudar a aumentar a eficiência e produtividade, como n8n, Zapier e Make. Essas ferramentas permitem automatizar tarefas repetitivas e integrar diferentes aplicativos e serviços.</p>
   <p>Com a automação, você pode se concentrar em tarefas mais importantes e estratégicas para o crescimento da sua empresa. Além disso, a automação também pode ajudar a reduzir erros e melhorar a experiência do cliente.</p>
@@ -113,5 +104,4 @@ draft: false
     ]
   }
   </script>
-</body>
-</html>
+

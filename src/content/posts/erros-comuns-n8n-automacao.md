@@ -9,15 +9,6 @@ imageAlt: "n8n automação fluxo"
 draft: false
 ---
 
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-<meta charset="UTF-8">
-<title>Erros comuns ao usar n8n em projetos de automação – Guia completo</title>
-<meta name="description" content="Descubra os erros mais comuns ao usar n8n em projetos de automação e aprenda a solucioná-los de forma eficaz com soluções práticas e dicas de especialistas.">
-<link rel="canonical" href="https://example.com/erros-comuns-ao-usar-n8n-em-projetos-de-automacao">
-</head>
-<body>
 <p>Os erros mais comuns ao usar n8n em projetos de automação são falhas de conexão de webhook, credenciais de API expiradas e parâmetros de entrada mal mapeados.</p>
 <p>Esses problemas costumam gerar fluxos interrompidos, mensagens de erro crípticas e perda de dados.</p>
 <p>Identificar a origem rapidamente permite corrigir o fluxo e manter a automação funcionando sem retrabalho.</p>
@@ -178,5 +169,4 @@ draft: false
   ]
 }
 </script>
-</body>
-</html>
+

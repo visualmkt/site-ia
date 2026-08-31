@@ -9,16 +9,7 @@ imageAlt: "Estudante usando prompts para estudar para concurso"
 draft: false
 ---
 
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-  <meta charset="UTF-8">
-  <title>Prompts prontos para estudar para concursos – Guia completo</title>
-  <meta name="description" content="Descubra prompts prontos para estudar para concursos, com exemplos, dicas e como usar o ChatGPT, n8n, Zapier e Make para automatizar sua preparação.">
-  <link rel="canonical" href="https://example.com/prompts-prontos-para-estudar-para-concursos" />
-</head>
-<body>
-  <h1>Prompts prontos para estudar para concursos</h1>
+<h2>Prompts prontos para estudar para concursos</h2>
   <img src="https://example.com/images/prompt-concurso.jpg" alt="prompts prontos para estudar para concursos" />
   <h2>Introdução</h2>
   <p>Para estudar para concursos, você precisa de <strong>prompts prontos para estudar para concursos</strong> que o ajudem a melhorar suas habilidades e conhecimentos. Esses prompts são frases ou perguntas pré‑definidas que você pode usar para praticar e aprender sobre um determinado assunto.</p>
@@ -252,5 +243,4 @@ draft: false
     ]
   }
   </script>
-</body>
-</html>
+

@@ -9,16 +9,6 @@ imageAlt: "Xerox PARC laboratório histórico"
 draft: false
 ---
 
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-<meta charset="UTF-8">
-<title>Xerox PARC – O laboratório que inventou o futuro da tecnologia</title>
-<meta name="description" content="Descubra como o Xerox PARC se tornou o laboratório que inventou o futuro, suas invenções revolucionárias e o impacto na automação e IA.">
-<link rel="canonical" href="https://automacao.art.br/xerox-parc-o-laboratorio-que-inventou-o-futuro">
-<script type="application/ld+json">{ "@context": "https://schema.org", "@graph": [ { "@type": "FAQPage", "mainEntity": [ { "@type": "Question", "name": "O que foi o Xerox PARC e quando foi criado?", "acceptedAnswer": { "@type": "Answer", "text": "O Xerox PARC (Palo Alto Research Center) foi fundado em 1970 pela Xerox como um centro de pesquisa independente focado em tecnologias disruptivas de computação." } }, { "@type": "Question", "name": "Quais foram as principais invenções do Xerox PARC?", "acceptedAnswer": { "@type": "Answer", "text": "Entre as invenções mais influentes estão a GUI, o Xerox Alto, a Ethernet, a linguagem Smalltalk e a impressora a laser." } }, { "@type": "Question", "name": "Como a GUI desenvolvida no Xerox PARC influenciou o Windows e o macOS?", "acceptedAnswer": { "@type": "Answer", "text": "A GUI do Xerox PARC inspirou o Xerox Star, que por sua vez serviu de base para as primeiras interfaces gráficas da Apple e, indiretamente, para o Microsoft Windows." } }, { "@type": "Question", "name": "Qual a relação entre o Xerox PARC e a invenção da Ethernet?", "acceptedAnswer": { "@type": "Answer", "text": "Bob Taylor e sua equipe criaram a Ethernet entre 1973 e 1976, estabelecendo o padrão de redes locais ainda dominante hoje." } }, { "@type": "Question", "name": "De que forma as pesquisas do Xerox PARC impactam a inteligência artificial hoje?", "acceptedAnswer": { "@type": "Answer", "text": "As ideias de orientação a objetos, interfaces gráficas e redes de alta velocidade criaram a base para plataformas de IA que dependem de APIs, webhooks e fluxos de dados em tempo real." } }, { "@type": "Question", "name": "Por que o Xerox PARC é considerado um laboratório que inventou o futuro?", "acceptedAnswer": { "@type": "Answer", "text": "Porque suas inovações redefiniram a forma como interagimos com computadores, redes e impressão, influenciando praticamente todas as tecnologias digitais atuais." } }, { "@type": "Question", "name": "Como empreendedores podem aplicar lições do Xerox PARC em projetos de automação?", "acceptedAnswer": { "@type": "Answer", "text": "Adotando cultura de prototipagem rápida, colaboração aberta, uso de ferramentas low‑code como n8n e integração constante via webhooks e APIs." } }, { "@type": "Question", "name": "Onde encontrar documentos e recursos históricos sobre o Xerox PARC?", "acceptedAnswer": { "@type": "Answer", "text": "Os arquivos digitais estão disponíveis no Internet Archive, no Computer History Museum e em repositórios como o GitHub \"awesome-parc\"." } } ] }, { "@type": "Article", "headline": "Xerox PARC – O laboratório que inventou o futuro da tecnologia", "description": "Descubra como o Xerox PARC se tornou o laboratório que inventou o futuro, suas invenções revolucionárias e o impacto na automação e IA.", "author": { "@type": "Person", "name": "Equipe automacao.art.br" }, "publisher": { "@type": "Organization", "name": "automacao.art.br", "logo": { "@type": "ImageObject", "url": "https://automacao.art.br/logo.png" } }, "inLanguage": "pt-BR", "url": "https://automacao.art.br/xerox-parc-o-laboratorio-que-inventou-o-futuro" } ] }</script>
-</head>
-<body>
 <!-- Imagem principal com alt contendo a keyword -->
 <img src="https://automacao.art.br/images/xerox-parc.jpg" alt="xerox parc o laboratório que inventou o futuro" style="max-width:100%;height:auto;">
 
@@ -162,5 +152,4 @@ draft: false
   <li>Impacto direto em Apple, Microsoft e startups de IA</li>
 </ul>
 <p>Quer aprofundar ainda mais? Explore a categoria <a href="/tecnologia-historica">Tecnologia Histórica</a> e descubra como outras revoluções moldaram o futuro.</p>
-</body>
-</html>
+

@@ -9,16 +9,6 @@ imageAlt: "AlphaGo partida contra Lee Sedol mostrando o tabuleiro de Go"
 draft: false
 ---
 
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <title>Alphago como a IA venceu o campeão de Go – Tudo que você precisa saber</title>
-    <meta name="description" content="Descubra como AlphaGo, a IA da DeepMind, venceu o campeão mundial de Go, Lee Sedol, em 2016, e entenda a tecnologia por trás desse marco histórico da inteligência artificial.">
-    <!-- slug: alphago-como-a-ia-venceu-o-campeao-de-go -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
-<body>
 <p>AlphaGo, IA da DeepMind, derrotou Lee Sedol 4‑1 em março 2016, usando redes neurais profundas combinadas com Monte Carlo Tree Search. Foi a primeira vez que um programa venceu um mestre mundial de Go em condições padrão.</p>
 <p>O confronto mudou a percepção sobre limites da IA e impulsionou pesquisas em aprendizado por reforço e automação. Hoje, técnicas similares alimentam ferramentas como n8n e APIs de IA.</p>
 
@@ -223,5 +213,4 @@ draft: false
     }
   ]
 }</script>
-</body>
-</html>
+

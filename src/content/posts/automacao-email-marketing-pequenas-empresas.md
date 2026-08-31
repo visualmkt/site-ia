@@ -9,16 +9,7 @@ imageAlt: "Automação de email marketing para pequenas empresas"
 draft: false
 ---
 
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-  <meta charset="UTF-8">
-  <title>Automação de email marketing para pequenas empresas: Guia completo</title>
-  <meta name="description" content="Descubra como automatizar email marketing para pequenas empresas, economizando tempo e aumentando conversões com ferramentas como n8n, Zapier e Make. Guia passo a passo, boas práticas e tendências de IA.">
-  <link rel="canonical" href="https://example.com/automacao-de-email-marketing-para-pequenas-empresas" />
-</head>
-<body>
-  <h1>Automação de email marketing para pequenas empresas</h1>
+<h2>Automação de email marketing para pequenas empresas</h2>
   <img src="https://automacao.art.br/images/email-automation.jpg" alt="Automação de email marketing para pequenas empresas" style="max-width:100%;height:auto;" />
 
   <h2>Introdução</h2>
@@ -244,5 +235,4 @@ draft: false
     ]
   }
   </script>
-</body>
-</html>
+

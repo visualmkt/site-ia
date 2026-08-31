@@ -9,16 +9,7 @@ imageAlt: "n8n e Docker integrados"
 draft: false
 ---
 
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-<meta charset="UTF-8">
-<title>Como automatizar deploy de aplicações com n8n e Docker</title>
-<meta name="description" content="Aprenda passo a passo a automatizar o deploy de aplicações usando n8n e Docker, com exemplos práticos, versões específicas e dicas de melhores práticas.">
-<link rel="canonical" href="https://automacao.art.br/como-automatizar-deploy-de-aplicacoes-com-n8n-e-docker">
-</head>
-<body>
-<h1>Como automatizar deploy de aplicações com n8n e Docker</h1>
+<h2>Como automatizar deploy de aplicações com n8n e Docker</h2>
 <h2>Introdução</h2>
 <p>Como automatizar o deploy de aplicações com n8n e Docker? Para isso, você precisa configurar workflows no n8n que interajam com o Docker, permitindo a automação de tarefas como a criação de contêineres e a execução de comandos. Esta integração pode ser feita usando os nodos do n8n para interagir com a API do Docker (versão 24.0.5). Com essa integração, você pode reduzir o tempo de entrega e aumentar a eficiência do deploy.</p>
 <p>Esta abordagem é especialmente útil para equipes de desenvolvimento que buscam melhorar a automação de processos de deploy de aplicações. Ao usar o n8n (versão 1.2.0) e o Docker juntos, você pode criar pipelines de deploy personalizados e escaláveis.</p>
@@ -115,5 +106,4 @@ draft: false
 <script type="application/ld+json">
 {"@graph":[{"@type":"FAQPage","name":"Perguntas frequentes sobre Como automatizar deploy de aplicações com n8n e Docker","mainEntity":[{"@type":"Question","name":"O que é n8n e como funciona?","acceptedAnswer":{"@type":"Answer","text":"O n8n é uma ferramenta de automação de workflows que permite a integração de diversas ferramentas e serviços."}},{"@type":"Question","name":"Qual é a diferença entre n8n e Zapier?","acceptedAnswer":{"@type":"Answer","text":"O n8n e o Zapier são ferramentas de automação de workflows, mas o n8n é mais personalizável e permite a integração com uma ampla gama de ferramentas e serviços."}},{"@type":"Question","name":"Como posso usar o Docker para deploy de aplicações?","acceptedAnswer":{"@type":"Answer","text":"O Docker pode ser usado para deploy de aplicações criando contêineres que isolam os ambientes e permitem a portabilidade de aplicações."}},{"@type":"Question","name":"Posso usar o n8n com outras ferramentas de automação?","acceptedAnswer":{"@type":"Answer","text":"Sim, o n8n pode ser usado com outras ferramentas de automação, como o Zapier e o Make."}},{"@type":"Question","name":"Como posso integrar o n8n com o Docker?","acceptedAnswer":{"@type":"Answer","text":"A integração do n8n com o Docker pode ser feita configurando os nodos do n8n para interagir com a API do Docker."}},{"@type":"Question","name":"Quais são os benefícios de usar o n8n e o Docker juntos?","acceptedAnswer":{"@type":"Answer","text":"Os benefícios incluem a redução do tempo de entrega e o aumento da eficiência do deploy."}},{"@type":"Question","name":"Posso usar o n8n para deploy de aplicações em produção?","acceptedAnswer":{"@type":"Answer","text":"Sim, o n8n pode ser usado para deploy de aplicações em produção, desde que configurado corretamente."}}]},{"@type":"Article","headline":"Automatize o Deploy de Aplicações com n8n e Docker","description":"Aprenda a automatizar o deploy de aplicações com n8n e Docker","author":{"@type":"Person","name":"Automacao.art.br"},"publisher":{"@type":"Organization","name":"automacao.art.br","url":"https://automacao.art.br"},"inLanguage":"pt-BR"},{"@type":"HowTo","name":"Automatizar deploy de aplicações com n8n e Docker","description":"Aprenda a automatizar o deploy de aplicações com n8n e Docker","tool":["n8n","Docker"],"supply":["Aplicações"],"step":[{"@type":"HowToStep","text":"Criar um novo workflow no n8n"},{"@type":"HowToStep","text":"Adicionar nodos para interagir com a API do Docker"},{"@type":"HowToStep","text":"Configurar os nodos para executar as tarefas necessárias para o deploy"}]}]}
 </script>
-</body>
-</html>
+

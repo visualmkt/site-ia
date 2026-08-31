@@ -9,15 +9,6 @@ imageAlt: "avatar de ia personalizado"
 draft: false
 ---
 
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <title>HeyGen: o que é avatar de IA e vale a pena? Guia completo</title>
-    <meta name="description" content="Descubra o que é um avatar de IA da HeyGen, como funciona, custos, vantagens e se realmente vale a pena investir. Guia completo com exemplos, ferramentas e preços.">
-    <!-- slug: heygen-o-que-e-avatar-de-ia-vale-a-pena -->
-</head>
-<body>
 <h2>Introdução</h2>
 <p>Se você está se perguntando <strong>heygen o que é avatar de ia vale a pena</strong>, este guia traz tudo o que você precisa saber. Um avatar de IA é um representante digital que usa inteligência artificial para interagir com usuários, e pode melhorar a experiência do cliente, aumentar a interação e otimizar processos internos.</p>
 <p>Os avatares de IA podem ser personalizados para atender às necessidades específicas da sua empresa, e podem ser usados em diversas plataformas, incluindo redes sociais, sites e aplicativos de mensagens.</p>
@@ -151,5 +142,4 @@ draft: false
   ]
 }
 </script>
-</body>
-</html>
+

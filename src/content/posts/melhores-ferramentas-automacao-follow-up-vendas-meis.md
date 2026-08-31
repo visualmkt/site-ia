@@ -8,18 +8,7 @@ imageAlt: "Ferramentas de automação de follow-up de vendas para MEIs"
 draft: false
 ---
 
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Melhores ferramentas de automação de follow-up de vendas para MEIs</title>
-  <meta name="description" content="Descubra as melhores ferramentas de automação de follow‑up de vendas para MEIs, com comparação de preços, recursos e dicas de implementação para n8n, Zapier e Make.">
-  <link rel="canonical" href="https://www.seusite.com/melhores-ferramentas-automacao-follow-up-vendas-meis">
-  <meta name="slug" content="melhores-ferramentas-automacao-follow-up-vendas-meis">
-</head>
-<body>
-  <h1>Melhores ferramentas de automação de follow-up de vendas para MEIs</h1>
+<h2>Melhores ferramentas de automação de follow-up de vendas para MEIs</h2>
 
   <h2>Introdução</h2>
   <p>Para microempreendedores individuais (MEIs), o follow‑up de vendas pode consumir tempo e recursos valiosos. As <strong>melhores ferramentas de automação de follow-up de vendas para MEIs</strong> – n8n, Zapier e Make – permitem criar fluxos de trabalho que mantêm o cliente engajado, aumentam a taxa de conversão e reduzem custos operacionais.</p>
@@ -150,5 +139,4 @@ draft: false
     ]
   }
   </script>
-</body>
-</html>
+

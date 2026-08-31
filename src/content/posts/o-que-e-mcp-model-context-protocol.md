@@ -9,18 +9,7 @@ imageAlt: "MCP Model Context Protocol explicado"
 draft: false
 ---
 
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>O que é MCP Model Context Protocol? Guia Completo e Implementação</title>
-  <meta name="description" content="Descubra o que é MCP Model Context Protocol, suas vantagens, aplicações em agentes de IA e como implementá‑lo passo a passo em projetos de automação.">
-  <!-- slug: o-que-e-mcp-model-context-protocol -->
-</head>
-<body>
-  <h1>O que é MCP Model Context Protocol?</h1>
+<h2>O que é MCP Model Context Protocol?</h2>
   <img src="https://automacao.art.br/images/mcp-diagram.png" alt="Diagrama explicativo do que é MCP Model Context Protocol">
   <h2>Introdução ao MCP Model Context Protocol</h2>
   <p>O MCP Model Context Protocol (MCP) é um protocolo de comunicação que permite a troca de informações entre agentes de IA e outros sistemas. <strong>O que é MCP Model Context Protocol</strong>? Ele define como os agentes devem se comunicar e compartilhar contexto, facilitando a integração de diferentes plataformas.</p>
@@ -179,5 +168,4 @@ draft: false
       }
     ]
   }</script>
-</body>
-</html>
+

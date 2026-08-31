@@ -9,20 +9,8 @@ imageAlt: "Isaac Asimov, criador das Três Leis da Robótica"
 draft: false
 ---
 
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Asimov e as Três Leis da Robótica: origem e influência – Guia Completo</title>
-  <meta name="description" content="Descubra a origem e a influência das Três Leis da Robótica de Asimov, como elas moldam a automação, IA e padrões de segurança. Saiba tudo aqui!">
-  <!-- slug: asimov-e-as-tres-leis-da-robotica-origem-e-influencia -->
-  <link rel="canonical" href="https://automacao.art.br/asimov-e-as-tres-leis-da-robotica-origem-e-influencia" />
-</head>
-<body>
-  <article>
-    <h1>Asimov e as Três Leis da Robótica: origem e influência</h1>
+<article>
+    <h2>Asimov e as Três Leis da Robótica: origem e influência</h2>
     
     <p>Isaac Asimov e as Três Leis da Robótica origem e influência são fundamentais para entender como a ficção científica moldou a segurança e a ética na automação moderna.</p>
     <h2>Introdução às Três Leis da Robótica de Asimov</h2>
@@ -143,5 +131,4 @@ draft: false
     ]
   }
   </script>
-</body>
-</html>
+

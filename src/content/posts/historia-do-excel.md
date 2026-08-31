@@ -9,20 +9,9 @@ imageAlt: "Planilha eletrônica antiga"
 draft: false
 ---
 
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <title>História do Excel e das Planilhas Eletrônicas – Conheça a Evolução</title>
-    <meta name="description" content="Descubra a história do Excel e das planilhas eletrônicas, desde o VisiCalc até o Excel Copilot, e veja como evoluíram a automação nos negócios.">
-    <meta name="keywords" content="história do excel e das planilhas eletrônicas">
-    <link rel="canonical" href="https://automacao.art.br/historia-do-excel-e-das-planilhas-eletronicas/" />
-    <!-- slug: historia-do-excel-e-das-planilhas-eletronicas -->
-</head>
-<body>
-    <article>
+<article>
         <header>
-            <h1>História do Excel e das Planilhas Eletrônicas</h1>
+            <h2>História do Excel e das Planilhas Eletrônicas</h2>
             <img src="https://automacao.art.br/images/historia-excel-planilhas.jpg" alt="História do Excel e das planilhas eletrônicas" loading="lazy" />
         </header>
         <p>O Excel nasceu em 1985, mas a <strong>história do Excel e das planilhas eletrônicas</strong> começa em 1979 com o VisiCalc. Desde então, cada geração trouxe recursos que ampliaram a automação de processos nas empresas. Hoje, o Excel domina o mercado, mas ainda convive com alternativas como Google Planilhas e LibreOffice Calc.</p>
@@ -232,5 +221,4 @@ draft: false
       ]
     }
     </script>
-</body>
-</html>
+

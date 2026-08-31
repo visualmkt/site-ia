@@ -9,19 +9,7 @@ imageAlt: "IA para gerar música e voz"
 draft: false
 ---
 
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>IA para gerar música e voz: ferramentas, integração e FAQs</title>
-    <meta name="description" content="Descubra como usar IA para gerar música e voz, conheça as melhores ferramentas, preços a partir de US$15/mês, integração com n8n e respostas às dúvidas mais comuns.">
-    <!-- slug: ia-para-gerar-musica-e-voz -->
-    <link rel="canonical" href="https://automacao.art.br/ia-para-gerar-musica-e-voz" />
-</head>
-<body>
-    <h1>IA para gerar música e voz</h1>
+<h2>IA para gerar música e voz</h2>
     <img src="https://automacao.art.br/img/ia-musica-voz.jpg" alt="IA gerando música e voz" />
     <h2>Introdução</h2>
     <p>IA para gerar música e voz é uma tecnologia que permite criar música e áudio de forma automática, utilizando algoritmos e modelos de inteligência artificial. Você pode usar IA para gerar música e voz para criar trilhas sonoras, jingles, vozes para anúncios e muito mais. Isso pode ser feito com ferramentas como o <a href="https://platform.openai.com/docs" target="_blank" rel="noopener">OpenAI</a>.</p>
@@ -273,5 +261,4 @@ draft: false
       ]
     }
     </script>
-</body>
-</html>
+

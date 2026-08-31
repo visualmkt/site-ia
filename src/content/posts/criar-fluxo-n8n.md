@@ -9,20 +9,8 @@ imageAlt: "fluxo n8n"
 draft: false
 ---
 
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Como criar seu primeiro fluxo no n8n – Guia passo a passo</title>
-  <meta name="description" content="Aprenda como criar seu primeiro fluxo no n8n de forma simples e prática. Guia completo com passos, exemplos e dicas para automatizar tarefas usando n8n.">
-  <link rel="canonical" href="https://automacao.art.br/como-criar-seu-primeiro-fluxo-no-n8n">
-  <script type="application/ld+json">{ "@context": "https://schema.org", "@graph": [ { "@type": "FAQPage", "mainEntity": [ { "@type": "Question", "name": "O que é n8n e para que serve?", "acceptedAnswer": { "@type": "Answer", "text": "n8n é uma plataforma de automação de workflow de código aberto que permite conectar aplicativos e serviços sem escrever código. Serve para criar fluxos de trabalho que executam tarefas repetitivas, como enviar e‑mails, sincronizar dados ou acionar APIs." } }, { "@type": "Question", "name": "Como instalar o n8n?", "acceptedAnswer": { "@type": "Answer", "text": "Você pode instalar o n8n via npm (npm i n8n -g), usar Docker (docker run n8nio/n8n) ou optar pela versão cloud oferecida pela própria n8n.io. A escolha depende do seu nível de conforto e da necessidade de hospedagem própria." } }, { "@type": "Question", "name": "Quais são as principais características do n8n?", "acceptedAnswer": { "@type": "Answer", "text": "Entre as principais estão a interface visual de arrastar‑e‑soltar, suporte a mais de 300 nodes, execução self‑hosted, possibilidade de criar webhooks e integração com OAuth2 e credenciais seguras." } }, { "@type": "Question", "name": "Como criar um fluxo no n8n?", "acceptedAnswer": { "@type": "Answer", "text": "Comece criando um novo workflow, adicione um node de gatilho (Webhook ou Cron), conecte os nodes necessários (Set, HTTP Request, Email etc.), configure cada node e salve. Teste o fluxo usando o botão “Execute” para garantir que tudo funciona como esperado." } }, { "@type": "Question", "name": "Quais são os benefícios de usar o n8n?", "acceptedAnswer": { "@type": "Answer", "text": "Ele permite automatizar processos sem depender de múltiplas ferramentas, reduz custos ao ser open‑source, oferece flexibilidade para customizar lógicas complexas e garante controle total dos dados quando hospedado internamente." } }, { "@type": "Question", "name": "Como integrar o n8n com outros serviços?", "acceptedAnswer": { "@type": "Answer", "text": "Use nodes específicos para cada serviço ou crie requisições HTTP personalizadas. Webhooks permitem receber dados externos, enquanto credenciais OAuth simplificam a autenticação." } }, { "@type": "Question", "name": "Quais são as limitações do n8n?", "acceptedAnswer": { "@type": "Answer", "text": "Embora poderoso, o n8n pode exigir conhecimento técnico para configurações avançadas, tem limites de performance em ambientes não escalados e a comunidade ainda está crescendo, o que pode impactar a disponibilidade de recursos e plugins." } } ] }, { "@type": "Article", "headline": "Criando Seu Primeiro Fluxo no n8n: Um Tutorial Prático", "description": "Aprenda passo a passo a criar seu primeiro fluxo no n8n e automatize tarefas de forma simples e eficiente. Guia prático para iniciantes.", "author": { "@type": "Person", "name": "automacao.art.br" }, "publisher": { "@type": "Organization", "name": "automacao.art.br", "logo": { "@type": "ImageObject", "url": "https://automacao.art.br/logo.png" } }, "inLanguage": "pt-BR", "datePublished": "2026-07-18" }, { "@type": "HowTo", "name": "Como criar seu primeiro fluxo no n8n", "description": "Passo a passo para montar um workflow básico no n8n.", "step": [ { "@type": "HowToStep", "name": "Criar novo workflow", "text": "No painel do n8n clique em ‘New Workflow’ e dê um nome ao seu fluxo." }, { "@type": "HowToStep", "name": "Adicionar node de gatilho", "text": "Arraste um node ‘Webhook’ ou ‘Cron’ para iniciar o fluxo quando houver um evento ou em horário programado." }, { "@type": "HowToStep", "name": "Conectar nodes", "text": "Clique e arraste para ligar o gatilho aos nodes de ação, como ‘Set’, ‘HTTP Request’ ou ‘Email’ conforme a necessidade." }, { "@type": "HowToStep", "name": "Configurar nodes", "text": "Preencha os campos de cada node (URL da API, parâmetros, destinatário de e‑mail, etc.) e use expressões para dinamizar valores." }, { "@type": "HowToStep", "name": "Testar e salvar", "text": "Clique em ‘Execute’ para validar o fluxo; se tudo funcionar, clique em ‘Save’ e ative o workflow." } ] } ] }</script>
-</head>
-<body>
 <article>
-  <h1>Como criar seu primeiro fluxo no n8n</h1>
+  <h2>Como criar seu primeiro fluxo no n8n</h2>
   <p>Neste tutorial você vai aprender <strong>como criar seu primeiro fluxo no n8n</strong> de forma simples, passo a passo, e já colocar em prática a automação de tarefas.</p>
   <img src="https://automacao.art.br/imagens/fluxo-n8n.png" alt="Como criar seu primeiro fluxo no n8n - diagrama de exemplo">
   <h2>Introdução ao n8n e ao Conceito de Fluxo</h2>
@@ -87,5 +75,4 @@ draft: false
   </ul>
   <p>Explore mais tutoriais na categoria <a href="/categoria/automacao" target="_blank" rel="noopener noreferrer">Automação</a> e descubra novas possibilidades para seu negócio.</p>
 </article>
-</body>
-</html>
+

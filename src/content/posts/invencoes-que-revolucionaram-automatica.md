@@ -9,18 +9,6 @@ imageAlt: "Linha do tempo da automação"
 draft: false
 ---
 
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Invenções que revolucionaram a automação – Guia completo</title>
-    <meta name="description" content="Descubra as invenções que revolucionaram a automação, como a máquina a vapor, robôs industriais e IA, e veja seu impacto nos negócios e tendências futuras.">
-    <link rel="canonical" href="https://automacao.art.br/invencoes-que-revolucionaram-automacao/">
-    <!-- slug: invencoes-que-revolucionaram-automacao -->
-</head>
-<body>
 <h2>Introdução à Automação</h2>
 <p>As principais <strong>invenções que revolucionaram a automação</strong> incluem a máquina a vapor, robôs industriais e inteligência artificial. Essas invenções transformaram a forma como as indústrias operam, aumentando a eficiência e reduzindo custos.</p>
 <p>A automação é fundamental para o crescimento econômico e o desenvolvimento tecnológico. Ela permite que as empresas aumentem a produtividade e melhorem a qualidade dos produtos.</p>
@@ -110,5 +98,4 @@ draft: false
 <p>Explore mais artigos sobre automação e descubra como aplicar essas tecnologias ao seu negócio na nossa categoria de <a href="https://automacao.art.br/">Automação</a>.</p>
 
 <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Quais são as principais invenções que revolucionaram a automação?","acceptedAnswer":{"@type":"Answer","text":"As invenções mais influentes incluem a máquina a vapor, que introduziu a energia mecânica; os robôs industriais, que automatizaram linhas de produção; e a inteligência artificial, que permite decisões autônomas e otimização de processos."}},{"@type":"Question","name":"Como a automação mudou a indústria?","acceptedAnswer":{"@type":"Answer","text":"A automação aumentou a produtividade, reduziu custos operacionais e melhorou a qualidade dos produtos, permitindo que fábricas operem 24/7 com menor margem de erro."}},{"@type":"Question","name":"Quem são os principais personagens da história da automação?","acceptedAnswer":{"@type":"Answer","text":"Alan Turing, Ada Lovelace, Grace Hopper e John von Neumann são pioneiros cujas ideias criaram as bases da computação e da automação moderna."}},{"@type":"Question","name":"Qual é o papel da inteligência artificial na automação?","acceptedAnswer":{"@type":"Answer","text":"A IA permite que sistemas automatizados aprendam, se adaptem e tomem decisões em tempo real, ampliando a capacidade de processos complexos como análise de dados e controle de qualidade."}},{"@type":"Question","name":"Como a automação afeta os pequenos negócios?","acceptedAnswer":{"@type":"Answer","text":"Pequenas empresas ganham eficiência ao automatizar tarefas repetitivas, reduzindo custos e permitindo que se concentrem em inovação e atendimento ao cliente."}},{"@type":"Question","name":"Quais são as tendências atuais em automação?","acceptedAnswer":{"@type":"Answer","text":"As tendências incluem IA generativa, edge computing, automação cognitiva e plataformas low-code/no-code que democratizam a criação de bots."}}]},{"@type":"Article","headline":"Invenções que Revolucionaram a Automação","description":"Descubra as invenções que transformaram a automação, seu impacto na indústria e nos negócios, e as tendências que chegam.","author":{"@type":"Person","name":"Equipe Automação"},"publisher":{"@type":"Organization","name":"automacao.art.br"},"inLanguage":"pt-BR"}]}</script>
-</body>
-</html>
+

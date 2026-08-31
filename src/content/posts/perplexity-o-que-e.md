@@ -9,17 +9,6 @@ imageAlt: "Perplexity e inteligência artificial"
 draft: false
 ---
 
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Perplexity: o que é e quando usar em vez do Google – Guia Completo</title>
-  <meta name="description" content="Descubra o que é Perplexity, como funciona e quando usar em vez do Google. Veja comparativo, preços, integração com n8n, Zapier e ChatGPT para automação inteligente.">
-  <!-- slug: perplexity-o-que-e-e-quando-usar-em-vez-do-google -->
-  <link rel="canonical" href="https://automacao.art.br/perplexity-o-que-e-e-quando-usar-em-vez-do-google" />
-</head>
-<body>
 <p><img src="https://automacao.art.br/images/perplexity-logo.png" alt="Perplexity o que é e quando usar em vez do Google" loading="lazy" style="max-width:100%;height:auto;" /></p>
 <p><strong>Perplexity é um motor de busca alimentado por IA que devolve respostas curtas, citadas e verificáveis.</strong> <em>Perplexity o que é e quando usar em vez do Google</em> é a pergunta que vamos responder, mostrando quando ele supera o Google em produtividade e automação.</p>
 <p>Para profissionais e pequenos negócios, a diferença está na produtividade: Perplexity entrega a resposta pronta para ser consumida por ferramentas como n8n, Zapier ou Make, enquanto o Google exige extração manual de dados.</p>
@@ -316,5 +305,4 @@ draft: false
   ]
 }
 </script>
-</body>
-</html>
+

@@ -9,16 +9,7 @@ imageAlt: "Código JSON exemplo"
 draft: false
 ---
 
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-  <meta charset="UTF-8">
-  <title>O que é JSON explicado para quem automatiza | Guia Completo</title>
-  <meta name="description" content="Descubra o que é JSON explicado para quem automatiza, como funciona, vantagens, exemplos práticos e dicas para usar em n8n, Zapier e outras ferramentas de automação.">
-  <link rel="canonical" href="https://automacao.art.br/o-que-e-json-explicado-para-quem-automatiza">
-</head>
-<body>
-<h1>O que é JSON explicado para quem automatiza</h1>
+<h2>O que é JSON explicado para quem automatiza</h2>
 <p><strong>O que é JSON explicado para quem automatiza</strong> é a pergunta que vamos responder neste guia completo. JSON (JavaScript Object Notation) é um formato de dados leve e legível, ideal para trocar informações entre APIs, bancos de dados e fluxos de automação.</p>
 <img src="https://automacao.art.br/images/json-automacao.jpg" alt="O que é JSON explicado para quem automatiza" />
 <h2>Introdução ao JSON</h2>
@@ -139,5 +130,4 @@ draft: false
   ]
 }
 </script>
-</body>
-</html>
+

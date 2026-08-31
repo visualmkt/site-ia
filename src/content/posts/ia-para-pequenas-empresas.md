@@ -9,17 +9,8 @@ imageAlt: "IA para pequenas empresas"
 draft: false
 ---
 
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-  <meta charset="UTF-8">
-  <title>IA para pequenas empresas por onde começar: Guia prático</title>
-  <meta name="description" content="Descubra como iniciar a IA para pequenas empresas por onde começar, com passos práticos, ferramentas acessíveis e exemplos para transformar seu negócio.">
-  <link rel="canonical" href="https://example.com/ia-para-pequenas-empresas-por-onde-comecar" />
-</head>
-<body>
 <img src="https://example.com/ia-pequenas-empresas.jpg" alt="IA para pequenas empresas por onde começar" />
-<h1>IA para pequenas empresas por onde começar</h1>
+<h2>IA para pequenas empresas por onde começar</h2>
 <h2>Introdução</h2>
 <p>Para começar com a inteligência artificial em sua pequena empresa, você precisa entender que a IA pode ser acessível e prática. <strong>IA para pequenas empresas por onde começar</strong> é o ponto de partida para automatizar tarefas como atendimento ao cliente ou marketing.</p>
 <p>Uma curiosidade é que a IA pode ser usada para automatizar tarefas repetitivas, liberando tempo para você se concentrar em estratégias de negócios.</p>
@@ -189,5 +180,4 @@ draft: false
   ]
 }
 </script>
-</body>
-</html>
+
