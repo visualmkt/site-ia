@@ -1,6 +1,6 @@
 ---
-title: "Coloque seu projeto no ar de graça com Vercel e alternativas"
-description: "Coloque seu projeto no ar de graça com Vercel e alternativas"
+title: "Hospedagem Grátis: Vercel e 5 Alternativas Comparadas"
+description: "Vercel é grátis até certo limite. Compare Vercel, Netlify, Railway e outras opções gratuitas pra colocar seu projeto no ar sem pagar nada."
 cluster: "dev"
 formato: "tutorial"
 pubDate: 2026-07-15

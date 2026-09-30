@@ -1,6 +1,6 @@
 ---
-title: "Limites do ChatGPT Gratuíto: O que Muda no Pago"
-description: "Descubra as diferenças entre o ChatGPT gratuito e o pago, limites, recursos e qual plano se adapta ao seu negócio."
+title: "ChatGPT Grátis vs Pago: Limites Reais (Atualizado)"
+description: "ChatGPT grátis tem limite de mensagens por hora e recursos bloqueados. Veja os números exatos, o que o plano pago libera e se vale a pena pagar."
 cluster: "chatgpt"
 formato: "comparativo"
 pubDate: 2026-07-18

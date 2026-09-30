@@ -1,6 +1,6 @@
 ---
-title: "Como automatizar o WhatsApp com n8n: passo a passo completo 2024"
-description: "Aprenda a configurar automação de WhatsApp com n8n em 2024: do zero à produção, sem APIs pagas, com exemplos práticos e dicas de segurança para não ser bloqueado."
+title: "Como Automatizar o WhatsApp com n8n: Passo a Passo (2026)"
+description: "Aprenda a configurar automação de WhatsApp com n8n em 2026: do zero à produção, sem APIs pagas, com exemplos práticos e dicas de segurança para não ser bloqueado."
 cluster: "n8n"
 formato: "tutorial"
 pubDate: 2026-08-18

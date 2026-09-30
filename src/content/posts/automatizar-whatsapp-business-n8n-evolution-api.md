@@ -1,6 +1,6 @@
 ---
-title: "Como automatizar WhatsApp Business com n8n e Evolution API: guia completo 2024"
-description: "Aprenda a automatizar WhatsApp Business com n8n e Evolution API: guia passo a passo para respostas automáticas, fluxos avançados e evitar bloqueios. 2024."
+title: "WhatsApp Business com n8n e Evolution API: Guia 2026"
+description: "Aprenda a automatizar WhatsApp Business com n8n e Evolution API: guia passo a passo para respostas automáticas, fluxos avançados e evitar bloqueios."
 cluster: "n8n"
 formato: "como fazer"
 pubDate: 2026-08-29

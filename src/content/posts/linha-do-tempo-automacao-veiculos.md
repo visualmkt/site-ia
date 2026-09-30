@@ -1,6 +1,6 @@
 ---
-title: "Linha do Tempo da Automação de Veículos: Da Invenção à IA"
-description: "Descubra como a automação de veículos evoluiu do Cruise Control à IA, impactando segurança, eficiência e oportunidades no Brasil. Leitura essencial para estudantes e empreendedores."
+title: "História da Automação de Veículos: do Cruise Control à IA"
+description: "Do Cruise Control mecânico dos anos 1950 aos carros autônomos com IA: veja a linha do tempo completa da automação veicular e o que vem a seguir."
 cluster: "historia"
 formato: "linha do tempo"
 pubDate: 2026-08-20

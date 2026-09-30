@@ -1,6 +1,6 @@
 ---
 title: "Lillian Gilbreth: Biografia, Legado e Contribuições para a Automação"
-description: "Descubra como Lillian Gilbreth, pioneira da engenharia industrial, revolucionou automação e IA com métodos como Therbligs e ergonomia. Legado que influencia até hoje."
+description: "Quem foi Lillian (Lilian) Gilbreth: pioneira da engenharia industrial que criou os Therbligs e a ergonomia moderna. Biografia completa e seu legado na automação."
 cluster: "historia"
 formato: "biografia"
 pubDate: 2026-08-20
