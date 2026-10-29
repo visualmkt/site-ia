@@ -1,0 +1,109 @@
+---
+// Página genérica das iscas grátis do @andrezao.ia: uma por arquivo em src/data/checklists/<slug>.md.
+// Os arquivos vêm do projeto instagram-ia (scripts/leads/gerar-apps-script.mjs); o TRAVA tem página própria (trava.astro).
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { SITE } from '../../site.config.mjs';
+
+export function getStaticPaths() {
+  const arquivos = import.meta.glob('../../data/checklists/*.md', { eager: true });
+  return Object.entries(arquivos).map(([caminho, mod]) => ({
+    params: { palavra: caminho.split('/').pop().replace(/\.md$/, '') },
+    props: { mod },
+  }));
+}
+
+// Web App do Apps Script vinculado à planilha de leads (projeto instagram-ia/apps-script).
+const ENDPOINT = 'https://script.google.com/macros/s/AKfycby0qk9gEFzqEvLAQEroJK-49Q48Fzfe0mQHhAo7hFf3OIjWVCJXamsQclIXDbbcZi6E/exec';
+const { mod } = Astro.props;
+const fm = mod.frontmatter;
+const Conteudo = mod.Content;
+---
+<BaseLayout title={`${fm.title} | ${SITE.name}`} description={fm.description}>
+  <div class="page-body cl">
+    <p class="cl-rotulo">Material grátis · @andrezao.ia</p>
+    <h1>{fm.title}</h1>
+    <p class="cl-lead">{fm.lead}</p>
+
+    <form id="cl-form" class="cl-form" novalidate>
+      <label>Seu nome <input name="nome" autocomplete="given-name" required maxlength="80" /></label>
+      <label>Seu melhor e-mail <input name="email" type="email" autocomplete="email" required maxlength="120" /></label>
+      <label>WhatsApp <span>(opcional)</span> <input name="whatsapp" type="tel" autocomplete="tel" maxlength="30" /></label>
+      <label>Qual agente você usa?
+        <select name="ferramenta">
+          <option value="">Escolha</option>
+          <option>Claude / Claude Code</option>
+          <option>ChatGPT / Codex</option>
+          <option>Gemini</option>
+          <option>Cursor / Copilot</option>
+          <option>Outro</option>
+          <option>Ainda não uso</option>
+        </select>
+      </label>
+      <input name="site" class="cl-hp" tabindex="-1" autocomplete="off" aria-hidden="true" />
+      <label class="cl-ok"><input type="checkbox" name="consentimento" required /> Quero receber este material e outros conteúdos do Andrézão por e-mail. Posso sair quando quiser.</label>
+      <button type="submit">{fm.botao || 'Quero o material'}</button>
+      <p class="cl-msg" id="cl-msg" role="status"></p>
+      <p class="cl-priv">Seus dados ficam só com o Andrézão. <a href="/politica-de-privacidade/">Política de privacidade</a>.</p>
+    </form>
+
+    <section id="cl-conteudo" hidden>
+      <p class="cl-aviso" id="cl-aviso"></p>
+      <Conteudo />
+      <p class="cl-mais">Mais materiais grátis e as travas que nasceram de erro real: <a href="https://www.instagram.com/andrezao.ia/" rel="noopener" target="_blank"><strong>@andrezao.ia</strong></a> no Instagram.</p>
+    </section>
+  </div>
+
+  <style>
+    .cl { max-width: 680px; }
+    .cl-rotulo { color: var(--accent); font-weight: 700; font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.04em; margin-bottom: 4px; }
+    .cl-lead { color: var(--text-soft); font-size: 1.08rem; }
+    .cl-form { display: grid; gap: 14px; background: var(--bg-soft); border: 1px solid var(--border); border-radius: var(--radius); padding: 22px; margin: 24px 0; }
+    .cl-form label { display: grid; gap: 6px; font-weight: 600; font-size: 0.95rem; }
+    .cl-form label span { color: var(--text-soft); font-weight: 400; }
+    .cl-form input, .cl-form select { font: inherit; padding: 11px 12px; border: 1px solid var(--border); border-radius: 8px; background: #fff; }
+    .cl-form .cl-ok { display: flex; gap: 10px; align-items: flex-start; font-weight: 400; font-size: 0.9rem; }
+    .cl-form .cl-ok input { margin-top: 3px; }
+    .cl-form button { font: inherit; font-weight: 700; padding: 13px; border: 0; border-radius: 8px; background: var(--accent); color: #fff; cursor: pointer; }
+    .cl-form button:disabled { opacity: 0.6; cursor: wait; }
+    .cl-hp { position: absolute; left: -9999px; }
+    .cl-msg { margin: 0; color: #b91c1c; font-size: 0.9rem; }
+    .cl-priv { margin: 0; font-size: 0.8rem; color: var(--text-soft); }
+    .cl-aviso { background: #ecfdf5; border: 1px solid #a7f3d0; border-radius: 8px; padding: 12px 14px; }
+    .cl :global(pre) { white-space: pre-wrap; }
+  </style>
+
+  <script is:inline define:vars={{ endpoint: ENDPOINT, palavra: fm.palavra }}>
+    (function () {
+      var f = document.getElementById('cl-form'), msg = document.getElementById('cl-msg');
+      var q = new URLSearchParams(location.search);
+      var origem = q.get('origem') || q.get('utm_source') || (document.referrer ? new URL(document.referrer).hostname : 'direto');
+      function mostrar(texto) {
+        document.getElementById('cl-aviso').textContent = texto;
+        f.hidden = true;
+        var c = document.getElementById('cl-conteudo');
+        c.hidden = false;
+        c.scrollIntoView({ behavior: 'smooth' });
+      }
+      f.addEventListener('submit', function (ev) {
+        ev.preventDefault();
+        var d = Object.fromEntries(new FormData(f));
+        if (!d.nome || !d.nome.trim()) { msg.textContent = 'Escreve seu nome.'; return; }
+        if (!/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(d.email || '')) { msg.textContent = 'Confere o e-mail.'; return; }
+        if (!d.consentimento) { msg.textContent = 'Marca a caixa para receber o material.'; return; }
+        msg.textContent = '';
+        f.querySelector('button').disabled = true;
+        var corpo = JSON.stringify({ nome: d.nome.trim(), email: d.email.trim(), whatsapp: d.whatsapp || '', ferramenta: d.ferramenta || '',
+          consentimento: true, site: d.site || '', palavra: palavra, origem: origem, pagina: location.href });
+        var ctrl = new AbortController();
+        setTimeout(function () { ctrl.abort(); }, 12000);
+        fetch(endpoint, { method: 'POST', headers: { 'Content-Type': 'text/plain;charset=utf-8' }, body: corpo, signal: ctrl.signal })
+          .then(function (r) { return r.json(); })
+          .then(function (j) {
+            (window.dataLayer = window.dataLayer || []).push({ event: 'lead_checklist', palavra: palavra, origem: origem });
+            mostrar(j.ok && j.email_entregue ? 'Pronto! Mandei uma cópia para ' + d.email + ' (olha o spam se não chegar).' : 'Aqui está o seu material. A cópia por e-mail não saiu agora; salve esta página.');
+          })
+          .catch(function () { (window.dataLayer = window.dataLayer || []).push({ event: 'lead_checklist_falhou', palavra: palavra }); mostrar('Aqui está o seu material. A cópia por e-mail não saiu agora; salve esta página.'); });
+      });
+    })();
+  </script>
+</BaseLayout>
